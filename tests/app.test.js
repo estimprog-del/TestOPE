@@ -1,0 +1,134 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
+import { fileURLToPath } from "node:url";
+import { join } from "node:path";
+import { calculateResults, formatTime, shuffle } from "../app.js";
+
+test("calculateResults counts correct, incorrect and unanswered questions", () => {
+  const questions = [
+    { correctAnswer: "a" },
+    { correctAnswer: "b" },
+    { correctAnswer: "d" },
+    { correctAnswer: "c" }
+  ];
+
+  assert.deepEqual(calculateResults(questions, { 0: "A", 1: "d", 3: "c" }), {
+    correct: 2,
+    incorrect: 1,
+    unanswered: 1,
+    ungraded: 0,
+    total: 4
+  });
+});
+
+test("questions without an answer key are reported separately", () => {
+  assert.deepEqual(calculateResults([
+    { correctAnswer: "-" },
+    { correctAnswer: "b" }
+  ], { 0: "a" }), {
+    correct: 0,
+    incorrect: 0,
+    unanswered: 1,
+    ungraded: 1,
+    total: 2
+  });
+});
+
+test("shuffle returns every original item exactly once", () => {
+  const original = [1, 2, 3, 4, 5];
+  const shuffled = shuffle(original, () => 0);
+  assert.deepEqual([...shuffled].sort(), original);
+  assert.deepEqual(original, [1, 2, 3, 4, 5]);
+});
+
+test("formatTime uses minute and second padding", () => {
+  assert.equal(formatTime(0), "00:00");
+  assert.equal(formatTime(65), "01:05");
+  assert.equal(formatTime(5400), "90:00");
+});
+
+test("the first-visit information dialog explains construction, privacy and storage", async () => {
+  const html = await readFile(fileURLToPath(new URL("../index.html", import.meta.url)), "utf8");
+  const app = await readFile(fileURLToPath(new URL("../app.js", import.meta.url)), "utf8");
+
+  assert.match(html, /TestOPE está en construcción/);
+  assert.match(html, /no utiliza cookies propias/i);
+  assert.match(html, /almacenamiento local/i);
+  assert.match(html, /ni está afiliada a Osakidetza/i);
+  assert.match(app, /testope\.web\.info\.acknowledged\.v1/);
+  assert.match(app, /Privacidad y cookies/);
+});
+
+test("all web battery files load as valid test banks", async () => {
+  const assets = fileURLToPath(new URL("../data/", import.meta.url));
+  const files = [
+    "test_Auxiliar_Administrativo.json",
+    "test_Celador.json",
+    "test_Comun_Categoria_A_B_C1.json",
+    "test_Comun_Categoria_C2_C3_D_E.json",
+    "test_Oficial_Mantenimiento_Mecanico.json",
+    "test_Oficial_Mantenimiento_Calefactor_Fontanero.json",
+    "test_Operario_Servicios.json",
+    "test_Tecnico_Superior_Admin_Gestion.json"
+  ];
+
+  for (const file of files) {
+    const battery = JSON.parse(await readFile(join(assets, file), "utf8"));
+    assert.ok(battery.title, `${file} should have a title`);
+    assert.ok(battery.test.length > 0, `${file} should contain questions`);
+    for (const [index, question] of battery.test.entries()) {
+      assert.ok(question.question, `${file}: question ${index + 1} has no text`);
+      for (const option of ["optionA", "optionB", "optionC", "optionD"]) {
+        assert.equal(typeof question[option], "string", `${file}: question ${index + 1} has no ${option}`);
+      }
+      assert.ok(["a", "b", "c", "d", "-"].includes(question.correctAnswer.toLowerCase()), `${file}: question ${index + 1} has an invalid answer`);
+    }
+  }
+});
+
+test("the common C2-C3-D-E battery uses the chart answers for the corrected questions", async () => {
+  const assets = fileURLToPath(new URL("../data/", import.meta.url));
+  const battery = JSON.parse(await readFile(join(assets, "test_Comun_Categoria_C2_C3_D_E.json"), "utf8"));
+  for (const [number, answer] of [[57, "c"], [260, "c"], [289, "b"]]) {
+    const question = battery.test.find(item => item.question.startsWith(`${number}.`));
+    assert.ok(question, `question ${number} should exist`);
+    assert.equal(question.correctAnswer, answer);
+  }
+});
+
+test("the mechanical maintenance battery has all 200 chart answers", async () => {
+  const assets = fileURLToPath(new URL("../data/", import.meta.url));
+  const battery = JSON.parse(await readFile(join(assets, "test_Oficial_Mantenimiento_Mecanico.json"), "utf8"));
+  const chartRows = [
+    "CACBBBBCDA", "CCBBCBBBCD", "ABBCBACBAB", "BBDACCBCCB",
+    "BDB CBBBB CB", "BCBABBDBCA", "BBBDABCBBB", "BBDDDADBBB",
+    "DBCAACBCDC", "DABBBCBABA", "BBDBBABABB", "BBCCCBBABB",
+    "CBDCBDACBB", "BBDBACBBAB", "BCCCBDAABC", "BDBCABADBB",
+    "CBCACCCADB", "DCDBAABABC", "DDBADCBBAC", "BDCADBDCAB"
+  ].join("").replaceAll(" ", "").toLowerCase();
+
+  assert.equal(battery.test.length, 200);
+  assert.equal(chartRows.length, 200);
+  battery.test.forEach((question, index) => {
+    assert.equal(question.correctAnswer, chartRows[index], `question ${index + 1}`);
+  });
+});
+
+test("the heating and plumbing battery keeps unavailable chart answers blank", async () => {
+  const assets = fileURLToPath(new URL("../data/", import.meta.url));
+  const battery = JSON.parse(await readFile(join(assets, "test_Oficial_Mantenimiento_Calefactor_Fontanero.json"), "utf8"));
+  const chartRows = [
+    "BCBABCCDBD", "ABBADBBCDB", "AADADBCDBB", "DACBABABCA", "AAABC-CABB",
+    "----------", "ACCADBBBCB", "CCBBBBABAC", "BCCB------",
+    ...Array(11).fill("----------")
+  ].join("").toLowerCase();
+
+  assert.equal(battery.title, "OFICIAL/A MANTENIMIENTO CALEFACTOR-FONTANERO/A");
+  assert.equal(battery.test.length, 200);
+  assert.equal(chartRows.length, 200);
+  battery.test.forEach((question, index) => {
+    assert.equal(question.correctAnswer, chartRows[index], `question ${index + 1}`);
+  });
+  assert.equal(chartRows.split("-").length - 1, 127);
+});

@@ -1,0 +1,1605 @@
+{
+  "title": "OFICIAL/A MANTENIMIENTO CALEFACTOR-FONTANERO/A",
+  "test": [
+    {
+      "question": "1. Según la IT 2.1 del RITE (IT-2 MONTAJE), el objeto de la instrucción técnica de MONTAJE es:",
+      "optionA": "Definir los materiales permitidos en las instalaciones térmicas.",
+      "optionB": "Establecer el procedimiento a seguir para efectuar las pruebas de puesta en servicio de una instalación térmica.",
+      "optionC": "Establecer las condiciones de diseño y dimensionado de los equipos.",
+      "optionD": "Determinar las cualificaciones necesarias para el personal instalador autorizado.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "2. Según el RITE (IT-2 MONTAJE), en el proceso de limpieza de redes cerradas con temperatura menor a 100 ºC, si el pH del agua resulta menor a un determinado valor, se debe repetir la limpieza. ¿Cuál es ese valor?",
+      "optionA": "6,5.",
+      "optionB": "7,0.",
+      "optionC": "7,5.",
+      "optionD": "8,0.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "3. Según la IT 2.2.2.3 del RITE (IT-2 MONTAJE), la prueba preliminar de estanquidad se caracteriza por:",
+      "optionA": "Efectuarse a la presión de diseño del proyecto para verificar la rotura.",
+      "optionB": "Efectuarse a baja presión para detectar fallos de continuidad y evitar daños por la prueba de resistencia mecánica.",
+      "optionC": "Realizarse exclusivamente con aire comprimido a 10 bar.",
+      "optionD": "Tener una duración fija de 24 horas independientemente del tamaño de la red.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "4. Según el RITE (IT-2 MONTAJE), en la prueba de resistencia mecánica para circuitos cerrados de agua refrigerada o caliente hasta 100 ºC, la presión de prueba será equivalente a:",
+      "optionA": "Una vez y media la presión máxima efectiva de trabajo a la temperatura de servicio, con un mínimo de 6 bar.",
+      "optionB": "Una vez la presión máxima efectiva de trabajo a la temperatura de servicio, con un mínimo de 3 bar.",
+      "optionC": "Dos veces la presión máxima efectiva de trabajo a la temperatura de servicio, con un mínimo de 10 bar.",
+      "optionD": "Tres veces la presión máxima efectiva de trabajo a la temperatura de servicio, con un mínimo de 5 bar.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "5. Según el RITE (IT-2 MONTAJE), para circuitos de agua caliente sanitaria (ACS), la presión en la prueba de resistencia mecánica será equivalente a:",
+      "optionA": "Una vez y media la presión máxima efectiva de trabajo a la temperatura de servicio, con un mínimo de 3 bar.",
+      "optionB": "Dos veces la presión máxima efectiva de trabajo a la temperatura de servicio, con un mínimo de 6 bar.",
+      "optionC": "Dos veces la presión máxima efectiva de trabajo a la temperatura de servicio, con un mínimo de 10 bar.",
+      "optionD": "El triple de la presión de servicio sin valor mínimo.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "6. Según el RITE (IT-2 MONTAJE), ¿cómo debe realizarse la reparación de fugas detectadas durante las pruebas según la IT 2.2.2.5?",
+      "optionA": "Mediante la aplicación de selladores químicos sobre la fuga.",
+      "optionB": "Aplicando una soldadura de refuerzo sin desmontar la pieza.",
+      "optionC": "Desmontando la junta, accesorio o sección y sustituyendo la parte defectuosa con material nuevo.",
+      "optionD": "Aumentando la presión hasta que la fuga se selle por sí misma.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "7. Según el RITE (IT-2 MONTAJE) en la IT 2.2.4, en las pruebas de libre dilatación de instalaciones con captadores solares, el sistema debe llevarse a:",
+      "optionA": "La temperatura de consigna de ACS.",
+      "optionB": "La temperatura mínima de trabajo nocturno.",
+      "optionC": "La temperatura de estancamiento.",
+      "optionD": "Una temperatura fija de 150 ºC controlada por la persona usuaria.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "8. Según el RITE (IT-2 MONTAJE), la limpieza interior de las redes de conductos de aire debe efectuarse:",
+      "optionA": "Después de montar los muebles y elementos de acabado.",
+      "optionB": "Exclusivamente mediante la inyección de ozono tras el cierre de la obra.",
+      "optionC": "Cada mes después de la puesta en servicio.",
+      "optionD": "Antes de conectar las unidades terminales y de montar los elementos de acabado.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "9. Según el RITE (IT-2 MONTAJE), en las pruebas de estanqueidad de conductos, el caudal de fuga admitido debe ajustarse a:",
+      "optionA": "La norma general es de 5 l/s por metro lineal.",
+      "optionB": "Lo indicado en el proyecto o memoria técnica, según la clase de estanquidad elegida.",
+      "optionC": "Un valor máximo de 0,1 l/s independientemente de la presión.",
+      "optionD": "La decisión del personal instalador en el momento de la prueba.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "10. Según el RITE (IT-2 MONTAJE), la prueba de seguridad en condiciones de estancamiento del circuito primario solar debe realizarse cuando la irradiancia sea:",
+      "optionA": "Inferior al 50 % de la máxima.",
+      "optionB": "Cualquier valor, siempre que sea de noche para evitar riesgos.",
+      "optionC": "De 1000 W/m2 durante diez minutos.",
+      "optionD": "Superior al 80 % del valor de irradiancia fijada como máxima, durante al menos una hora.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "11. Según el RITE (IT-2 MONTAJE), en el ajuste de los sistemas de aire, el punto de trabajo de cada ventilador debe ajustarse:",
+      "optionA": "Al caudal y la presión correspondiente de diseño.",
+      "optionB": "Al máximo de su curva característica.",
+      "optionC": "Para que el ruido sea inferior a 20 dB en la sala de máquinas.",
+      "optionD": "A un 10 % por encima del caudal nominal para prevenir las pérdidas de carga por la suciedad.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "12. Según el RITE (IT-2 MONTAJE), en las pruebas de eficiencia energética del montaje, el rendimiento del generador de calor no debe ser inferior en más de:",
+      "optionA": "Las otras tres respuestas son incorrectas.",
+      "optionB": "5 unidades del límite inferior del rango marcado para la categoría indicada en el etiquetado energético.",
+      "optionC": "10 unidades respecto al valor nominal de fábrica.",
+      "optionD": "No hay límite establecido, solo debe funcionar.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "13. ¿Cuál es el fin principal de la IT 3, MANTENIMIENTO Y USO del RITE?",
+      "optionA": "Regular exclusivamente los precios de los contratos de mantenimiento.",
+      "optionB": "Asegurar que el funcionamiento de las instalaciones se realice con la máxima eficiencia energética, garantizando seguridad, durabilidad y protección del medio ambiente.",
+      "optionC": "Limitar el uso de instalaciones de más de 15 años por su falta de seguridad y protección del medio ambiente.",
+      "optionD": "Establecer multas por falta de limpieza de los equipos.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "14. Según el RITE (IT-3 MANTENIMIENTO Y USO), para un calentador de ACS a gas con Pn ≤ 24,4 kW en \"restantes usos\" (no viviendas), la periodicidad del mantenimiento preventivo es:",
+      "optionA": "2 años.",
+      "optionB": "5 años.",
+      "optionC": "Anual.",
+      "optionD": "Mensual.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "15. Según el RITE (IT-3 MANTENIMIENTO Y USO), en viviendas, ¿cuál es la periodicidad de mantenimiento para sistemas de aire acondicionado con potencia Pn ≤ 12 kW?",
+      "optionA": "Anual.",
+      "optionB": "Cada 2 años.",
+      "optionC": "Cada 3 años.",
+      "optionD": "Cada 4 años.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "16. Según el RITE (IT-3 MANTENIMIENTO Y USO), para instalaciones solares térmicas con potencia nominal mayor a 14 kW, la periodicidad de las operaciones de mantenimiento es:",
+      "optionA": "Anual.",
+      "optionB": "Semestral.",
+      "optionC": "Trimestral.",
+      "optionD": "Mensual.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "17. Según el RITE (IT-3 MANTENIMIENTO Y USO), en instalaciones de potencia útil nominal mayor de 70 kW, ¿con qué frecuencia debe realizarse la limpieza del quemador de la caldera?",
+      "optionA": "Una vez por temporada (t).",
+      "optionB": "Una vez al mes (m).",
+      "optionC": "Dos veces por temporada (2t).",
+      "optionD": "Semanalmente (S).",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "18. Según la Tabla 3.2 del RITE de la IT 3.4.1, evaluación periódica del rendimiento de los equipos generadores de calor, un generador de calor de potencia P > 1000 kW requiere medir el contenido de CO y CO2 con periodicidad:",
+      "optionA": "Cada dos años (2a).",
+      "optionB": "Cada tres meses (3m).",
+      "optionC": "Mensual (m).",
+      "optionD": "Semanal (S).",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "19. Según el RITE (IT-3 MANTENIMIENTO Y USO), ¿quién es responsable de la actualización permanente de la documentación del Manual de Uso y Mantenimiento?",
+      "optionA": "Quien haya fabricado los equipos.",
+      "optionB": "La persona usuaria de la vivienda.",
+      "optionC": "El órgano competente de la Comunidad Autónoma.",
+      "optionD": "La empresa mantenedora o la dirección de mantenimiento, según proceda.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "20. Según el RITE (IT-3 MANTENIMIENTO Y USO), en generadores de frío de potencia 70 kW < P ≤ 1000 kW, la medición de la potencia eléctrica absorbida debe hacerse cada:",
+      "optionA": "Mes.",
+      "optionB": "Tres meses (3m).",
+      "optionC": "Año (t).",
+      "optionD": "Dos años (2a).",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "21. Según el RITE (IT-3 MANTENIMIENTO Y USO), respecto al asesoramiento energético, la empresa mantenedora debe informar a la persona titular sobre:",
+      "optionA": "El reemplazo de calderas de combustibles fósiles por alternativas renovables.",
+      "optionB": "Los precios de mercado de los combustibles.",
+      "optionC": "La contratación de seguros de hogar.",
+      "optionD": "La marca de equipos que más comisión le reporte.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "22. Según el RITE (IT-3 MANTENIMIENTO Y USO), la publicidad de la información sobre la evolución del consumo de energía es obligatoria en recintos de uso administrativo o comercial si su superficie es superior a:",
+      "optionA": "1.000 m2.",
+      "optionB": "1.500 m2.",
+      "optionC": "2.000 m2.",
+      "optionD": "5.000 m2.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "23. Según el RITE (IT-3 MANTENIMIENTO Y USO), en instalaciones > 70 kW, las instrucciones de seguridad deben estar situadas con absoluta prioridad en:",
+      "optionA": "El buzón de la comunidad.",
+      "optionB": "La página web de quien haya fabricado la caldera.",
+      "optionC": "El manual, y este deberá estar archivado en la oficina de la empresa mantenedora.",
+      "optionD": "Lugares claramente visibles antes del acceso y en el interior de salas de máquinas y locales técnicos.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "24. Según el RITE (IT-3 MANTENIMIENTO Y USO), por razones de ahorro energético, la temperatura en recintos calefactados de uso comercial (tiendas, supermercados) no será superior a:",
+      "optionA": "19 ºC.",
+      "optionB": "20 ºC.",
+      "optionC": "21 ºC.",
+      "optionD": "23 ºC.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "25. Según el RITE (IT-3 MANTENIMIENTO Y USO), en recintos refrigerados (uso administrativo, comercial, con alta concurrencia), la temperatura no será inferior a:",
+      "optionA": "24 ºC.",
+      "optionB": "25 ºC.",
+      "optionC": "26 ºC.",
+      "optionD": "27 ºC.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "26. Según el RITE (IT-3 MANTENIMIENTO Y USO), los edificios con acceso desde la calle deben disponer de un sistema de cierre de puertas adecuado para:",
+      "optionA": "Evitar robos nocturnos.",
+      "optionB": "Impedir que permanezcan abiertas permanentemente, evitando el despilfarro energético.",
+      "optionC": "Cumplir con la normativa de accesibilidad.",
+      "optionD": "Reducir el ruido del tráfico exterior.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "27. Según la Instrucción Técnica IT-4 INSPECCIÓN del RITE, ¿qué sistemas de calefacción, ventilación y agua caliente sanitaria están sujetos a inspecciones periódicas obligatorias?",
+      "optionA": "Todos los sistemas, independientemente de su potencia térmica nominal.",
+      "optionB": "Únicamente los sistemas destinados exclusivamente a la producción de ACS de hasta 70 kW.",
+      "optionC": "Aquellos sistemas que cuenten con generadores de calor de potencia útil nominal mayor que 70 kW.",
+      "optionD": "Solo las instalaciones en edificios de nueva construcción con potencia superior a 100 kW.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "28. De acuerdo con la Instrucción Técnica IT-4 INSPECCIÓN del RITE, en relación a las inspecciones de los sistemas de calefacción, ventilación y agua caliente sanitaria, una vez realizada la evaluación del dimensionado del generador de calor, ¿en qué circunstancia deberá repetirse obligatoriamente dicha evaluación en las siguientes inspecciones periódicas?",
+      "optionA": "En todas las inspecciones de eficiencia energética que se realicen cada 4 años.",
+      "optionB": "Únicamente cuando la potencia térmica nominal instalada sea superior a 400 kW.",
+      "optionC": "Cuando la instalación tenga una antigüedad superior a los quince años.",
+      "optionD": "Solo si se ha realizado algún cambio en el sistema o en la demanda térmica del edificio.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "29. Según la Instrucción Técnica IT-4 INSPECCIÓN del RITE, en las inspecciones periódicas de eficiencia energética de sistemas de aire acondicionado, el Coeficiente de Eficiencia Frigorífica (EER) no debe ser inferior a:",
+      "optionA": "3",
+      "optionB": "2",
+      "optionC": "2,5",
+      "optionD": "1,5",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "30. En base a la Instrucción Técnica IT-4 INSPECCIÓN del RITE, ¿qué requisito de antigüedad y potencia debe cumplir una instalación para que se deba realizar una inspección de la instalación térmica completa?",
+      "optionA": "Antigüedad mayor de 10 años y potencia mayor de 50 kW.",
+      "optionB": "Antigüedad mayor de quince años y potencia térmica nominal instalada mayor que 70 kW.",
+      "optionC": "Antigüedad mayor de 20 años, independientemente de la potencia.",
+      "optionD": "Cualquier instalación que haya superado los quince años de antigüedad tras una reforma.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "31. Conforme a la Instrucción Técnica IT-4 INSPECCIÓN del RITE, ¿qué debe incluir obligatoriamente el informe de inspección entregado a la persona propietaria o arrendataria?",
+      "optionA": "Exclusivamente los datos numéricos y magnitudes físicas de las mediciones (rendimiento, temperatura de humos y exceso de aire).",
+      "optionB": "Únicamente la calificación oficial de \"Aceptable\", \"Condicionada\" o \"Negativa\" según el acta normalizada de la comunidad autónoma.",
+      "optionC": "Un presupuesto detallado y vinculante para la reparación inmediata de los defectos detectados, incluyendo materiales y mano de obra.",
+      "optionD": "El resultado de la inspección y recomendaciones para mejorar en términos de rentabilidad la eficiencia energética de la instalación.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "32. Según lo establecido en la Instrucción Técnica IT-4 INSPECCIÓN del RITE, en las inspecciones periódicas de eficiencia energética de sistemas con una potencia superior a 70 kW, ¿qué aspecto relacionado con el seguimiento de la instalación debe verificarse obligatoriamente?",
+      "optionA": "Los resultados del programa de gestión energética para comprobar su realización y la evolución de los mismos.",
+      "optionB": "El registro de temperaturas de cada unidad terminal realizado por la persona usuaria de forma diaria.",
+      "optionC": "Las facturas originales de compra de todos los emisores térmicos instalados en el edificio.",
+      "optionD": "El certificado de limpieza de los conductos de aire realizado exclusivamente mediante robots de cepillado.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "33. Según la Instrucción Técnica IT-4 INSPECCIÓN del RITE, ¿quién debe realizar de manera independiente la inspección de las instalaciones de calefacción, aire acondicionado y ventilación?",
+      "optionA": "La empresa mantenedora que realiza las revisiones mensuales de la instalación, siempre que cuente con personal técnico titulado en plantilla.",
+      "optionB": "Únicamente el personal facultativo de la Comunidad Autónoma, adscrito a la dirección general competente en materia de energía e industria.",
+      "optionC": "Personal experto cualificado o acreditado, ya sea personal autónomo o contratado por entidades públicas o privadas.",
+      "optionD": "La dirección de la instalación o el personal de ingeniería proyectista que firmó el proyecto original y la dirección de obra de la misma.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "34. De acuerdo con la Instrucción Técnica IT-4 INSPECCIÓN del RITE, ¿con qué evento se debe hacer coincidir la inspección de la instalación térmica completa de más de quince años?",
+      "optionA": "Con la inspección inicial de una nueva reforma o gran rehabilitación del edificio que implique un cambio en la envolvente térmica o en el uso del inmueble.",
+      "optionB": "Con la primera inspección del generador de calor o frío una vez superada dicha antigüedad.",
+      "optionC": "Con la fecha de renovación del contrato de mantenimiento anual suscrito con la empresa mantenedora autorizada para asegurar la validez administrativa del informe.",
+      "optionD": "Con la inspección periódica de los sistemas de distribución de aire y limpieza de conductos establecida para garantizar la calidad del aire interior.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "35. De acuerdo con la Instrucción Técnica IT-4 INSPECCIÓN del RITE, ¿qué procedimiento debe seguir el órgano competente de la comunidad autónoma respecto a la verificación de los informes de inspección emitidos anualmente?",
+      "optionA": "Realizará una selección al azar de al menos un porcentaje significativo del total de informes de inspección emitidos anualmente para someterlos a verificación.",
+      "optionB": "Debe realizar una auditoría técnica obligatoria sobre el 100 % de los informes que califiquen una instalación como \"Negativa\".",
+      "optionC": "Únicamente supervisará aquellos informes realizados por personas expertas que actúen por cuenta propia como personal autónomo.",
+      "optionD": "La verificación de los informes solo será preceptiva cuando exista una denuncia previa por parte de la persona titular de la instalación térmica.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "36. Según el ámbito de aplicación del CTE DB HS 4, ¿en qué caso se consideran incluidas las reformas de instalaciones existentes?",
+      "optionA": "Siempre que se cambie más del 25 % de la tubería principal.",
+      "optionB": "Cuando se amplía el número o la capacidad de los aparatos receptores.",
+      "optionC": "Únicamente cuando afecte a la acometida general del edificio.",
+      "optionD": "Cuando el edificio tenga una antigüedad superior a 20 años.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "37. El CTE DB HS 4 establece que los materiales de las tuberías y accesorios deben ser resistentes a una temperatura de hasta:",
+      "optionA": "40 ºC, además de a las temperaturas exteriores de su entorno inmediato.",
+      "optionB": "60 ºC, para garantizar la salubridad frente a la Legionella.",
+      "optionC": "95 ºC, para soportar posibles fallos en los termostatos.",
+      "optionD": "110 ºC, en previsión de golpes de ariete térmicos.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "38. De acuerdo al CTE DB HS 4, al realizar la prueba de estanqueidad, el manómetro utilizado debe apreciar como mínimo intervalos de presión de:",
+      "optionA": "0,01 bar.",
+      "optionB": "0,1 bar.",
+      "optionC": "0,5 bar.",
+      "optionD": "1,0 bar.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "39. Conforme al CTE DB HS 4, ¿en qué punto de la instalación es obligatorio disponer de un sistema antirretorno para evitar la inversión del flujo?",
+      "optionA": "En cada ramal de enlace a aparatos sanitarios individuales.",
+      "optionB": "Únicamente en la llave de toma de la compañía suministradora.",
+      "optionC": "En la base de las ascendentes.",
+      "optionD": "En los grifos de vaciado de los cuartos húmedos.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "40. Atendiendo al CTE DB HS 5, ¿a qué valor de caudal equivale una \"Unidad de Desagüe (UD)\"?",
+      "optionA": "0,47 dm³/s.",
+      "optionB": "1,00 dm³/s.",
+      "optionC": "0,03 dm³/s.",
+      "optionD": "0,50 dm³/s.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "41. En el diseño de sistemas mixtos de evacuación de aguas, y en relación con lo indicado en el CTE DB HS 5, ¿cuál es la condición de separación para la conexión de una bajante de aguas pluviales a un colector colgado?",
+      "optionA": "Debe disponerse separada al menos 3 m de la conexión de la bajante más próxima de aguas residuales situada aguas arriba.",
+      "optionB": "Debe realizarse mediante un simple codo reforzado para evitar la erosión por caída libre.",
+      "optionC": "Debe acometerse directamente en el mismo punto que las aguas residuales para facilitar el arrastre de sólidos por el caudal de lluvia.",
+      "optionD": "Debe realizarse con la interposición obligatoria de una arqueta de trasdós antes de la conexión definitiva con el colector colgado.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "42. De acuerdo con las prescripciones del CTE DB HS 5 sobre los sistemas de bombeo y elevación, ¿cuál es una condición obligatoria para la instalación del depósito de recepción?",
+      "optionA": "El depósito de recepción que contenga residuos fecales no debe estar integrado en la estructura del edificio.",
+      "optionB": "La tubería de descarga del sistema debe conectarse obligatoriamente a una bajante de ventilación primaria para aliviar presiones.",
+      "optionC": "Los pozos de bombeo deben estar situados en locales sin ventilación exterior para evitar la propagación de olores al resto del edificio.",
+      "optionD": "Se permite que las aguas pluviales de rampas de garaje viertan al pozo de residuales sin necesidad de bombas independientes.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "43. Atendiendo a la norma UNE 100713, las tomas y expulsiones de aire deben estar protegidas de la entrada de agua de lluvia mediante rejas de lamas inclinadas a 45º hacia abajo y por una malla con una luz de paso máxima de:",
+      "optionA": "5 mm.",
+      "optionB": "10 mm.",
+      "optionC": "2 mm.",
+      "optionD": "8 mm.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "44. De acuerdo con los requisitos generales de los conductos de aire en la norma UNE 100713, ¿cuál es la longitud máxima permitida para los conductos flexibles utilizados en la conexión a unidades terminales?",
+      "optionA": "1 metro.",
+      "optionB": "1,5 metros.",
+      "optionC": "3 metros.",
+      "optionD": "2 metros.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "45. Según la norma UNE 100713, se considera que una compuerta es de cierre estanco si, con una diferencia de presión de 100 Pa, el caudal de aire de fuga no supera los:",
+      "optionA": "10 l/s por metro cuadrado.",
+      "optionB": "5 l/s por metro cuadrado.",
+      "optionC": "3 l/s por metro cuadrado.",
+      "optionD": "1 l/s por metro cuadrado.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "46. Para evitar el crecimiento de microorganismos en las células filtrantes, la norma UNE 100713 indica que es conveniente que la humedad relativa del aire no sea mayor del:",
+      "optionA": "75 %.",
+      "optionB": "80 %.",
+      "optionC": "85 %.",
+      "optionD": "90 %.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "47. Según la norma UNE 100713, ¿en qué circunstancia específica debe ubicarse el primer nivel de filtración en la propia toma de aire exterior?",
+      "optionA": "Siempre que la instalación suministre aire a locales de Clase I.",
+      "optionB": "Únicamente cuando se utilicen filtros de clase F5 según la norma UNE-EN 779.",
+      "optionC": "Si el conducto de toma de aire exterior tiene una longitud mayor de 10 metros.",
+      "optionD": "Cuando la unidad de tratamiento de aire (UTA) no disponga de sección de mezcla.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "48. De acuerdo con la norma UNE 100713, las baterías de refrigeración deben contar con un sifón en el desagüe con un sello hidráulico de una altura mínima de:",
+      "optionA": "50 mm.",
+      "optionB": "25 mm.",
+      "optionC": "100 mm.",
+      "optionD": "75 mm.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "49. Respecto a la ubicación de los atenuadores acústicos en el aire de impulsión, la norma UNE 100713 dictamina que deben colocarse:",
+      "optionA": "Detrás del tercer nivel de filtración.",
+      "optionB": "Entre el segundo y el tercer nivel de filtración.",
+      "optionC": "Detrás de la rejilla de impulsión.",
+      "optionD": "Delante del segundo nivel de filtración.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "50. Según la norma UNE 100713, para mantener la concentración de gases de anestesia en niveles aceptables (0,4 ppm), se debe impulsar un caudal mínimo de aire exterior en quirófanos de:",
+      "optionA": "500 m3/h.",
+      "optionB": "1.200 m3/h.",
+      "optionC": "2.400 m3/h.",
+      "optionD": "800 m3/h.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "51. Durante el funcionamiento fuera de las horas de servicio, la norma UNE 100713 exige mantener una velocidad mínima en los conductos de impulsión de aire de locales Clase I (si el filtro no está en la unidad terminal) de:",
+      "optionA": "2 m/s.",
+      "optionB": "1 m/s.",
+      "optionC": "5 m/s.",
+      "optionD": "0,5 m/s.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "52. De acuerdo con las observaciones de diseño de la norma UNE 100713, en el caso de locales de Clase I, ¿cómo deben ser las ventanas?",
+      "optionA": "Practicables para ventilación natural de emergencia.",
+      "optionB": "Con doble acristalamiento simple.",
+      "optionC": "Estancas al aire.",
+      "optionD": "Oscilobatientes.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "53. En las pruebas de recepción técnica, la comprobación del sentido del flujo de aire se realiza, según la norma UNE 100713, mediante:",
+      "optionA": "Medición con anemómetro de hilo caliente.",
+      "optionB": "Prueba de humo con el local cerrado.",
+      "optionC": "Uso de papel de seda en las rendijas de las puertas.",
+      "optionD": "Sensores de presión diferencial láser.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "54. En el marco del mantenimiento post-puesta en servicio, ¿con qué frecuencia exige la norma UNE 100713 que la persona usuaria garantice la repetición de los análisis higiénicos?",
+      "optionA": "Anual.",
+      "optionB": "Semestral.",
+      "optionC": "Cada dos años.",
+      "optionD": "Trimestral.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "55. Según el Anexo B.2 de la norma UNE 100713, en el contaje de partículas en locales de Clase I, ¿cuántas comprobaciones se deben realizar como mínimo por cada salida de aire?",
+      "optionA": "Una comprobación.",
+      "optionB": "Cinco comprobaciones.",
+      "optionC": "Diez comprobaciones.",
+      "optionD": "Tres comprobaciones.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "56. Según la norma UNE 100713, cuando el tercer nivel de filtración no forme parte de la unidad terminal, ¿qué diámetro debe tener el racor con tapón de cierre que se instale para el control higiénico-microbiológico en el tramo de conducto entre dicho nivel de filtración y el local?",
+      "optionA": "50 mm.",
+      "optionB": "80 mm.",
+      "optionC": "100 mm.",
+      "optionD": "120 mm.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "57. Según la norma UNE 100713, ¿en qué clase se agrupan los locales hospitalarios que presentan exigencias muy elevadas respecto a la presencia de gérmenes en el aire impulsado y en el ambiente?",
+      "optionA": "Clase II.",
+      "optionB": "Clase I.",
+      "optionC": "Clase III.",
+      "optionD": "Clase de Especial Higiene.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "58. De acuerdo con las exigencias de circulación de aire de la norma UNE 100713, ¿cuál es la función primordial de las esclusas de aire situadas entre diferentes sectores del hospital?",
+      "optionA": "Servir exclusivamente como zona de almacenamiento para el material de limpieza.",
+      "optionB": "Actuar como vestuarios para el personal antes de entrar a las áreas administrativas.",
+      "optionC": "Permitir la comunicación visual entre zonas limpias y sucias sin necesidad de paso físico.",
+      "optionD": "Asegurar una separación eficaz de ambientes y garantizar la dirección correcta del flujo de aire.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "59. Según lo establecido en la norma UNE 100713 en relación con las pruebas de recepción, ¿qué profesional debe llevar a cabo específicamente las pruebas de recepción higiénicas?",
+      "optionA": "El ingeniero o la ingeniera proyectista de la instalación térmica.",
+      "optionB": "La jefatura de la sección de mantenimiento del hospital.",
+      "optionC": "Una persona higienista.",
+      "optionD": "La persona instaladora autorizada que ejecutó el montaje de los conductos.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "60. De acuerdo con la norma UNE 100713, ¿cuál es el requisito fundamental respecto a la procedencia del aire que puede ser utilizado como \"aire recirculado\" en las instalaciones hospitalarias?",
+      "optionA": "Se puede utilizar aire de cualquier zona del hospital siempre que pase por tres niveles de filtración.",
+      "optionB": "Solo se puede utilizar aire procedente de los pasillos de comunicación de los bloques técnicos.",
+      "optionC": "Se puede utilizar exclusivamente aire del mismo local o de un mismo grupo de locales.",
+      "optionD": "No se permite en ningún caso la recirculación de aire en locales con exigencias higiénicas.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "61. Según el CTE, el ámbito de aplicación de la sección DB HS 3 incluye, en los edificios de cualquier uso, a:",
+      "optionA": "Los aparcamientos y los garajes.",
+      "optionB": "Las oficinas y despachos de más de 50 m2.",
+      "optionC": "Los almacenes de productos perecederos.",
+      "optionD": "Las salas de calderas de potencia superior a 70 kW.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "62. Según el CTE en el DB HS 3, en locales habitables de viviendas, ¿cuál es la concentración media anual de CO2 que no debe superarse?",
+      "optionA": "400 ppm.",
+      "optionB": "800 ppm.",
+      "optionC": "900 ppm.",
+      "optionD": "1200 ppm.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "63. Según el CTE en el DB HS 3, durante los periodos de NO ocupación en locales habitables, se debe establecer un caudal mínimo de:",
+      "optionA": "0,5 l/s por local.",
+      "optionB": "1,0 l/s por local.",
+      "optionC": "1,5 l/s por local.",
+      "optionD": "2,0 l/s por local.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "64. Según el CTE en el DB HS 3, para extraer los contaminantes en la zona de cocción de las cocinas, se debe disponer de un sistema que permita extraer un caudal mínimo de:",
+      "optionA": "50 l/s.",
+      "optionB": "70 l/s.",
+      "optionC": "80 l/s.",
+      "optionD": "100 l/s.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "65. Según el CTE en el DB HS 3, el caudal de ventilación mínimo en aparcamientos y garajes, es de:",
+      "optionA": "0,7 l/s por m2 útil.",
+      "optionB": "10 l/s por plaza.",
+      "optionC": "15 l/s por cada 100 m2.",
+      "optionD": "120 l/s por plaza.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "66. Según el CTE en el DB HS 3, en las viviendas, el flujo de aire de la ventilación general debe circular:",
+      "optionA": "Desde los locales húmedos a los secos.",
+      "optionB": "Desde los locales secos a los locales húmedos.",
+      "optionC": "Exclusivamente dentro de cada local de forma independiente.",
+      "optionD": "De la cocina a los dormitorios obligatoriamente.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "67. Según el CTE en el DB HS 3, ¿a qué distancia mínima del suelo deben disponerse los aireadores en las aberturas de admisión en viviendas?",
+      "optionA": "1,50 m.",
+      "optionB": "1,80 m.",
+      "optionC": "2,10 m.",
+      "optionD": "Al nivel del rodapié.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "68. Según el CTE en el DB HS 3, las aberturas de extracción en viviendas deben disponerse a una distancia del techo:",
+      "optionA": "Mayor de 500 mm.",
+      "optionB": "Menor de 200 mm.",
+      "optionC": "Exactamente de 300 mm.",
+      "optionD": "A media altura de la pared.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "69. Según el CTE en el DB HS 3, ¿qué locales pueden compartir un mismo conducto de extracción general en una vivienda?",
+      "optionA": "Garajes y dormitorios.",
+      "optionB": "Almacenes de residuos y baños.",
+      "optionC": "Aseos, baños, cocinas y trasteros.",
+      "optionD": "Cocinas y conductos de humos de la caldera.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "70. Según el CTE en el DB HS 3, en aparcamientos con personal empleado, el sistema de detección de monóxido de carbono debe activar los aspiradores al alcanzar:",
+      "optionA": "20 ppm.",
+      "optionB": "50 ppm.",
+      "optionC": "100 ppm.",
+      "optionD": "200 ppm.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "71. Según el CTE en el DB HS 3, las bocas de expulsión en la cubierta deben estar separadas de cualquier elemento de entrada de ventilación una distancia mínima de:",
+      "optionA": "1 m.",
+      "optionB": "2 m.",
+      "optionC": "3 m.",
+      "optionD": "5 m.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "72. Según el CTE en el DB HS 3, en ventilación híbrida, si la cubierta es transitable, la boca de expulsión debe situarse a una altura mínima de:",
+      "optionA": "1 m.",
+      "optionB": "1,5 m.",
+      "optionC": "2 m.",
+      "optionD": "3 m.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "73. Según el CTE en el DB HS 3, ¿cada cuántos metros, como máximo, deben ser practicables para registro y limpieza los conductos de admisión como máximo?",
+      "optionA": "Cada 6 m.",
+      "optionB": "Cada 10 m.",
+      "optionC": "Cada 12 m.",
+      "optionD": "Solo en los extremos.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "74. Según el CTE en el DB HS 3, la revisión del estado de los filtros en los sistemas de ventilación debe hacerse cada:",
+      "optionA": "3 meses.",
+      "optionB": "6 meses.",
+      "optionC": "1 año.",
+      "optionD": "2 años.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "75. El CTE DB HS 4 prohíbe expresamente el uso de tuberías de los siguientes materiales para agua potable por alterar su calidad:",
+      "optionA": "Acero inoxidable y fundición dúctil.",
+      "optionB": "Aluminio y aquellos cuya composición contenga plomo.",
+      "optionC": "Polipropileno y polietileno reticulado.",
+      "optionD": "Cobre y bronce fundido.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "76. En cuanto al mantenimiento, el CTE DB HS 4 indica que las redes de tuberías deben diseñarse para ser accesibles, lo que implica que deben estar:",
+      "optionA": "Enterradas bajo una solera de hormigón de al menos 10 cm.",
+      "optionB": "A la vista, en huecos registrables o disponer de arquetas.",
+      "optionC": "Siempre por el exterior de los paramentos para facilitar el corte.",
+      "optionD": "Protegidas por coquillas de amianto inaccesibles para la persona usuaria.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "77. De acuerdo con el CTE DB HS 4, ¿cuándo es obligatorio disponer una red de retorno en las instalaciones de ACS?",
+      "optionA": "Cuando la longitud de la tubería de ida al punto de consumo más alejado sea igual o mayor que 15 m.",
+      "optionB": "Siempre que el edificio cuente con más de tres plantas sobre rasante, independientemente de la distancia lineal de las tuberías o del volumen de acumulación.",
+      "optionC": "Solo en aquellas instalaciones centralizadas de gran demanda con un consumo previsto superior a los 5.000 litros diarios o con más de 20 puntos de consumo.",
+      "optionD": "Cuando se utilicen sistemas de generación renovable, como calderas de biomasa o energía solar térmica, para compensar la inercia térmica de estos equipos.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "78. Según el CTE DB HS 4, el filtro de la instalación general debe ser de tipo Y con un umbral de filtrado comprendido entre:",
+      "optionA": "10 y 25 µm.",
+      "optionB": "25 y 50 µm.",
+      "optionC": "50 y 100 µm.",
+      "optionD": "100 y 200 µm.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "79. El armario o arqueta del contador general debe contener, según el orden de circulación del agua establecido en el CTE DB HS 4:",
+      "optionA": "Llave de corte general, filtro, contador, llave de prueba, válvula de retención y llave de salida.",
+      "optionB": "Filtro de partículas seguido de llave de corte, contador volumétrico, válvula de retención y llave de prueba para el purgado del sistema.",
+      "optionC": "Contador principal, filtro de malla de acero y una válvula de seguridad por sobrepresión calibrada a 6 bares.",
+      "optionD": "Llave de paso, contador, filtro en Y con purga manual y un manguito antielectrolítico para evitar la corrosión galvánica.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "80. Según el diseño de las ascendentes o montantes indicado en el CTE DB HS 4, en su parte superior debe instalarse:",
+      "optionA": "Una válvula de seguridad tarada a 6 bar.",
+      "optionB": "Un grifo de vaciado con racor para manguera.",
+      "optionC": "Dispositivos de purga automáticos o manuales con un separador o cámara.",
+      "optionD": "Un manómetro de glicerina para control de presión estática.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "81. Conforme al CTE DB HS 4, el grupo de presión debe instalarse en un local de uso exclusivo que podrá compartir espacio únicamente con:",
+      "optionA": "El centro de transformación eléctrica del edificio.",
+      "optionB": "El sistema de tratamiento de agua.",
+      "optionC": "El almacén de productos de limpieza del inmueble.",
+      "optionD": "La central de recogida neumática de residuos.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "82. En las instalaciones de ACS, según el CTE DB HS 4, las redes de retorno deben discurrir:",
+      "optionA": "Por el interior de la tubería de impulsión para ahorrar espacio.",
+      "optionB": "Siempre por falsos techos, independientemente de la impulsión.",
+      "optionC": "Paralelamente a las de impulsión.",
+      "optionD": "Por un patinillo independiente separado al menos 1 metro de la impulsión.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "83. Respecto a la protección contra retornos en aparatos de alimentación directa (como bañeras o lavabos), el CTE DB HS 4 exige que el nivel inferior de llegada de agua vierta:",
+      "optionA": "A 10 mm por debajo del borde superior del recipiente.",
+      "optionB": "Justo al nivel del rebosadero del aparato.",
+      "optionC": "Al menos 20 mm por encima del borde superior del recipiente.",
+      "optionD": "Mediante un tubo flexible sumergido para evitar ruidos.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "84. En cuanto a la incompatibilidad entre materiales, el CTE DB HS 4 prohíbe colocar tuberías de cobre:",
+      "optionA": "Después de conducciones de acero galvanizado, según el sentido de circulación del agua.",
+      "optionB": "Antes de conducciones de acero galvanizado, según el sentido de circulación del agua.",
+      "optionC": "En contacto con abrazaderas de plástico.",
+      "optionD": "Únicamente si el agua tiene un pH superior a 8,5.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "85. De acuerdo con el CTE DB HS 4, en relación a las separaciones de las tuberías de agua respecto de otras instalaciones, ¿qué distancia mínima de separación se debe guardar obligatoriamente entre las tuberías de la instalación de suministro de agua y las conducciones de gas?",
+      "optionA": "Al menos 3 cm.",
+      "optionB": "Al menos 4 cm.",
+      "optionC": "Al menos 30 cm.",
+      "optionD": "Al menos 10 cm.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "86. Para el dimensionado de redes de distribución, el CTE DB HS 4 establece que la velocidad de cálculo para tuberías metálicas debe estar comprendida entre:",
+      "optionA": "0,20 y 1,00 m/s.",
+      "optionB": "0,50 y 2,00 m/s.",
+      "optionC": "1,00 y 3,50 m/s.",
+      "optionD": "2,00 y 5,00 m/s.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "87. De acuerdo con el CTE DB HS 4, las acometidas que no se utilicen durante un periodo largo de tiempo deben ser:",
+      "optionA": "Vaciadas mensualmente para evitar estancamientos.",
+      "optionB": "Desinfectadas con cloro cada 15 días.",
+      "optionC": "Taponadas, si el periodo sin uso es de 1 año.",
+      "optionD": "Dejadas en carga para evitar la corrosión interior.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "88. Según el CTE DB HS 4, en todo tramo recto de tubería sin conexiones intermedias, ¿a partir de qué longitud es obligatorio adoptar medidas contra las dilataciones térmicas?",
+      "optionA": "5 m.",
+      "optionB": "10 m.",
+      "optionC": "25 m.",
+      "optionD": "50 m.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "89. En la ejecución de redes de tuberías, el CTE DB HS 4 prohíbe expresamente el empotramiento de las mismas en:",
+      "optionA": "Tabiques de ladrillo hueco sencillo.",
+      "optionB": "Muros de hormigón armado de más de 20 cm.",
+      "optionC": "Falsos techos de placas de yeso laminado.",
+      "optionD": "Patinillos de fábrica de ladrillo macizo.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "90. De acuerdo con el CTE DB HS 4, cuando los tubos de acero galvanizado se instalen empotrados para transporte de agua fría, se deben recubrir con:",
+      "optionA": "Una capa de yeso negro para evitar la oxidación.",
+      "optionB": "Una envuelta de papel de periódico saturado en aceite.",
+      "optionC": "Pintura bituminosa de secado rápido únicamente.",
+      "optionD": "Una lechada de cemento.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "91. Según el CTE DB HS 4, la magnitud del golpe de ariete positivo en el funcionamiento de válvulas y aparatos no debe sobrepasar:",
+      "optionA": "2 bar.",
+      "optionB": "10 bar.",
+      "optionC": "0,5 bar.",
+      "optionD": "5 bar.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "92. Según el CTE DB HS 4, en la prueba de funcionamiento de ACS con el acumulador a régimen, la temperatura del retorno no debe ser inferior a la de salida del acumulador en más de:",
+      "optionA": "10 ºC.",
+      "optionB": "1 ºC.",
+      "optionC": "5 ºC.",
+      "optionD": "3 ºC.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "93. Según el CTE DB HS 5 ¿cuál es la altura mínima del cierre hidráulico para usos continuos?",
+      "optionA": "25 mm.",
+      "optionB": "50 mm.",
+      "optionC": "70 mm.",
+      "optionD": "100 mm.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "94. Según el apartado de mantenimiento y conservación de la sección HS 5 del CTE, ¿con qué periodicidad deben limpiarse los sumideros de locales húmedos y los botes sifónicos?",
+      "optionA": "Deben limpiarse con una periodicidad mínima de seis meses.",
+      "optionB": "Deben limpiarse anualmente, preferiblemente al final del verano junto con la red de drenaje.",
+      "optionC": "Solo requieren limpieza cuando se aprecie una disminución notable en el caudal de evacuación del aparato.",
+      "optionD": "La limpieza de los botes sifónicos es responsabilidad de la persona usuaria y no requiere un plan de mantenimiento programado.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "95. Respecto a la ejecución de bajantes y ventilaciones, según el CTE DB HS 5, en edificios de más de 10 plantas donde sea necesario interrumpir la verticalidad de la bajante, ¿qué ángulo debe formar la desviación con la vertical?",
+      "optionA": "Un ángulo menor de 45º.",
+      "optionB": "Un ángulo exacto de 90º.",
+      "optionC": "Un ángulo superior a 60º.",
+      "optionD": "La norma no especifica ángulos, solo el uso de piezas especiales.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "96. Según el CTE DB HS 5, ¿qué autonomía mínima debe garantizar la batería o el sistema de reserva de los sistemas de bombeo y elevación en caso de avería eléctrica?",
+      "optionA": "2 horas.",
+      "optionB": "12 horas.",
+      "optionC": "48 horas.",
+      "optionD": "24 horas.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "97. En relación con los materiales de los accesorios (CTE DB HS 5), ¿de qué material deben ser las bridas y presillas destinadas a la fijación de bajantes?",
+      "optionA": "De acero inoxidable AISI-316.",
+      "optionB": "De hierro metalizado o galvanizado.",
+      "optionC": "De cobre o latón para evitar el par galvánico.",
+      "optionD": "De PVC reforzado con fibra de vidrio.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "98. De acuerdo con el CTE DB HS 5, ¿a qué distancia máxima del colector debe realizarse la conexión inferior de la columna de ventilación secundaria?",
+      "optionA": "A 5 veces el diámetro del colector.",
+      "optionB": "A 20 veces el diámetro del colector.",
+      "optionC": "A 10 veces el diámetro del colector.",
+      "optionD": "Justo en el punto de encuentro con la arqueta de pie de bajante.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "99. Según el CTE DB HS 5, ¿cuál es la distancia de conexión de la ventilación terciaria respecto al cierre hidráulico?",
+      "optionA": "Entre 2 y 20 veces el diámetro de la tubería de desagüe.",
+      "optionB": "Menos de 1 metro en todos los casos.",
+      "optionC": "Entre 10 y 50 veces el diámetro de la tubería.",
+      "optionD": "Exactamente a 50 cm del sifón.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "100. Para el dimensionado de colectores de tipo mixto (CTE DB HS 5), cuando el número de Unidades de Desagüe (UD) es menor o igual a 250, ¿cuál es la superficie equivalente de recogida que se asigna?",
+      "optionA": "150 m².",
+      "optionB": "250 m².",
+      "optionC": "50 m².",
+      "optionD": "90 m².",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "101. En la ejecución de los puntos de captación, según el CTE DB HS 5, ¿de qué material deben ser las rejillas de las válvulas de desagüe en los fregaderos?",
+      "optionA": "De latón cromado exclusivamente.",
+      "optionB": "Necesariamente de acero inoxidable.",
+      "optionC": "De material plástico de alta resistencia.",
+      "optionD": "De fundición dúctil con baño de plata.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "102. De acuerdo con el montaje de sifones individuales, según el CTE DB HS 5, ¿cuál es el orden correcto de disposición de los aparatos a partir de la embocadura de la bajante atendiendo a su proximidad?",
+      "optionA": "Lavabo, bidé y bañera.",
+      "optionB": "Bidé, lavabo y bañera.",
+      "optionC": "Bañera, bidé y lavabo.",
+      "optionD": "El orden es indiferente siempre que se respete la pendiente.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "103. Según las especificaciones de evacuación de aguas recogidas en el CTE DB HS 5, ¿qué altura mínima debe alcanzar la prolongación de una bajante como ventilación primaria sobre la cubierta del edificio cuando esta es transitable?",
+      "optionA": "Debe prolongarse al menos 1,30 metros sobre el pavimento de la cubierta para asegurar la evacuación de gases.",
+      "optionB": "La prolongación debe ser de 1,50 metros siempre que no existan tomas de aire para climatización cercanas.",
+      "optionC": "La prolongación sobre el pavimento de la cubierta debe ser de al menos 2,00 metros.",
+      "optionD": "Se permite una altura de 1,00 metro si la bajante cuenta con un sistema de ventilación secundaria en cada planta.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "104. En la instalación de calderetas, ¿qué profundidad mínima deben tener estas según el CTE DB HS 5?",
+      "optionA": "10 cm.",
+      "optionB": "5 cm.",
+      "optionC": "20 cm.",
+      "optionD": "15 cm.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "105. De acuerdo con el CTE DB HS 5, para canalones de zinc, ¿a qué distancia máxima deben colocarse los elementos de sujeción (abrazaderas)?",
+      "optionA": "1 m.",
+      "optionB": "50 cm.",
+      "optionC": "70 cm.",
+      "optionD": "30 cm.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "106. Según el CTE DB HS 5, ¿cuál es la distancia de fijación recomendada para las abrazaderas en bajantes de 110 mm de diámetro (tubos de 3 m)?",
+      "optionA": "0,8 m.",
+      "optionB": "1,1 m.",
+      "optionC": "1,5 m.",
+      "optionD": "2,0 m.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "107. En la unión de bajantes de polipropileno (CTE DB HS 5), ¿cómo debe realizarse la conexión entre tubería y accesorios?",
+      "optionA": "Por soldadura en un extremo y junta deslizante por el otro.",
+      "optionB": "Únicamente mediante colas sintéticas de gran adherencia.",
+      "optionC": "Siempre mediante bridas metálicas con junta de caucho.",
+      "optionD": "Mediante unión por rosca y teflón líquido.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "108. Según el CTE DB HS 5, referente a la red horizontal colgada, ¿qué distancia mínima del entronque con la bajante debe mantenerse libre de conexiones de desagüe?",
+      "optionA": "0,5 m a ambos lados.",
+      "optionB": "No hay distancia mínima, solo se prohíben codos simples.",
+      "optionC": "2 metros solo en el sentido del flujo.",
+      "optionD": "1 m o más a ambos lados.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "109. En la ejecución de los sistemas de elevación, según el CTE DB HS 5, ¿cuál es la pendiente mínima requerida para el fondo del tanque de recepción?",
+      "optionA": "2 %.",
+      "optionB": "10 %.",
+      "optionC": "15 %.",
+      "optionD": "25 %.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "110. Durante la realización de la prueba con humo, según el CTE DB HS 5, ¿qué presión de gases se debe mantener una vez taponados los terminales de cubierta?",
+      "optionA": "100 Pa.",
+      "optionB": "500 Pa.",
+      "optionC": "250 Pa.",
+      "optionD": "1000 Pa.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "111. Según la GUÍA TÉCNICA DE CONTABILIZACIÓN DE CONSUMOS, los contadores de agua deben cumplir con el control metrológico de:",
+      "optionA": "Aprobación de modelo y verificación primitiva.",
+      "optionB": "Comprobación visual realizada por el personal instalador.",
+      "optionC": "Revisión decenal obligatoria únicamente.",
+      "optionD": "No requieren control metrológico si son para ACS.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "112. Según la GUÍA TÉCNICA DE CONTABILIZACIÓN DE CONSUMOS, los contadores de agua caliente sanitaria son aquellos diseñados para trabajar en un intervalo de temperaturas de:",
+      "optionA": "0 ºC a 30 ºC.",
+      "optionB": "30 ºC a 90 ºC.",
+      "optionC": "10 ºC a 50 ºC.",
+      "optionD": "60 ºC a 120 ºC.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "113. Según la GUÍA TÉCNICA DE CONTABILIZACIÓN DE CONSUMOS, ¿cuál de las siguientes NO es una categoría de contador de gas?",
+      "optionA": "Contadores de paredes deformables.",
+      "optionB": "Contadores de pistones rotativos.",
+      "optionC": "Contadores de turbina.",
+      "optionD": "Contadores de pistones deformables.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "114. Según la GUÍA TÉCNICA DE CONTABILIZACIÓN DE CONSUMOS, debe instalarse un corrector PT (Presión-Temperatura) en los contadores de gas si el gas circula a una presión relativa superior a:",
+      "optionA": "20 mbar.",
+      "optionB": "45 mbar.",
+      "optionC": "50 mbar.",
+      "optionD": "55 mbar.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "115. Según la GUÍA TÉCNICA DE CONTABILIZACIÓN DE CONSUMOS, para facilitar el reemplazo del contador de gas en caso de avería, la Guía recomienda dejar en la instalación:",
+      "optionA": "Una manguera flexible de alta presión.",
+      "optionB": "Un carrete de sustitución.",
+      "optionC": "Un bypass con llave de tres vías.",
+      "optionD": "Soldaduras definitivas en ambos extremos.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "116. Según la GUÍA TÉCNICA DE CONTABILIZACIÓN DE CONSUMOS, en la instalación de contadores de gasóleo, es necesario prever antes del mismo:",
+      "optionA": "Un desgasificador.",
+      "optionB": "Un filtro.",
+      "optionC": "Un calentador de combustible.",
+      "optionD": "Una bomba de alta presión.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "117. Según la GUÍA TÉCNICA DE CONTABILIZACIÓN DE CONSUMOS, en las centrales de generación de frío y/o calor, la Guía recomienda que los contadores eléctricos sean de tipo:",
+      "optionA": "Electromecánicos simples.",
+      "optionB": "Estáticos (electrónicos) y combinados (activa y reactiva).",
+      "optionC": "Solo de energía activa clase 3.",
+      "optionD": "De prepago mediante tarjeta.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "118. Según la GUÍA TÉCNICA DE CONTABILIZACIÓN DE CONSUMOS, un contador de energía térmica está compuesto básicamente por:",
+      "optionA": "Un termostato y una válvula motorizada.",
+      "optionB": "Un manómetro y dos sondas de presión.",
+      "optionC": "Un caudalímetro, sonda de temperatura de impulsión, sonda de temperatura de retorno e integrador.",
+      "optionD": "Una sonda de humedad, sonda de temperatura de impulsión, sonda de temperatura de retorno e integrador.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "119. Según la GUÍA TÉCNICA DE CONTABILIZACIÓN DE CONSUMOS, para maximizar la vida de la batería de litio en los integradores de energía térmica, se recomienda montarlos en:",
+      "optionA": "La tubería de retorno.",
+      "optionB": "La pared (y no en la tubería).",
+      "optionC": "La tubería de impulsión.",
+      "optionD": "Las otras tres tres respuestas son incorrectas.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "120. Según la GUÍA TÉCNICA DE CONTABILIZACIÓN DE CONSUMOS, la periodicidad mínima para incluir datos en el registro energético de la central de generación, en las instalaciones que NO cuenten con sistemas de energía solar es:",
+      "optionA": "Semanal.",
+      "optionB": "Mensual.",
+      "optionC": "Trimestral.",
+      "optionD": "Anual.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "121. ¿Cuál es la velocidad frontal máxima permitida en las compuertas de toma y expulsión de aire en un sistema de enfriamiento gratuito, de acuerdo con la GUÍA TÉCNICA AHORRO Y RECUPERACIÓN DE ENERGÍA EN INSTALACIONES DE CLIMATIZACIÓN?",
+      "optionA": "4 m/s.",
+      "optionB": "8 m/s.",
+      "optionC": "6 m/s.",
+      "optionD": "10 m/s.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "122. En un dispositivo de tres compuertas para enfriamiento gratuito, la GUÍA TÉCNICA AHORRO Y RECUPERACIÓN DE ENERGÍA EN INSTALACIONES DE CLIMATIZACIÓN establece que la compuerta de aire de retorno debe situarse:",
+      "optionA": "En serie con los ventiladores de aire de retorno e impulsión.",
+      "optionB": "En paralelo con el ventilador de impulsión.",
+      "optionC": "De forma independiente a los circuitos de ventilación.",
+      "optionD": "En serie únicamente con el ventilador de expulsión.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "123. De acuerdo con la GUÍA TÉCNICA AHORRO Y RECUPERACIÓN DE ENERGÍA EN INSTALACIONES DE CLIMATIZACIÓN, ¿qué eficiencia de temperatura mínima debe garantizarse obligatoriamente en la sección de mezcla de un sistema de enfriamiento gratuito por aire?",
+      "optionA": "50 %.",
+      "optionB": "60 %.",
+      "optionC": "90 %.",
+      "optionD": "75 %.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "124. En el contexto de un control de entalpía puro descrito en la GUÍA TÉCNICA AHORRO Y RECUPERACIÓN DE ENERGÍA EN INSTALACIONES DE CLIMATIZACIÓN, ¿qué posición adoptan las compuertas de aire exterior y expulsión si la entalpía del aire exterior (ho) es superior a la del aire de retorno (hr)?",
+      "optionA": "Permanecen abiertas al 100 % de su capacidad para maximizar el caudal de aire y compensar la carga térmica mediante ventilación forzada.",
+      "optionB": "Están cerradas en la mínima posición, asegurando el mínimo aporte de renovación.",
+      "optionC": "Se posicionan automáticamente al 50 % de su recorrido total para establecer un equilibrio termodinámico entre el aire de mezcla y el aire de retorno.",
+      "optionD": "Abren de forma proporcional a la temperatura de mezcla Tm.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "125. En el enfriamiento gratuito, el sistema de temperatura seca es el más utilizado frente al de entalpía debido, según la GUÍA TÉCNICA AHORRO Y RECUPERACIÓN DE ENERGÍA EN INSTALACIONES DE CLIMATIZACIÓN, principalmente a:",
+      "optionA": "Que el control de entalpía no genera ahorros significativos en climas secos.",
+      "optionB": "El elevado coste de adquisición de los termómetros de bulbo seco.",
+      "optionC": "La prohibición normativa de instalar sondas de humedad en la intemperie.",
+      "optionD": "La falta de precisión y dificultad de mantenimiento de las sondas de humedad.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "126. Si disponemos de una enfriadora con enfriamiento gratuito por agua mediante batería adicional, la GUÍA TÉCNICA AHORRO Y RECUPERACIÓN DE ENERGÍA EN INSTALACIONES DE CLIMATIZACIÓN indica que el sistema puede entrar en acción:",
+      "optionA": "Con al menos 5 grados de diferencia entre el aire y el fluido.",
+      "optionB": "Con al menos 10 grados de diferencia entre el aire y el fluido.",
+      "optionC": "Solo con un grado de diferencia entre la temperatura del aire exterior y la del agua.",
+      "optionD": "Únicamente cuando la presión hidrostática sea superior a 2 bar.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "127. Con respecto al aprovechamiento geotérmico, la GUÍA TÉCNICA AHORRO Y RECUPERACIÓN DE ENERGÍA EN INSTALACIONES DE CLIMATIZACIÓN señala que el terreno mantiene una temperatura estable e insensible a la radiación solar:",
+      "optionA": "A partir de unos 15 metros de profundidad.",
+      "optionB": "A partir de los 2 metros de profundidad.",
+      "optionC": "A partir de los 5 metros de profundidad.",
+      "optionD": "A partir de los 50 metros de profundidad.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "128. Tal como se expone en la GUÍA TÉCNICA AHORRO Y RECUPERACIÓN DE ENERGÍA EN INSTALACIONES DE CLIMATIZACIÓN, ¿en qué efecto termodinámico se fundamenta el funcionamiento de los sistemas de enfriamiento gratuito por migración de refrigerante?",
+      "optionA": "Efecto Joule-Thomson.",
+      "optionB": "Efecto Termosifón.",
+      "optionC": "Efecto Venturi.",
+      "optionD": "Efecto Peltier.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "129. La integración de la opción de free-cooling de expansión directa en una enfriadora implica habitualmente, según la GUÍA TÉCNICA AHORRO Y RECUPERACIÓN DE ENERGÍA EN INSTALACIONES DE CLIMATIZACIÓN, una carga de refrigerante adicional de:",
+      "optionA": "Entre un 1 % y un 2 % por circuito.",
+      "optionB": "Exactamente un 15 % del total de la carga.",
+      "optionC": "No implica carga adicional alguna en ningún caso.",
+      "optionD": "En torno al 4-5 % por circuito.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "130. De acuerdo con las definiciones de la GUÍA TÉCNICA AHORRO Y RECUPERACIÓN DE ENERGÍA EN INSTALACIONES DE CLIMATIZACIÓN, ¿cómo se denomina la temperatura que se alcanza cuando el aire está al 100 % de humedad y coincide con la del agua en un proceso ideal?",
+      "optionA": "Temperatura de saturación adiabática.",
+      "optionB": "Temperatura de rocío crítica.",
+      "optionC": "Temperatura de condensación latente.",
+      "optionD": "Temperatura seca de diseño estacional.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "131. ¿A qué velocidad aproximada gira la rueda humectante en los enfriadores evaporativos directos rotativos, siguiendo los criterios de la GUÍA TÉCNICA AHORRO Y RECUPERACIÓN DE ENERGÍA EN INSTALACIONES DE CLIMATIZACIÓN?",
+      "optionA": "A 50 rpm.",
+      "optionB": "A 100 rpm.",
+      "optionC": "Del orden de 1 ó 2 rpm.",
+      "optionD": "A 1.500 rpm para garantizar la atomización.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "132. En los sistemas de enfriamiento evaporativo, la GUÍA TÉCNICA AHORRO Y RECUPERACIÓN DE ENERGÍA EN INSTALACIONES DE CLIMATIZACIÓN recomienda que, para evitar incrustaciones, se proceda a la purga de agua midiendo:",
+      "optionA": "La opacidad o turbidez.",
+      "optionB": "La conductividad eléctrica.",
+      "optionC": "El contenido de oxígeno disuelto.",
+      "optionD": "La presión de vapor en el depósito.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "133. Según la GUÍA TÉCNICA CONTABILIZACIÓN DE CONSUMOS INDIVIDUALES DE CALEFACCIÓN EN INSTALACIONES TÉRMICAS DE EDIFICIOS, ¿cuáles son los tres subsistemas básicos en los que puede analizarse una instalación de calefacción centralizada?",
+      "optionA": "Generación, distribución y emisión.",
+      "optionB": "Producción, transporte y regulación.",
+      "optionC": "Calderas, montantes y llaves de radiador.",
+      "optionD": "Impulsión, retorno y purgado.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "134. Según la GUÍA TÉCNICA CONTABILIZACIÓN DE CONSUMOS INDIVIDUALES DE CALEFACCIÓN EN INSTALACIONES TÉRMICAS DE EDIFICIOS, en una instalación de tipo monotubo, ¿qué problema técnico ocurre si se corta totalmente la entrada de agua a un radiador?",
+      "optionA": "Se produce un aumento crítico de la temperatura de impulsión en el siguiente radiador del anillo al recibir todo el calor que no ha disipado el anterior.",
+      "optionB": "La caldera entra en modo de fallo por falta de presión de retorno.",
+      "optionC": "Se limita la cantidad de agua caliente que llega a los siguientes radiadores, reduciendo su aporte de calor.",
+      "optionD": "El agua se desvía por una tubería de bypass de emergencia que, por normativa, debe estar instalada de forma visible en el salón o zona común.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "135. Según la GUÍA TÉCNICA CONTABILIZACIÓN DE CONSUMOS INDIVIDUALES DE CALEFACCIÓN EN INSTALACIONES TÉRMICAS DE EDIFICIOS, ¿cuál es el motivo por el que la instalación de contadores de energía térmica en distribuciones por columnas resulta técnicamente ineficiente?",
+      "optionA": "Porque habría que disponer de un contador para cada radiador individual.",
+      "optionB": "Debido a que las tuberías antiguas de acero no permiten el paso de ondas de ultrasonidos.",
+      "optionC": "Porque los contadores de energía solo funcionan con saltos térmicos superiores a 50 ºC.",
+      "optionD": "Dado que la normativa prohíbe el uso de cabezales electrónicos en instalaciones verticales.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "136. Según la GUÍA TÉCNICA CONTABILIZACIÓN DE CONSUMOS INDIVIDUALES DE CALEFACCIÓN EN INSTALACIONES TÉRMICAS DE EDIFICIOS, respecto a la instalación de válvulas termostáticas en los radiadores, ¿qué especifica esta guía en relación con el Real Decreto 736/2020?",
+      "optionA": "Que su instalación es estrictamente obligatoria para todos los edificios de la zona C.",
+      "optionB": "Que el Real Decreto no obliga a su instalación, aunque es muy recomendable para conseguir mayores ahorros.",
+      "optionC": "Que solo pueden instalarse si el edificio cuenta con distribución en anillo y termostato de ambiente.",
+      "optionD": "Que su uso queda supeditado a que la empresa mantenedora certifique la ausencia de lodos en el circuito.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "137. Según la GUÍA TÉCNICA CONTABILIZACIÓN DE CONSUMOS INDIVIDUALES DE CALEFACCIÓN EN INSTALACIONES TÉRMICAS DE EDIFICIOS, ¿cuál es el principio operativo de una válvula termostática para realizar su función de forma autónoma?",
+      "optionA": "Modifica la temperatura del agua de impulsión mediante una resistencia eléctrica interna.",
+      "optionB": "Aumenta o disminuye el caudal de agua caliente que deja pasar al radiador basándose en el control de temperatura del local.",
+      "optionC": "Abre un bypass mecánico que devuelve el agua directamente al retorno sin pasar por el emisor.",
+      "optionD": "Envía una señal inalámbrica a la bomba de circulación para reducir las revoluciones del motor.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "138. De acuerdo con la GUÍA TÉCNICA CONTABILIZACIÓN DE CONSUMOS INDIVIDUALES DE CALEFACCIÓN EN INSTALACIONES TÉRMICAS DE EDIFICIOS, ¿qué equipos de control de presión recomienda la guía prever para evitar problemas de funcionamiento o roturas por sobrepresión al instalar sistemas de control en los emisores?",
+      "optionA": "Válvulas de seguridad de acción rápida en cada radiador y depósitos de inercia.",
+      "optionB": "Purgadores de gran capacidad y separadores de aire en la parte alta de las columnas.",
+      "optionC": "Sistemas de equilibrado y variadores de velocidad para las bombas de agua de impulsión.",
+      "optionD": "Vasos de expansión abiertos situados por encima de la cota máxima del edificio.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "139. Según la GUÍA TÉCNICA INSTALACIONES DE CLIMATIZACIÓN POR AGUA, ¿cuáles son los valores de diseño para la temperatura operativa y la humedad relativa en el interior de un local durante la estación de verano?",
+      "optionA": "21 a 23 °C y 40-50 % de humedad relativa.",
+      "optionB": "23 a 25 °C y 45-60 % de humedad relativa.",
+      "optionC": "20 a 22 °C y 45-55 % de humedad relativa.",
+      "optionD": "24 a 26 °C y 50-70 % de humedad relativa.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "140. Atendiendo a la GUÍA TÉCNICA INSTALACIONES DE CLIMATIZACIÓN POR AGUA, ¿en qué categoría de calidad de aire interior (IDA) se deben clasificar los hospitales, clínicas, laboratorios y guarderías?",
+      "optionA": "IDA 2 (Aire de buena calidad).",
+      "optionB": "IDA 3 (Aire de calidad media).",
+      "optionC": "IDA 1 (Aire de óptima calidad).",
+      "optionD": "IDA 4 (Aire de calidad baja).",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "141. De acuerdo con la GUÍA TÉCNICA INSTALACIONES DE CLIMATIZACIÓN POR AGUA, cuando se utiliza el método indirecto de caudal de aire exterior por persona para un local de categoría IDA 2, ¿qué caudal de aire por persona se debe considerar?",
+      "optionA": "20 l/s por persona.",
+      "optionB": "8 l/s por persona.",
+      "optionC": "5 l/s por persona.",
+      "optionD": "12,5 l/s por persona.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "142. Según la GUÍA TÉCNICA INSTALACIONES DE CLIMATIZACIÓN POR AGUA, el aire extraído de locales como aseos, cocinas o laboratorios químicos, que presenta un alto nivel de contaminación, se clasifica como:",
+      "optionA": "Categoría AE 2.",
+      "optionB": "Categoría AE 3.",
+      "optionC": "Categoría AE 4.",
+      "optionD": "Categoría AE 1.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "143. Atendiendo a las directrices de la GUÍA TÉCNICA INSTALACIONES DE CLIMATIZACIÓN POR AGUA, ¿qué factor de paso se utiliza para calcular las emisiones de CO2 de la energía eléctrica convencional en la península?",
+      "optionA": "204 g CO2/kWh.",
+      "optionB": "287 g CO2/kWh.",
+      "optionC": "649 g CO2/kWh.",
+      "optionD": "981 g CO2/kWh.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "144. Según la GUÍA TÉCNICA INSTALACIONES DE CLIMATIZACIÓN POR AGUA, ¿cuál es el espesor mínimo de aislamiento (en mm) para una tubería con un diámetro exterior de 40 mm que discurre por el exterior del edificio y transporta un fluido frío (>0 a 10 °C), considerando una conductividad de referencia de 0,040 W/m·K?",
+      "optionA": "30 mm.",
+      "optionB": "40 mm.",
+      "optionC": "50 mm.",
+      "optionD": "20 mm.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "145. De acuerdo con la GUÍA TÉCNICA INSTALACIONES DE CLIMATIZACIÓN POR AGUA, en el equilibrado hidráulico de los circuitos, ¿qué práctica se considera de \"buena práctica\" para el dimensionado de las tuberías en cuanto a la pérdida de carga?",
+      "optionA": "Mantener una pérdida entre 5 y 10 mm.c.a. por metro.",
+      "optionB": "Mantener una pérdida entre 20 y 40 mm.c.a. por metro.",
+      "optionC": "No superar nunca los 15 mm.c.a. por metro.",
+      "optionD": "Mantener una pérdida constante de 50 mm.c.a. por metro independientemente del caudal.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "146. Según la GUÍA TÉCNICA INSTALACIONES DE CLIMATIZACIÓN POR AGUA, ¿cuál es el método de control de la calidad del aire interior (IDA-C) recomendado para la mayoría de las aplicaciones prácticas mediante el uso de sondas de CO2?",
+      "optionA": "IDA-C1 (Sin control).",
+      "optionB": "IDA-C4 (Control por presencia).",
+      "optionC": "IDA-C6 (Control directo por sensores).",
+      "optionD": "IDA-C3 (Control por tiempo).",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "147. En relación con la seguridad, la GUÍA TÉCNICA INSTALACIONES DE CLIMATIZACIÓN POR AGUA establece que las conexiones entre las tuberías y las enfriadoras o bombas de calor con motor eléctrico de potencia superior a 3 kW deben realizarse mediante:",
+      "optionA": "Uniones soldadas rígidas.",
+      "optionB": "Bridas de acero con junta de grafito.",
+      "optionC": "Elementos flexibles.",
+      "optionD": "Manguitos de cobre con rosca reforzada.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "148. Según la GUÍA TÉCNICA INSTALACIONES DE CLIMATIZACIÓN POR AGUA en su apartado relativo al llenado y vaciado de los circuitos, ¿qué requisitos técnicos debe cumplir la válvula automática de alivio que se instale en el tramo que conecta los circuitos cerrados al dispositivo de alimentación?",
+      "optionA": "Tendrá un diámetro mínimo DN 20 y estará tarada a una presión igual a la máxima de servicio en el punto de conexión más 0,2 a 0,3 bar, siendo siempre menor que la presión de prueba.",
+      "optionB": "Tendrá un diámetro mínimo DN 15 y estará tarada a una presión de 1 bar por encima de la presión de llenado, sin superar nunca la presión nominal de los emisores.",
+      "optionC": "Tendrá un diámetro nominal de 20 mm y su tarado será equivalente a 1,5 veces la presión máxima de servicio para asegurar la apertura rápida en caso de sobrepresión.",
+      "optionD": "Tendrá un diámetro mínimo DN 25 y su presión de tarado coincidirá exactamente con la presión de llenado del circuito para evitar golpes de ariete.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "149. Atendiendo a la GUÍA TÉCNICA INSTALACIONES DE CLIMATIZACIÓN POR AGUA, ¿cuál es el diámetro nominal (DN) mínimo de la conexión de alimentación para una instalación de refrigeración (frío) con una potencia térmica nominal inferior o igual a 70 kW?",
+      "optionA": "DN 15.",
+      "optionB": "DN 20.",
+      "optionC": "DN 25.",
+      "optionD": "DN 32.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "150. Según la GUÍA TÉCNICA INSTALACIONES DE CLIMATIZACIÓN POR AGUA, la presión inicial de la cámara de aire del vaso de expansión (Pi) debe ser:",
+      "optionA": "Igual a la presión de llenado del circuito.",
+      "optionB": "0,5 bar superior a la presión máxima de servicio.",
+      "optionC": "1 bar por encima de la presión mínima del circuito.",
+      "optionD": "0,2 a 0,3 bar inferior a la presión de llenado (Pm).",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "151. De acuerdo con la GUÍA TÉCNICA INSTALACIONES DE CLIMATIZACIÓN POR AGUA, para facilitar el mantenimiento, ¿cuál es el tamaño mínimo recomendado de los accesos en falsos techos no desmontables para acceder a los fancoils?",
+      "optionA": "0,5 x 0,5 metros.",
+      "optionB": "0,4 x 0,4 metros.",
+      "optionC": "0,6 x 0,6 metros.",
+      "optionD": "0,3 x 0,3 metros.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "152. Según la GUÍA TÉCNICA INSTALACIONES DE CLIMATIZACIÓN POR AGUA, para evitar ruidos en la red de tuberías, es recomendable que la velocidad del agua sea inferior a:",
+      "optionA": "2,5 m/s.",
+      "optionB": "0,5 m/s.",
+      "optionC": "1,2 m/s.",
+      "optionD": "3,0 m/s.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "153. Según la GUÍA TÉCNICA DE DISEÑO DE CENTRALES DE CALOR EFICIENTES, ¿cuál es la composición básica del aire que se utiliza habitualmente como comburente en las instalaciones de calderas?",
+      "optionA": "50 % de oxígeno (O2) y 50 % de nitrógeno (N2).",
+      "optionB": "79 % de oxígeno (O2) y 21 % de nitrógeno (N2).",
+      "optionC": "21 % de oxígeno (O2) y 79 % de nitrógeno (N2).",
+      "optionD": "100 % de oxígeno (O2) puro.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "154. De acuerdo con la GUÍA TÉCNICA DE DISEÑO DE CENTRALES DE CALOR EFICIENTES, ¿qué comportamiento tiende a presentar el gas natural en caso de fuga debido a su densidad relativa respecto al aire?",
+      "optionA": "Tiende hacia la parte superior de los locales al ser más ligero que el aire (densidad 0,64).",
+      "optionB": "Se acumula exclusivamente en el suelo formando nubes de polvo explosivas.",
+      "optionC": "Permanece estático en el punto de fuga sin desplazarse por el recinto.",
+      "optionD": "Tiende hacia la parte inferior de los locales al ser más pesado que el aire (densidad 1,96).",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "155. Según la GUÍA TÉCNICA DE DISEÑO DE CENTRALES DE CALOR EFICIENTES, ¿qué tipo de quemador es el más adecuado para las instalaciones de climatización debido a la variación continua de la demanda?",
+      "optionA": "Quemadores de una sola marcha con llama piloto permanente.",
+      "optionB": "Quemadores atmosféricos de premezcla manual.",
+      "optionC": "Quemadores de dos marchas únicamente.",
+      "optionD": "Quemadores modulantes.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "156. Atendiendo a la GUÍA TÉCNICA DE DISEÑO DE CENTRALES DE CALOR EFICIENTES, ¿cuál es la función principal de los elementos denominados \"retardadores\" en el circuito de humos de una caldera?",
+      "optionA": "Aumentar la velocidad de salida de los gases de combustión para incrementar el tiro natural de la chimenea y evitar revocos de aire.",
+      "optionB": "Prolongar el paso de los humos para mejorar la transmisión de calor y obtener rendimientos más altos.",
+      "optionC": "Evitar que el agua de la instalación alcance temperaturas críticas superiores a los 110 °C mediante un sistema de expansión térmico.",
+      "optionD": "Impedir la formación de condensaciones ácidas en la caja de humos aislada mediante el precalentamiento del aire de la combustión.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "157. Según la GUÍA TÉCNICA DE DISEÑO DE CENTRALES DE CALOR EFICIENTES, ¿cómo se define específicamente el \"tiro inducido\" en un sistema de evacuación de humos?",
+      "optionA": "El producido exclusivamente por la diferencia de densidades entre el aire y los humos.",
+      "optionB": "El que utiliza extractores situados exclusivamente en la parte alta de la chimenea.",
+      "optionC": "El tiro que se induce por efecto Venturi mediante un ventilador.",
+      "optionD": "El generado por ventiladores que impulsan los humos desde la base de la chimenea.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "158. En base a la GUÍA TÉCNICA DE DISEÑO DE CENTRALES DE CALOR EFICIENTES, ¿cuál de los siguientes factores tiene una gran influencia en la disminución de la temperatura de condensación (punto de rocío) de los humos?",
+      "optionA": "El uso de chimeneas construidas con materiales refractarios de obra de fábrica.",
+      "optionB": "La humedad relativa del comburente, que es el factor determinante principal.",
+      "optionC": "El material plástico de la chimenea asociado a calderas de condensación.",
+      "optionD": "El aumento del coeficiente de exceso de aire en la combustión.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "159. Siguiendo la GUÍA TÉCNICA DE DISEÑO DE CENTRALES DE CALOR EFICIENTES, ¿qué compuesto químico corrosivo se puede formar cuando el SO3 entra en contacto con el agua de condensación en combustibles con azufre?",
+      "optionA": "Ácido sulfúrico (H2SO4).",
+      "optionB": "Ácido clorhídrico concentrado.",
+      "optionC": "Dióxido de carbono en estado líquido.",
+      "optionD": "Óxido de nitrógeno inerte.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "160. Según la GUÍA TÉCNICA DE DISEÑO DE CENTRALES DE CALOR EFICIENTES, ¿qué dos tipos de pérdidas de calor se producen específicamente durante los periodos de parada del quemador?",
+      "optionA": "Pérdidas por inquemados y entalpía de los productos de la combustión.",
+      "optionB": "Pérdidas por ciclos de barrido del hogar y rozamiento mecánico.",
+      "optionC": "Radiación-Convección a través de la envolvente y ventilación interna por el tiro de aire.",
+      "optionD": "Solo se producen pérdidas por la formación de cenizas y humedad en los humos.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "161. De acuerdo con la GUÍA TÉCNICA DE DISEÑO DE CENTRALES DE CALOR EFICIENTES, en caso de instalación de calderas de potencia superior a 70 kW, ¿qué requisito debe cumplir el dispositivo de accionamiento manual de las válvulas de seguridad para pruebas?",
+      "optionA": "Debe permitir el bloqueo total de la válvula para evitar descargas accidentales.",
+      "optionB": "No debe modificar el tarado de la válvula cuando sea actuado.",
+      "optionC": "Debe estar diseñado para modificar el tarado según la presión de trabajo estacional.",
+      "optionD": "Solo debe ser utilizable por la entidad fabricante mediante herramientas especiales.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "162. Según la GUÍA TÉCNICA DE DISEÑO DE CENTRALES DE CALOR EFICIENTES, en su apartado de Instalación de calderas de potencia superior a 70 kW, ¿qué medida es conveniente adoptar para facilitar el mantenimiento de los vasos de expansión cerrados?",
+      "optionA": "Instalar llaves de corte en la conexión que permitan aislarlos de la instalación.",
+      "optionB": "Conectarlos siempre sin llaves intermedias, directamente al generador de calor.",
+      "optionC": "Situarlos en el tramo vertical de la chimenea para aprovechar el calor de los humos.",
+      "optionD": "Utilizar exclusivamente vasos de expansión abiertos para evitar sobrepresiones.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "163. Siguiendo las instrucciones de la GUÍA TÉCNICA DE DISEÑO DE CENTRALES DE CALOR EFICIENTES para la instalación de calderas de potencia superior a 70 kW, ¿qué dispositivo es obligatorio para impedir el arranque del quemador si la circulación de agua no es adecuada?",
+      "optionA": "Un pirómetro instalado en el colector de retorno.",
+      "optionB": "Un termostato de humos con rearme automático.",
+      "optionC": "Un contador de energía térmica de lectura diferencial.",
+      "optionD": "Un interruptor de flujo.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "164. Según la GUÍA TÉCNICA DE DISEÑO DE CENTRALES DE CALOR EFICIENTES, ¿cuáles son las temperaturas de funcionamiento habituales (impulsión/retorno) para un diseño estándar de calefacción por radiadores?",
+      "optionA": "Impulsión: 45 °C / Retorno: 35 °C.",
+      "optionB": "Impulsión: 60 °C / Retorno: 40 °C.",
+      "optionC": "Impulsión: 110 °C / Retorno: 80 °C.",
+      "optionD": "Impulsión: 80 °C / Retorno: 60 °C.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "165. Según la GUÍA TÉCNICA DE DISEÑO DE CENTRALES DE CALOR EFICIENTES, ¿con qué luz de paso máxima deben protegerse mediante un filtro las válvulas automáticas de la instalación que tengan un diámetro nominal mayor que DN 15?",
+      "optionA": "1 mm.",
+      "optionB": "0,25 mm.",
+      "optionC": "0,50 mm.",
+      "optionD": "0,75 mm.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "166. Según la GUÍA TÉCNICA DE DISEÑO DE CENTRALES DE CALOR EFICIENTES, ¿cómo debe actuar la regulación en secuencia si los generadores aumentan su rendimiento trabajando a carga parcial?",
+      "optionA": "Manteniendo en marcha un mayor número de equipos trabajando a carga parcial.",
+      "optionB": "Manteniendo en marcha el número mínimo de generadores a su potencia nominal.",
+      "optionC": "Apagando todos los generadores y utilizando solo el sistema de expansión.",
+      "optionD": "Alternando el funcionamiento de los generadores cada 15 minutos exactos.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "167. Según la GUÍA TÉCNICA SELECCIÓN DE EQUIPOS DE TRANSPORTE DE FLUIDOS, ¿cuántos álabes suelen formar generalmente el rodete de las bombas centrífugas para optimizar la conducción del flujo?",
+      "optionA": "Entre 2 y 4 álabes.",
+      "optionB": "Entre 5 y 9 álabes.",
+      "optionC": "Un máximo de 12 álabes.",
+      "optionD": "Siempre un número par de álabes, entre 4 y 10.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "168. En relación con el montaje de las bombas circuladoras de rotor húmedo, la GUÍA TÉCNICA SELECCIÓN DE EQUIPOS DE TRANSPORTE DE FLUIDOS especifica que:",
+      "optionA": "El motor debe estar siempre en posición vertical para facilitar la refrigeración.",
+      "optionB": "Pueden instalarse en cualquier orientación según el espacio disponible.",
+      "optionC": "Deben montarse siempre con el eje en posición horizontal.",
+      "optionD": "Requieren la instalación obligatoria de un ventilador externo para el motor.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "169. Según la GUÍA TÉCNICA SELECCIÓN DE EQUIPOS DE TRANSPORTE DE FLUIDOS, ¿cuál de las siguientes afirmaciones es una característica de las bombas de rotor seco en comparación con las de rotor húmedo?",
+      "optionA": "Son prácticamente silenciosas al carecer de ventilador en el motor eléctrico.",
+      "optionB": "Son máquinas resistentes a las impurezas que contiene el líquido y a la formación de cal.",
+      "optionC": "Poseen un rendimiento energético inferior al de las bombas circuladoras de rotor húmedo.",
+      "optionD": "No requieren ningún tipo de mantenimiento del cierre mecánico a lo largo de su vida útil.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "170. Según la GUÍA TÉCNICA SELECCIÓN DE EQUIPOS DE TRANSPORTE DE FLUIDOS, ¿cuál es el factor determinante para calcular las pérdidas de presión primarias en las tuberías?",
+      "optionA": "La presión de vapor del agua según la temperatura.",
+      "optionB": "El coeficiente de cavitación del rodete.",
+      "optionC": "La potencia mecánica suministrada al eje de la bomba.",
+      "optionD": "El factor de fricción de Darcy (f).",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "171. De acuerdo con la GUÍA TÉCNICA SELECCIÓN DE EQUIPOS DE TRANSPORTE DE FLUIDOS, ¿qué fenómeno físico define la cavitación en una bomba?",
+      "optionA": "La entrada accidental de aire en el circuito hidráulico debido a un mal purgado inicial o a la presencia de porosidades en la tubería de aspiración.",
+      "optionB": "El aumento repentino de la presión estática en la voluta de la bomba al trabajar fuera de su punto de diseño con caudales excesivamente bajos.",
+      "optionC": "La vaporización del líquido debido a una reducción local de la presión absoluta por debajo de su presión de vapor.",
+      "optionD": "El exceso de rozamiento mecánico entre el rodete en movimiento y la carcasa fija de la bomba por un desalineamiento del eje o falta de lubricación.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "172. Según la GUÍA TÉCNICA SELECCIÓN DE EQUIPOS DE TRANSPORTE DE FLUIDOS, ¿qué síntomas operativos y daños materiales se asocian directamente al fenómeno de la cavitación en el funcionamiento de una bomba?",
+      "optionA": "La ausencia total de vibraciones y el incremento del rendimiento hidráulico debido a la menor densidad del vapor.",
+      "optionB": "Un zumbido constante de baja frecuencia y la formación de incrustaciones calcáreas en la cara convexa de los álabes.",
+      "optionC": "Un silbido agudo similar al de una fuga de aire comprimido y el recalentamiento por fricción del cierre mecánico.",
+      "optionD": "Un ruido característico similar al de arena deslizándose por una superficie metálica y un picado característico en la superficie de los álabes.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "173. Si en una instalación de bombeo se reduce la velocidad de giro de la bomba a la mitad, según la GUÍA TÉCNICA SELECCIÓN DE EQUIPOS DE TRANSPORTE DE FLUIDOS, la potencia absorbida:",
+      "optionA": "Se reduce a la mitad.",
+      "optionB": "Se divide por cuatro.",
+      "optionC": "Se divide por ocho.",
+      "optionD": "Permanece inalterada si no cambia el diámetro del rodete.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "174. Según la GUÍA TÉCNICA SELECCIÓN DE EQUIPOS DE TRANSPORTE DE FLUIDOS en su parte I Bombas, ¿cuál de los siguientes sistemas de regulación del punto de funcionamiento se considera el menos eficiente energéticamente?",
+      "optionA": "Variador de frecuencia.",
+      "optionB": "Recorte del diámetro del rodete.",
+      "optionC": "Válvula de estrangulamiento en serie.",
+      "optionD": "Válvula en by-pass (paralelo).",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "175. En la optimización del consumo de energía, la GUÍA TÉCNICA SELECCIÓN DE EQUIPOS DE TRANSPORTE DE FLUIDOS indica en su parte I Bombas que, para una misma potencia térmica, si aumentamos el salto de temperaturas (ΔT) en un circuito:",
+      "optionA": "El caudal a trasegar será menor, lo que generalmente disminuye el consumo energético de transporte.",
+      "optionB": "El caudal nominal aumentará proporcionalmente para compensar la diferencia térmica y mantener la inercia del fluido en todo el sistema.",
+      "optionC": "El consumo eléctrico de la bomba aumentará al cubo debido al incremento de la resistencia interna del fluido al variar su viscosidad térmica.",
+      "optionD": "La pérdida de carga total en el circuito se mantendrá constante, independientemente del volumen de agua que circule por la red de tuberías.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "176. Según la clasificación de la GUÍA TÉCNICA SELECCIÓN DE EQUIPOS DE TRANSPORTE DE FLUIDOS, ¿qué tipo de ventiladores centrífugos destacan por ser los más eficientes (mayor rendimiento)?",
+      "optionA": "Los de álabes curvados hacia adelante.",
+      "optionB": "Los de álabes radiales de fácil construcción.",
+      "optionC": "Los de álabes curvados hacia atrás.",
+      "optionD": "Los axiales murales de pequeño buje.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "177. Según describe la GUÍA TÉCNICA SELECCIÓN DE EQUIPOS DE TRANSPORTE DE FLUIDOS, en las salidas de aire de las redes de conductos que se producen en forma de chorros turbulentos:",
+      "optionA": "La presión dinámica se transforma íntegramente en presión estática.",
+      "optionB": "Se produce una recuperación estática automática.",
+      "optionC": "Se produce una succión que ayuda al ventilador.",
+      "optionD": "Toda la energía cinética del flujo se pierde.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "178. Según la GUÍA TÉCNICA SELECCIÓN DE EQUIPOS DE TRANSPORTE DE FLUIDOS, ¿cuál de las siguientes definiciones describe correctamente el funcionamiento de un ventilador helicocentrífugo en cuanto a la dirección del flujo?",
+      "optionA": "El flujo entra y sale del rodete exclusivamente en dirección axial.",
+      "optionB": "El flujo entra y sale del rodete exclusivamente en dirección radial.",
+      "optionC": "El flujo entra al rodete en dirección axial y sale del rodete en dirección radial.",
+      "optionD": "El flujo entra al rodete en dirección radial y sale del rodete en dirección axial.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "179. Siguiendo los rangos de funcionamiento expuestos en la GUÍA TÉCNICA SELECCIÓN DE EQUIPOS DE TRANSPORTE DE FLUIDOS, para que un ventilador trabaje en un \"régimen adecuado\" con buen rendimiento, el caudal debe situarse entre:",
+      "optionA": "El 20 % y el 150 % del nominal.",
+      "optionB": "El 10 % y el 50 % del nominal.",
+      "optionC": "El 50 % y el 80 % del nominal.",
+      "optionD": "El 85 % y el 105 % del nominal.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "180. Según la GUÍA TÉCNICA SELECCIÓN DE EQUIPOS DE TRANSPORTE DE FLUIDOS, ¿cuál es el valor máximo de pérdida de carga por metro lineal que no se recomienda superar en el diseño de redes de conductos de aire?",
+      "optionA": "0,1 mm.c.a. por metro lineal.",
+      "optionB": "1,0 mm.c.a. por metro lineal.",
+      "optionC": "0,01 mm.c.a. por metro lineal.",
+      "optionD": "5,0 mm.c.a. por metro lineal.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "181. Tal y como establece el MANUAL INFORMATIVO DE PREVENCIÓN DE RIESGOS LABORALES EN PUESTOS DE MANTENIMIENTO de Osakidetza, al utilizar equipos con elementos en movimiento, ¿qué característica debe tener la vestimenta para evitar atrapamientos?",
+      "optionA": "Las camisas o chaquetas deben disponer de puños cerrados o ser de manga corta.",
+      "optionB": "Se deben usar camisas de manga larga holgada para proteger los brazos.",
+      "optionC": "Es obligatorio el uso de guantes de cuero en todos los casos.",
+      "optionD": "Se debe usar ropa acrílica de alta resistencia.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "182. ¿En qué caso es obligatorio, según el MANUAL INFORMATIVO DE PREVENCIÓN DE RIESGOS LABORALES EN PUESTOS DE MANTENIMIENTO, proteger aberturas o desniveles que supongan riesgo de caída?",
+      "optionA": "Siempre que la persona oficial trabaje sola.",
+      "optionB": "Solo si el área es de acceso público.",
+      "optionC": "Cuando la caída sea superior a los 2 metros de altura.",
+      "optionD": "Únicamente cuando el suelo del taller esté húmedo o resbaladizo.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "183. Respecto a los sobreesfuerzos en tareas de fontanería (MANUAL INFORMATIVO DE PREVENCIÓN DE RIESGOS LABORALES EN PUESTOS DE MANTENIMIENTO), ¿qué herramienta se recomienda utilizar cuando sea necesario realizar gran cantidad de fuerza?",
+      "optionA": "Herramientas motorizadas de alta presión.",
+      "optionB": "Herramientas manuales con mangos largos.",
+      "optionC": "Extensiones de fabricación propia para llaves inglesas.",
+      "optionD": "Ninguna, estas tareas deben hacerse siempre entre dos personas.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "184. Ante la recepción de equipos de fontanería o calefacción para reparar que hayan estado en contacto con fluidos biológicos, según el MANUAL INFORMATIVO DE PREVENCIÓN DE RIESGOS LABORALES EN PUESTOS DE MANTENIMIENTO, ¿cómo deben éstos considerarse?",
+      "optionA": "Como material limpio si ya han sido desinfectados en planta.",
+      "optionB": "Como residuos urbanos no peligrosos.",
+      "optionC": "Como material de uso restringido a personal de limpieza.",
+      "optionD": "Como material potencialmente contaminado, siendo obligatorio el uso de guantes.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "185. Antes de manipular cualquier producto químico (como desincrustantes), ¿qué documentos indica el MANUAL INFORMATIVO DE PREVENCIÓN DE RIESGOS LABORALES EN PUESTOS DE MANTENIMIENTO de Osakidetza que se deben leer obligatoriamente?",
+      "optionA": "La etiqueta y la ficha de datos de seguridad.",
+      "optionB": "El inventario de productos químicos del taller y el manual de instrucciones del equipo o instalación donde se vaya a aplicar.",
+      "optionC": "El plan de gestión de residuos del centro y el registro de riesgos de la Unidad Básica de Prevención.",
+      "optionD": "La guía de transporte de mercancías peligrosas.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "186. Atendiendo a la tabla de incompatibilidades para el almacenamiento de productos químicos recogida en el MANUAL INFORMATIVO DE PREVENCIÓN DE RIESGOS LABORALES EN PUESTOS DE MANTENIMIENTO de Osakidetza, en lo que se refiere a la seguridad, los productos inflamables y los productos tóxicos:",
+      "optionA": "Se pueden almacenar conjuntamente.",
+      "optionB": "No deben almacenarse juntas.",
+      "optionC": "Se podrán almacenar conjuntamente siempre que se mantengan en sus envases originales.",
+      "optionD": "Solamente podrán almacenarse juntas si se adoptan ciertas medidas específicas de prevención.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "187. Durante el trasvase de productos químicos, ¿qué equipos de protección individual (EPIs) mínimos prescribe el MANUAL INFORMATIVO DE PREVENCIÓN DE RIESGOS LABORALES EN PUESTOS DE MANTENIMIENTO de Osakidetza?",
+      "optionA": "Solo guantes.",
+      "optionB": "Gafas y guantes.",
+      "optionC": "Mascarilla y delantal.",
+      "optionD": "No se requieren si el trasvase se hace mediante vertido directo.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "188. Según el MANUAL INFORMATIVO DE PREVENCIÓN DE RIESGOS LABORALES EN PUESTOS DE MANTENIMIENTO, en tareas de soldadura eléctrica, ¿qué verificación de seguridad del equipo es prioritaria?",
+      "optionA": "Que el electrodo sea de color azul.",
+      "optionB": "Comprobar que los cables tengan empalmes para mayor longitud.",
+      "optionC": "Verificar que el equipo esté conectado a tierra antes de iniciar.",
+      "optionD": "Introducir el portaelectrodos en agua para que no se caliente.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "189. En la soldadura con oxiacetileno, de acuerdo al MANUAL INFORMATIVO DE PREVENCIÓN DE RIESGOS LABORALES EN PUESTOS DE MANTENIMIENTO, ¿por qué es peligroso que las piezas tengan grasa o aceite?",
+      "optionA": "Porque en presencia de oxígeno estos productos se hacen explosivos.",
+      "optionB": "Porque la presencia de hidrocarburos en la superficie de la pieza genera porosidad interna en el cordón de soldadura, comprometiendo la estanqueidad.",
+      "optionC": "Porque la combustión de lubricantes genera una nube de humos tóxicos que requiere obligatoriamente el uso de equipos respiratorios aislantes.",
+      "optionD": "Porque el aceite reacciona con el flujo de gas en los manorreductores, provocando una sobrepresión mecánica que anula las válvulas antirretroceso.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "190. Al utilizar una escalera simple para acceder a un nivel superior, ¿cuánto debe sobresalir ésta según el MANUAL INFORMATIVO DE PREVENCIÓN DE RIESGOS LABORALES EN PUESTOS DE MANTENIMIENTO?",
+      "optionA": "Debe quedar exactamente al ras del nivel superior para evitar que el tramo sobrante interfiera en el paso de la persona trabajadora.",
+      "optionB": "Bastará con que sobresalga 50 centímetros, siempre que la escalera mantenga un ángulo de 75 grados con la horizontal.",
+      "optionC": "Deberá sobresalir al menos 1 metro sobre la zona a acceder.",
+      "optionD": "En trabajos a menos de 3,5 metros de altura, no es preceptivo que la escalera sobresalga del nivel superior si está sujeta por una segunda persona trabajadora.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "191. De acuerdo con el MANUAL INFORMATIVO DE PREVENCIÓN DE RIESGOS LABORALES EN PUESTOS DE MANTENIMIENTO de Osakidetza, ¿qué elementos específicos deben integrar las barandillas para ser consideradas una protección colectiva reglamentaria?",
+      "optionA": "Una barra superior situada a 90 cm de altura, pasamanos intermedio y un zócalo perimetral de seguridad de 10 cm.",
+      "optionB": "Únicamente redes de seguridad anticaída y líneas de vida horizontales ancladas rígidamente a la estructura del andamio.",
+      "optionC": "Una barra de protección a 1 metro de altura y una malla de señalización naranja de alta visibilidad para prevenir la caída de materiales.",
+      "optionD": "Barra superior a 1 metro, barra intermedia y rodapié de 0,15 m.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "192. En cuanto a la manipulación de cargas se refiere (MANUAL INFORMATIVO DE PREVENCIÓN DE RIESGOS LABORALES EN PUESTOS DE MANTENIMIENTO), ¿cuál es la técnica correcta para levantar un peso del suelo?",
+      "optionA": "Mantener las piernas rectas y doblar la espalda.",
+      "optionB": "Flexionar las rodillas y realizar el esfuerzo con las piernas, manteniendo la espalda recta.",
+      "optionC": "Levantar la carga de forma rápida y con un giro de cintura.",
+      "optionD": "Mantener la carga lo más alejada posible del cuerpo.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "193. Atendiendo a la clasificación mineralógica de los silicatos complejos del amianto indicados en el MANUAL INFORMATIVO DEL AMIANTO, ¿cuál de las siguientes opciones agrupa correctamente solo variedades de amianto?",
+      "optionA": "Crisotilo, Crocidolita, Antofilita y Silicato de Calcio.",
+      "optionB": "Amosita, Tremolita, Actinolita y Antofilita.",
+      "optionC": "Crisotilo, Amosita, Crocidolita y Fibrocemento.",
+      "optionD": "Actinolita, Tremolita, Serpentina y Moscovita.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "194. En el mantenimiento de calderas, una persona oficial encuentra un \"calorifugado\" que puede pulverizarse simplemente con la presión manual. Este material se clasifica, según el MANUAL INFORMATIVO DEL AMIANTO, como:",
+      "optionA": "No friable, con riesgo de emisión inexistente si está seco.",
+      "optionB": "No friable, requiriendo obligatoriamente el uso de herramientas mecánicas para liberar fibras.",
+      "optionC": "Material inerte, ya que los calorifugados solo son peligrosos en caso de rotura por herramientas.",
+      "optionD": "Friable, y su peligrosidad es alta porque puede liberar fibras por vibraciones o movimientos de aire.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "195. Respecto a la obligatoriedad de retirada de materiales con amianto (MCA) en instalaciones de Osakidetza, ¿cuál es la instrucción técnica correcta según el MANUAL INFORMATIVO DEL AMIANTO?",
+      "optionA": "Deben ser retirados obligatoriamente al finalizar su vida útil o en caso de demoliciones.",
+      "optionB": "Su retirada es opcional incluso en demoliciones si el material es no friable.",
+      "optionC": "Solo es obligatorio retirarlos si se encuentran en zonas de acceso público.",
+      "optionD": "Es obligatorio retirarlos inmediatamente al detectar cualquier síntoma de envejecimiento.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "196. De acuerdo con el MANUAL INFORMATIVO DEL AMIANTO, ¿qué propiedad física de las fibras de amianto favorece que representen un riesgo respiratorio persistente en un taller de fontanería tras la manipulación de una junta?",
+      "optionA": "Su capacidad de sublimación a temperatura ambiente.",
+      "optionB": "Su reactividad química con el hierro de las tuberías.",
+      "optionC": "Sus características aerodinámicas, pequeño tamaño y forma alargada.",
+      "optionD": "Su peso específico elevado, que las hace depositarse rápidamente en el suelo.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "197. Una persona oficial de mantenimiento debe intervenir en una bomba centrífuga. ¿Dónde existe mayor riesgo de encontrar amianto friable en este equipo, según el MANUAL INFORMATIVO DEL AMIANTO?",
+      "optionA": "En la carcasa de fundición de la bomba.",
+      "optionB": "En el bobinado de cobre del motor eléctrico.",
+      "optionC": "En la junta de presión de la bomba centrífuga.",
+      "optionD": "En el eje de transmisión de acero inoxidable.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "198. ¿Bajo qué condición se considera, según el MANUAL INFORMATIVO DEL AMIANTO, que el riesgo de emisión de fibras de un material con amianto es \"prácticamente inexistente\"?",
+      "optionA": "Siempre que el material sea de tipo friable y esté seco.",
+      "optionB": "Cuando se manipula exclusivamente con herramientas manuales en lugar de eléctricas.",
+      "optionC": "Únicamente si el material se encuentra en el exterior de los edificios.",
+      "optionD": "Cuando el material se encuentra intacto, en buen estado, encapsulado o aislado.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "199. Según los procedimientos de seguridad (MANUAL INFORMATIVO DEL AMIANTO), ¿cómo deben gestionarse los materiales de los que se desprendan fibras de amianto para su transporte?",
+      "optionA": "En bolsas de plástico transparente debidamente anudadas.",
+      "optionB": "En embalajes cerrados apropiados y con etiquetas reglamentarias que indiquen su contenido.",
+      "optionC": "En recipientes metálicos abiertos para permitir la ventilación de las fibras.",
+      "optionD": "No requieren etiquetado especial si el transporte se realiza dentro del mismo centro sanitario.",
+      "correctAnswer": "-"
+    },
+    {
+      "question": "200. Según el MANUAL INFORMATIVO DEL AMIANTO, sobre las patologías derivadas de la exposición al amianto, ¿qué característica técnica destaca sobre su aparición?",
+      "optionA": "Presentan un largo periodo de latencia, manifestándose incluso mucho tiempo después de que la exposición haya cesado.",
+      "optionB": "Los efectos desaparecen inmediatamente una vez cesa la exposición.",
+      "optionC": "Solo afectan si la exposición es cutánea y por contacto directo.",
+      "optionD": "Las patologías solo se presentan si hay inhalación de fibras visibles al ojo humano.",
+      "correctAnswer": "-"
+    }
+  ]
+}
