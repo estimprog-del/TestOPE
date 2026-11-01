@@ -1,5 +1,8 @@
 const STORAGE_KEY = "testope.web.progress.v1";
 const INFO_ACK_KEY = "testope.web.info.acknowledged.v1";
+const BACKUP_FORMAT = "testope-progress";
+const BACKUP_VERSION = 1;
+const REPORT_EMAIL = "estimprog@gmail.com";
 const BATTERY_FILES = [
   "test_Auxiliar_Administrativo.json",
   "test_Celador.json",
@@ -49,6 +52,134 @@ export function formatTime(seconds) {
   return `${String(minutes).padStart(2, "0")}:${String(remainingSeconds).padStart(2, "0")}`;
 }
 
+export function createProgressBackup(data, exportedAt = new Date().toISOString()) {
+  return {
+    format: BACKUP_FORMAT,
+    version: BACKUP_VERSION,
+    exportedAt,
+    progress: {
+      results: data.results,
+      failed: data.failed,
+      answerOverrides: data.answerOverrides,
+      attempted: data.attempted
+    }
+  };
+}
+
+export function validateProgressBackup(backup) {
+  if (
+    !backup ||
+    backup.format !== BACKUP_FORMAT ||
+    backup.version !== BACKUP_VERSION ||
+    !backup.progress ||
+    !Array.isArray(backup.progress.results) ||
+    !Array.isArray(backup.progress.failed) ||
+    !Array.isArray(backup.progress.attempted) ||
+    !backup.progress.answerOverrides ||
+    typeof backup.progress.answerOverrides !== "object" ||
+    Array.isArray(backup.progress.answerOverrides)
+  ) {
+    throw new Error("El archivo no es una copia de seguridad TestOPE compatible.");
+  }
+  const { results, failed, attempted, answerOverrides } = backup.progress;
+  if (results.length > 100 || failed.length > 500 || attempted.length > 10000) {
+    throw new Error("La copia supera los límites admitidos de datos.");
+  }
+  for (const result of results) {
+    if (
+      !result || typeof result.title !== "string" ||
+      !["correct", "incorrect", "unanswered", "ungraded", "total", "date", "timeSeconds"]
+        .every(key => Number.isFinite(result[key]) && result[key] >= 0)
+    ) {
+      throw new Error("La copia contiene un resultado no válido.");
+    }
+  }
+  const validBatteryIds = new Set(BATTERY_FILES);
+  const isValidQuestionReference = entry =>
+    entry &&
+    validBatteryIds.has(entry.batteryId) &&
+    Number.isInteger(entry.sourceIndex) &&
+    entry.sourceIndex >= 0;
+  for (const entry of attempted) {
+    if (!isValidQuestionReference(entry)) {
+      throw new Error("La copia contiene una pregunta intentada no válida.");
+    }
+  }
+  for (const entry of failed) {
+    if (
+      !isValidQuestionReference(entry) ||
+      typeof entry.batteryTitle !== "string" ||
+      typeof entry.question !== "string" ||
+      !["optionA", "optionB", "optionC", "optionD"].every(key => typeof entry[key] === "string") ||
+      ![...LETTERS, "-"].includes(String(entry.correctAnswer).toLowerCase())
+    ) {
+      throw new Error("La copia contiene una pregunta fallada no válida.");
+    }
+  }
+  const batteryPattern = new RegExp(`^(${BATTERY_FILES.map(file => file.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")}):(\\d+)$`);
+  for (const [key, answer] of Object.entries(answerOverrides)) {
+    if (!batteryPattern.test(key) || ![...LETTERS, "-"].includes(String(answer).toLowerCase())) {
+      throw new Error("La copia contiene una clave modificada no válida.");
+    }
+  }
+  return {
+    results,
+    failed,
+    attempted: [...new Map(attempted.map(item => [`${item.batteryId}:${item.sourceIndex}`, item])).values()],
+    answerOverrides
+  };
+}
+
+export function createQuestionReportLink(question, batteryTitle, questionNumber) {
+  const subject = `TestOPE: posible error en ${batteryTitle}, pregunta ${questionNumber}`;
+  const options = LETTERS.map(letter =>
+    `${letter.toUpperCase()}) ${question[`option${letter.toUpperCase()}`]}`
+  ).join("\n");
+  const body = [
+    "Quiero informar de una posible errata en esta pregunta:",
+    `Batería: ${batteryTitle}`,
+    `Pregunta: ${questionNumber}`,
+    question.question,
+    options,
+    `Clave actual: ${question.correctAnswer || "sin clave"}`,
+    "",
+    "Corrección o comentario:"
+  ].join("\n");
+  return `mailto:${REPORT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+}
+
+export function createSimulationQuestionPool(batteries, selectedBatteryIds, includeUnkeyed, answerOverrides = {}) {
+  const selected = new Set(selectedBatteryIds);
+  return batteries.flatMap(battery => {
+    if (!selected.has(battery.id)) return [];
+    return battery.test.flatMap((question, index) => {
+      const correctAnswer = answerOverrides[`${battery.id}:${index}`] || question.correctAnswer;
+      if (!includeUnkeyed && !LETTERS.includes(String(correctAnswer).toLowerCase())) return [];
+      return [{
+        ...question,
+        correctAnswer,
+        batteryId: battery.id,
+        batteryTitle: battery.title,
+        sourceIndex: index
+      }];
+    });
+  });
+}
+
+export function calculateBatteryProgress(questionCount, batteryId, attempted, failed) {
+  const attemptedCount = new Set(
+    attempted.filter(item => item.batteryId === batteryId).map(item => item.sourceIndex)
+  ).size;
+  const failedCount = new Set(
+    failed.filter(item => item.batteryId === batteryId).map(item => item.sourceIndex)
+  ).size;
+  return {
+    attempted: attemptedCount,
+    failed: failedCount,
+    pending: Math.max(0, questionCount - attemptedCount)
+  };
+}
+
 function escapeHtml(value) {
   return String(value ?? "").replace(/[&<>"']/g, character => ({
     "&": "&amp;",
@@ -78,11 +209,12 @@ function validateBattery(data, fileName) {
 function readProgress() {
   try {
     const stored = localStorage.getItem(STORAGE_KEY);
-    if (!stored) return { results: [], failed: [] };
+    if (!stored) return { results: [], failed: [], attempted: [], answerOverrides: {} };
     const progress = JSON.parse(stored);
     return {
       results: Array.isArray(progress.results) ? progress.results : [],
       failed: Array.isArray(progress.failed) ? progress.failed : [],
+      attempted: Array.isArray(progress.attempted) ? progress.attempted : [],
       answerOverrides: progress.answerOverrides && typeof progress.answerOverrides === "object"
         ? progress.answerOverrides
         : {}
@@ -94,6 +226,7 @@ function readProgress() {
 
 const progress = readProgress();
 progress.answerOverrides ||= {};
+progress.attempted ||= [];
 const state = {
   screen: "home",
   batteries: [],
@@ -103,7 +236,8 @@ const state = {
   quiz: null,
   lastResult: null,
   study: null,
-  answerTemplate: null
+  answerTemplate: null,
+  simulationConfig: null
 };
 const app = typeof document === "undefined" ? null : document.querySelector("#app");
 
@@ -112,18 +246,26 @@ function persistProgress() {
     localStorage.setItem(STORAGE_KEY, JSON.stringify({
       results: progress.results,
       failed: progress.failed,
-      answerOverrides: progress.answerOverrides
+      answerOverrides: progress.answerOverrides,
+      attempted: progress.attempted
     }));
     state.notice = "";
     state.noticeType = "";
+    return true;
   } catch (error) {
     state.notice = `No se pudieron guardar los resultados en este navegador: ${error.message}`;
     state.noticeType = "error";
+    return false;
   }
 }
 
 function button(label, action, style = "secondary", attributes = "") {
   return `<button class="button ${style}" data-action="${action}" ${attributes}>${label}</button>`;
+}
+
+function reportLink(question, batteryTitle, sourceIndex) {
+  const href = createQuestionReportLink(question, batteryTitle, sourceIndex + 1);
+  return `<a class="button secondary" href="${escapeHtml(href)}">Informar de una errata</a>`;
 }
 
 function pageShell(content, actions = "") {
@@ -158,10 +300,11 @@ function renderHome() {
         <h3>${escapeHtml(battery.title)}</h3>
         <span class="count-pill">${battery.test.length} preguntas</span>
       </div>
+      ${renderBatteryProgress(battery)}
       <p>Practica la batería completa, haz un simulacro aleatorio o estudia las preguntas con su plantilla de respuestas.</p>
       <div class="card-actions">
         ${button("Hacer test", "start-test", "primary", `data-battery="${escapeHtml(battery.id)}"`)}
-        ${button("Simulacro · 100", "start-simulation", "secondary", `data-battery="${escapeHtml(battery.id)}"`)}
+        ${button("Configurar simulacro", "configure-simulation", "secondary", `data-battery="${escapeHtml(battery.id)}"`)}
         ${button("Estudiar", "start-study", "soft", `data-battery="${escapeHtml(battery.id)}"`)}
         ${button("Plantilla", "start-answer-template", "secondary", `data-battery="${escapeHtml(battery.id)}"`)}
       </div>
@@ -176,7 +319,10 @@ function renderHome() {
 
   const actions = `
     <button class="quiet-button" data-action="statistics">Mis resultados${resultsCount ? ` · ${resultsCount}` : ""}</button>
-    ${failedCount ? `<button class="quiet-button" data-action="review-failed">Repasar fallos · ${failedCount}</button>` : ""}`;
+    ${failedCount ? `<button class="quiet-button" data-action="review-failed">Repasar fallos · ${failedCount}</button>` : ""}
+    <button class="quiet-button" data-action="export-backup">Exportar datos</button>
+    <button class="quiet-button" data-action="choose-backup">Importar copia</button>
+    <input id="backup-file" type="file" accept="application/json,.json" hidden>`;
 
   app.innerHTML = pageShell(`
     <section class="hero">
@@ -184,7 +330,7 @@ function renderHome() {
         <p class="eyebrow">Entrena a tu manera</p>
         <h1>Un paso más cerca de tu plaza.</h1>
         <p>Practica las baterías OPE, prepara simulacros y revisa tus errores desde el móvil o el ordenador.</p>
-        ${button("Simulacro mezclado", "start-mixed", "soft")}
+        ${button("Configurar simulacro", "configure-simulation", "soft")}
       </div>
       <div class="hero-art" aria-hidden="true"><span>✓</span></div>
     </section>
@@ -196,6 +342,116 @@ function renderHome() {
       ${errors}
       <div class="battery-grid">${empty}</div>
     </section>`, actions);
+}
+
+function renderBatteryProgress(battery) {
+  const counts = calculateBatteryProgress(
+    battery.test.length,
+    battery.id,
+    progress.attempted,
+    progress.failed
+  );
+  return `<div class="battery-progress" aria-label="Progreso de ${escapeHtml(battery.title)}">
+    <span><strong>${counts.attempted}</strong> intentadas</span>
+    <span><strong>${counts.failed}</strong> fallos por repasar</span>
+    <span><strong>${counts.pending}</strong> pendientes</span>
+  </div>`;
+}
+
+function renderSimulationConfig() {
+  const config = state.simulationConfig;
+  const selected = new Set(config.selectedBatteryIds);
+  const pool = createSimulationQuestionPool(
+    state.batteries,
+    config.selectedBatteryIds,
+    config.includeUnkeyed,
+    progress.answerOverrides
+  );
+  const maxQuestions = pool.length;
+  const questionCount = Math.min(config.questionCount, maxQuestions);
+  const evaluableQuestions = pool.filter(question =>
+    LETTERS.includes(String(question.correctAnswer).toLowerCase())
+  ).length;
+  const choices = state.batteries.map(battery => {
+    const available = createSimulationQuestionPool(
+      [battery],
+      [battery.id],
+      config.includeUnkeyed,
+      progress.answerOverrides
+    ).length;
+    return `<label class="battery-choice">
+      <input type="checkbox" name="simulation-battery" value="${escapeHtml(battery.id)}" ${selected.has(battery.id) ? "checked" : ""}>
+      <span>${escapeHtml(battery.title)}</span>
+      <small>${available} disponibles</small>
+    </label>`;
+  }).join("");
+
+  app.innerHTML = pageShell(`
+    <div class="page-title"><h1>Configurar simulacro</h1><p>Elige las baterías y cuántas preguntas quieres responder.</p></div>
+    <section class="quiz-card simulation-config">
+      <div class="section-heading"><div><h2>Baterías</h2><p>Se mezclan las preguntas de las seleccionadas.</p></div></div>
+      <div class="battery-choices">${choices}</div>
+      <label class="include-unkeyed"><input id="include-unkeyed" type="checkbox" ${config.includeUnkeyed ? "checked" : ""}> Incluir también preguntas sin clave de respuesta</label>
+      <div class="simulation-settings">
+        <label for="simulation-count">Número de preguntas</label>
+        <input id="simulation-count" class="search" type="number" min="${maxQuestions ? 1 : 0}" max="${maxQuestions}" value="${questionCount}" ${maxQuestions ? "" : "disabled"}>
+      </div>
+      <p class="simulation-summary" id="simulation-summary" data-available="${maxQuestions}" data-evaluable="${evaluableQuestions}">${questionCount} preguntas en el simulacro. ${evaluableQuestions} evaluables${maxQuestions > evaluableQuestions ? ` y ${maxQuestions - evaluableQuestions} sin clave` : ""} disponibles.</p>
+      <div class="card-actions">
+        ${button("Empezar simulacro", "start-configured-simulation", "primary", maxQuestions ? "" : "disabled")}
+        ${button("Cancelar", "home")}
+      </div>
+    </section>`, button("Volver", "home"));
+}
+
+function updateSimulationCountSummary() {
+  const input = document.querySelector("#simulation-count");
+  const summary = document.querySelector("#simulation-summary");
+  if (!input || !summary) return;
+  const available = Number(summary.dataset.available);
+  const evaluable = Number(summary.dataset.evaluable);
+  const count = Math.max(0, Math.min(Number(input.value) || 0, available));
+  state.simulationConfig.questionCount = count;
+  input.value = String(count);
+  summary.textContent = `${count} preguntas en el simulacro. ${evaluable} evaluables${available > evaluable ? ` y ${available - evaluable} sin clave` : ""} disponibles.`;
+}
+
+function exportBackup() {
+  const backup = createProgressBackup(progress);
+  const blob = new Blob([JSON.stringify(backup, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = `testope-copia-${new Date().toISOString().slice(0, 10)}.json`;
+  link.click();
+  window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+  state.notice = "Copia de seguridad descargada. Guárdala en un lugar seguro.";
+  state.noticeType = "success";
+  render();
+}
+
+async function importBackupFile(file) {
+  if (!file) return;
+  if (file.size > 5 * 1024 * 1024) throw new Error("El archivo supera el tamaño máximo de 5 MB.");
+  const parsed = JSON.parse(await file.text());
+  const restored = validateProgressBackup(parsed);
+  if (!window.confirm("Importar esta copia reemplazará los resultados, fallos, progreso y claves editadas guardados en este navegador. ¿Continuar?")) return;
+
+  const previous = {
+    results: progress.results,
+    failed: progress.failed,
+    attempted: progress.attempted,
+    answerOverrides: progress.answerOverrides
+  };
+  Object.assign(progress, restored);
+  if (!persistProgress()) {
+    Object.assign(progress, previous);
+    render();
+    return;
+  }
+  state.notice = "Copia restaurada correctamente.";
+  state.noticeType = "success";
+  render();
 }
 
 function questionOptions(question, selectedAnswer, mode) {
@@ -263,6 +519,9 @@ function renderQuiz() {
             ${button(nextLabel, "next", "primary")}
           </div>
         </div>
+        ${question.batteryTitle && Number.isInteger(question.sourceIndex)
+          ? `<div class="report-question">${reportLink(question, question.batteryTitle, question.sourceIndex)}</div>`
+          : ""}
       </section>
       <aside class="question-nav">
         <h3>Preguntas</h3>
@@ -289,6 +548,9 @@ function renderResult() {
       ${hasAnswerKey
         ? item.answer !== answer.toLowerCase() ? `<p class="correct-answer">Correcta: ${answer}. ${escapeHtml(item.question[`option${answer}`])}</p>` : ""
         : `<p>Aún no hay una clave de respuesta para esta pregunta.</p>`}
+      ${item.question.batteryTitle && Number.isInteger(item.question.sourceIndex)
+        ? reportLink(item.question, item.question.batteryTitle, item.question.sourceIndex)
+        : ""}
     </article>`;
   }).join("");
 
@@ -374,6 +636,7 @@ function renderAnswerTemplate() {
             ${button(template.index === questions.length - 1 ? "Terminar" : "Siguiente", "answer-template-next", "primary")}
           </div>
         </div>
+        ${reportLink(question, template.battery.title, template.index)}
       </section>
       <aside class="question-nav">
         <h3>Respuestas</h3>
@@ -410,6 +673,7 @@ function renderStudy() {
           ${button(study.index === study.questions.length - 1 ? "Terminar" : "Siguiente", "study-next", "primary")}
         </div>
       </div>
+      ${question.batteryId ? `<div class="report-question">${reportLink(question, question.batteryTitle, question.sourceIndex)}</div>` : ""}
     </section>`,
   button("Salir", "home"));
 }
@@ -420,6 +684,7 @@ function render() {
   else if (state.screen === "statistics") renderStatistics();
   else if (state.screen === "answer-template") renderAnswerTemplate();
   else if (state.screen === "study") renderStudy();
+  else if (state.screen === "simulation-config") renderSimulationConfig();
   else renderHome();
 }
 
@@ -447,7 +712,7 @@ function startQuiz(title, questions, { mode = "individual", isSimulation = false
   render();
 }
 
-function startBatteryQuiz(battery, simulation) {
+function startBatteryQuiz(battery) {
   const questions = battery.test.map((question, index) => ({
     ...question,
     correctAnswer: progress.answerOverrides[`${battery.id}:${index}`] || question.correctAnswer,
@@ -455,11 +720,49 @@ function startBatteryQuiz(battery, simulation) {
     batteryTitle: battery.title,
     sourceIndex: index
   }));
-  startQuiz(
-    simulation ? `Simulacro: ${battery.title}` : battery.title,
-    simulation ? shuffle(questions).slice(0, 100) : questions,
-    { mode: simulation ? "exam" : "individual", isSimulation: simulation }
+  startQuiz(battery.title, questions);
+}
+
+function configureSimulation(batteryId = null) {
+  const selectedBatteryIds = batteryId
+    ? [batteryId]
+    : state.batteries.map(battery => battery.id);
+  const available = createSimulationQuestionPool(
+    state.batteries,
+    selectedBatteryIds,
+    false,
+    progress.answerOverrides
+  ).length;
+  state.simulationConfig = {
+    selectedBatteryIds,
+    questionCount: Math.min(100, available),
+    includeUnkeyed: false
+  };
+  state.screen = "simulation-config";
+  render();
+}
+
+function startConfiguredSimulation() {
+  const config = state.simulationConfig;
+  if (!config) return;
+  const pool = createSimulationQuestionPool(
+    state.batteries,
+    config.selectedBatteryIds,
+    config.includeUnkeyed,
+    progress.answerOverrides
   );
+  const count = Math.min(config.questionCount, pool.length);
+  if (count < 1) {
+    state.notice = "Selecciona al menos una batería que tenga preguntas disponibles.";
+    state.noticeType = "error";
+    state.screen = "simulation-config";
+    render();
+    return;
+  }
+  const title = config.selectedBatteryIds.length === 1
+    ? `Simulacro: ${state.batteries.find(battery => battery.id === config.selectedBatteryIds[0])?.title || "batería"}`
+    : "Simulacro personalizado";
+  startQuiz(title, shuffle(pool).slice(0, count), { mode: "exam", isSimulation: true });
 }
 
 function finishQuiz() {
@@ -491,8 +794,15 @@ function finishQuiz() {
   progress.results = progress.results.slice(0, 100);
 
   const failures = new Map(progress.failed.map(item => [`${item.batteryId}:${item.sourceIndex}`, item]));
+  const attempted = new Map(progress.attempted.map(item => [`${item.batteryId}:${item.sourceIndex}`, item]));
   detail.forEach(({ question, answer }) => {
     if (!question.batteryId || !Number.isInteger(question.sourceIndex)) return;
+    if (answer) {
+      attempted.set(`${question.batteryId}:${question.sourceIndex}`, {
+        batteryId: question.batteryId,
+        sourceIndex: question.sourceIndex
+      });
+    }
     if (!LETTERS.includes(String(question.correctAnswer).toLowerCase())) return;
     const key = `${question.batteryId}:${question.sourceIndex}`;
     if (answer && answer.toLowerCase() === question.correctAnswer.toLowerCase()) {
@@ -508,6 +818,7 @@ function finishQuiz() {
     }
   });
   progress.failed = [...failures.values()].slice(-500);
+  progress.attempted = [...attempted.values()].slice(-10000);
   persistProgress();
   state.screen = "result";
   render();
@@ -519,7 +830,9 @@ function startStudy(battery) {
     questions: battery.test.map((question, index) => ({
       ...question,
       correctAnswer: progress.answerOverrides[`${battery.id}:${index}`] || question.correctAnswer,
-      sourceIndex: index
+      sourceIndex: index,
+      batteryId: battery.id,
+      batteryTitle: battery.title
     })),
     index: 0,
     revealed: false
@@ -561,21 +874,21 @@ function handleAction(action, target) {
       break;
     case "start-test": {
       const battery = state.batteries.find(item => item.id === target.dataset.battery);
-      if (battery) startBatteryQuiz(battery, false);
+      if (battery) startBatteryQuiz(battery);
       break;
     }
-    case "start-simulation": {
-      const battery = state.batteries.find(item => item.id === target.dataset.battery);
-      if (battery) startBatteryQuiz(battery, true);
+    case "configure-simulation":
+      configureSimulation(target.dataset.battery || null);
       break;
-    }
-    case "start-mixed": {
-      const questions = state.batteries.flatMap(battery => battery.test.map((question, index) => ({
-        ...question, batteryId: battery.id, batteryTitle: battery.title, sourceIndex: index
-      })));
-      startQuiz("Simulacro mezclado", shuffle(questions).slice(0, 100), { mode: "exam", isSimulation: true });
+    case "start-configured-simulation":
+      startConfiguredSimulation();
       break;
-    }
+    case "export-backup":
+      exportBackup();
+      break;
+    case "choose-backup":
+      document.querySelector("#backup-file")?.click();
+      break;
     case "start-study": {
       const battery = state.batteries.find(item => item.id === target.dataset.battery);
       if (battery) startStudy(battery);
@@ -629,9 +942,10 @@ function handleAction(action, target) {
       document.querySelector("#site-info")?.showModal();
       break;
     case "clear-history":
-      if (!window.confirm("¿Borrar todo el historial y las preguntas guardadas para repasar en este navegador?")) return;
+      if (!window.confirm("¿Borrar el historial, el progreso por batería y las preguntas guardadas para repasar en este navegador?")) return;
       progress.results = [];
       progress.failed = [];
+      progress.attempted = [];
       persistProgress();
       render();
       break;
@@ -714,13 +1028,53 @@ if (typeof document !== "undefined" && app) {
   });
 
   app.addEventListener("input", event => {
-    if (event.target.id !== "battery-search") return;
-    const cursor = event.target.selectionStart;
-    state.query = event.target.value;
+    if (event.target.id === "simulation-count") {
+      updateSimulationCountSummary();
+      return;
+    }
+    if (event.target.id === "battery-search") {
+      const cursor = event.target.selectionStart;
+      state.query = event.target.value;
+      render();
+      const search = document.querySelector("#battery-search");
+      search?.focus();
+      search?.setSelectionRange(cursor, cursor);
+    }
+  });
+
+  app.addEventListener("change", async event => {
+    if (event.target.id === "backup-file") {
+      try {
+        await importBackupFile(event.target.files?.[0]);
+      } catch (error) {
+        state.notice = `No se pudo importar la copia: ${error.message}`;
+        state.noticeType = "error";
+        render();
+      } finally {
+        event.target.value = "";
+      }
+      return;
+    }
+
+    if (event.target.id === "include-unkeyed") {
+      state.simulationConfig.includeUnkeyed = event.target.checked;
+    } else if (event.target.matches('input[name="simulation-battery"]')) {
+      const selectedIds = new Set(state.simulationConfig.selectedBatteryIds);
+      if (event.target.checked) selectedIds.add(event.target.value);
+      else selectedIds.delete(event.target.value);
+      state.simulationConfig.selectedBatteryIds = [...selectedIds];
+    } else {
+      return;
+    }
+
+    const available = createSimulationQuestionPool(
+      state.batteries,
+      state.simulationConfig.selectedBatteryIds,
+      state.simulationConfig.includeUnkeyed,
+      progress.answerOverrides
+    ).length;
+    state.simulationConfig.questionCount = Math.min(state.simulationConfig.questionCount, available);
     render();
-    const search = document.querySelector("#battery-search");
-    search?.focus();
-    search?.setSelectionRange(cursor, cursor);
   });
 }
 

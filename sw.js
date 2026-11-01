@@ -1,4 +1,4 @@
-const CACHE_NAME = "testope-web-v2";
+const CACHE_NAME = "testope-web-v3";
 const APP_FILES = [
   "./",
   "./index.html",

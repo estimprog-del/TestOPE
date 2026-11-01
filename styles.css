@@ -36,7 +36,7 @@ button { cursor: pointer; }
 .brand { display: flex; align-items: center; gap: 11px; color: var(--green); font-size: 1.08rem; font-weight: 800; letter-spacing: -.04em; }
 .brand img { width: 38px; height: 38px; }
 .brand small { display: block; color: var(--muted); font-size: .68rem; font-weight: 600; letter-spacing: .02em; }
-.top-actions { display: flex; align-items: center; gap: 8px; }
+.top-actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 4px; }
 .quiet-button, .icon-button { border: 0; background: transparent; color: var(--muted); padding: 10px 12px; border-radius: 12px; font-weight: 700; }
 .quiet-button:hover, .icon-button:hover { background: var(--green-light); color: var(--green); }
 
@@ -64,6 +64,8 @@ h1, h2, h3, p { margin-top: 0; }
 .card-top h3 { margin: 0; font-size: 1.02rem; line-height: 1.4; letter-spacing: -.02em; }
 .count-pill { flex: 0 0 auto; padding: 6px 9px; border-radius: 999px; color: var(--green); background: var(--green-light); font-size: .75rem; font-weight: 800; }
 .battery-card p { margin: 10px 0 18px; color: var(--muted); font-size: .88rem; line-height: 1.5; }
+.battery-progress { display: flex; flex-wrap: wrap; gap: 7px 14px; margin-top: 12px; color: var(--muted); font-size: .76rem; }
+.battery-progress strong { color: var(--green); }
 .card-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; }
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 42px; padding: 10px 16px; border: 1px solid transparent; border-radius: 12px; font-weight: 750; transition: .15s ease; }
 .button.primary { color: #fff; background: var(--green); }
@@ -89,6 +91,20 @@ h1, h2, h3, p { margin-top: 0; }
 .info-dialog-content .info-disclaimer { margin: 20px 0; color: var(--ink); font-weight: 700; }
 .info-acknowledge { width: 100%; }
 .empty { padding: 30px; border: 1px dashed #cbd6cc; border-radius: 18px; color: var(--muted); text-align: center; }
+.battery-choices { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.battery-choice { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: 6px 10px; padding: 12px; border: 1px solid var(--line); border-radius: 12px; background: #fff; cursor: pointer; }
+.battery-choice input { grid-row: span 2; width: 18px; height: 18px; accent-color: var(--green); }
+.battery-choice span { font-size: .86rem; font-weight: 700; line-height: 1.35; }
+.battery-choice small { color: var(--muted); font-size: .74rem; }
+.include-unkeyed { display: flex; align-items: center; gap: 9px; margin-top: 20px; font-size: .9rem; }
+.include-unkeyed input { width: 18px; height: 18px; accent-color: var(--green); }
+.simulation-settings { display: flex; align-items: center; gap: 14px; margin-top: 20px; }
+.simulation-settings label { font-weight: 750; }
+.simulation-settings input { width: 120px; }
+.simulation-summary { margin: 12px 0 18px; color: var(--muted); font-size: .88rem; }
+.report-question { margin-top: 16px; }
+.review-item .button { margin-top: 12px; font-size: .82rem; }
+.info-dialog-content a { color: var(--green); font-weight: 700; }
 
 .page-title { margin: 10px 0 24px; }
 .page-title h1 { margin-bottom: 8px; font-size: clamp(1.7rem, 4vw, 2.45rem); letter-spacing: -.05em; }
@@ -159,6 +175,9 @@ h1, h2, h3, p { margin-top: 0; }
   .question-nav { order: -1; padding: 13px; }
   .number-grid { grid-template-columns: repeat(10, 1fr); max-height: 120px; }
   .nav-legend { display: flex; flex-wrap: wrap; gap: 12px; }
+  .battery-choices { grid-template-columns: 1fr; }
+  .simulation-settings { align-items: stretch; flex-direction: column; gap: 8px; }
+  .simulation-settings input { width: 100%; }
 }
 
 @media (max-width: 460px) {
@@ -166,6 +185,7 @@ h1, h2, h3, p { margin-top: 0; }
   .topbar { padding: 14px 0; }
   .brand img { width: 34px; height: 34px; }
   .top-actions .quiet-button { padding: 9px 7px; font-size: .8rem; }
+  .top-actions { gap: 0; }
   .fine-print { align-items: flex-start; flex-direction: column; gap: 4px; }
   main { padding-top: 7px; }
   .hero { padding: 24px 20px; border-radius: 21px; }

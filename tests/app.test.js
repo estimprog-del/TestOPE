@@ -3,7 +3,16 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { join } from "node:path";
-import { calculateResults, formatTime, shuffle } from "../app.js";
+import {
+  calculateBatteryProgress,
+  calculateResults,
+  createProgressBackup,
+  createQuestionReportLink,
+  createSimulationQuestionPool,
+  formatTime,
+  shuffle,
+  validateProgressBackup
+} from "../app.js";
 
 test("calculateResults counts correct, incorrect and unanswered questions", () => {
   const questions = [
@@ -46,6 +55,74 @@ test("formatTime uses minute and second padding", () => {
   assert.equal(formatTime(0), "00:00");
   assert.equal(formatTime(65), "01:05");
   assert.equal(formatTime(5400), "90:00");
+});
+
+test("progress backups round-trip and reject invalid battery answer overrides", () => {
+  const progress = {
+    results: [{ title: "Test", correct: 1, incorrect: 0, unanswered: 0, ungraded: 0, total: 1, date: 1, timeSeconds: 30 }],
+    failed: [{
+      batteryId: "test_Celador.json",
+      batteryTitle: "Celador",
+      sourceIndex: 2,
+      question: "Pregunta fallada",
+      optionA: "A",
+      optionB: "B",
+      optionC: "C",
+      optionD: "D",
+      correctAnswer: "b"
+    }],
+    attempted: [{ batteryId: "test_Celador.json", sourceIndex: 0 }],
+    answerOverrides: { "test_Celador.json:0": "b" }
+  };
+  const backup = createProgressBackup(progress, "2026-11-01T00:00:00.000Z");
+  assert.deepEqual(validateProgressBackup(backup), progress);
+  assert.throws(() => validateProgressBackup({
+    ...backup,
+    progress: { ...progress, answerOverrides: { "test_Celador.json:0": "z" } }
+  }), /clave modificada no válida/);
+});
+
+test("custom simulation pools honor selected batteries, edited keys and unkeyed setting", () => {
+  const batteries = [
+    { id: "celador", title: "Celador", test: [{ correctAnswer: "a" }, { correctAnswer: "-" }] },
+    { id: "tecnico", title: "Técnico", test: [{ correctAnswer: "b" }] }
+  ];
+  assert.deepEqual(
+    createSimulationQuestionPool(batteries, ["celador"], false, { "celador:1": "c" })
+      .map(question => [question.batteryId, question.sourceIndex, question.correctAnswer]),
+    [["celador", 0, "a"], ["celador", 1, "c"]]
+  );
+  assert.equal(createSimulationQuestionPool(batteries, ["celador"], true).length, 2);
+  assert.equal(createSimulationQuestionPool(batteries, ["tecnico"], false).length, 1);
+});
+
+test("battery progress counts unique attempted and failed questions", () => {
+  const attempted = [
+    { batteryId: "celador", sourceIndex: 1 },
+    { batteryId: "celador", sourceIndex: 1 }
+  ];
+  const failed = [{ batteryId: "celador", sourceIndex: 1 }];
+  assert.deepEqual(calculateBatteryProgress(10, "celador", attempted, failed), {
+    attempted: 1,
+    failed: 1,
+    pending: 9
+  });
+});
+
+test("question report mail contains the battery, question number and contact", () => {
+  const link = createQuestionReportLink({
+    question: "Pregunta de ejemplo",
+    optionA: "Opción A",
+    optionB: "Opción B",
+    optionC: "Opción C",
+    optionD: "Opción D",
+    correctAnswer: "b"
+  }, "Celador", 12);
+  const decoded = decodeURIComponent(link);
+  assert.match(link, /^mailto:estimprog@gmail\.com\?/);
+  assert.match(decoded, /Celador, pregunta 12/);
+  assert.match(decoded, /Pregunta de ejemplo/);
+  assert.match(decoded, /Clave actual: b/);
 });
 
 test("the first-visit information dialog explains construction, privacy and storage", async () => {
