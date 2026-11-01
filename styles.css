@@ -108,7 +108,7 @@ h1, h2, h3, p { margin-top: 0; }
 .simulation-settings label { font-weight: 750; }
 .simulation-settings input { width: 120px; }
 .simulation-summary { margin: 12px 0 18px; color: var(--muted); font-size: .88rem; }
-.report-question { margin-top: 16px; }
+.report-question { display: flex; justify-content: flex-end; margin-top: 24px; }
 .review-item .button { margin-top: 12px; font-size: .82rem; }
 .info-dialog-content a { color: var(--green); font-weight: 700; }
 
@@ -137,7 +137,18 @@ h1, h2, h3, p { margin-top: 0; }
 .question-actions .left, .question-actions .right { display: flex; align-items: center; gap: 8px; }
 .question-nav { padding: 18px; }
 .question-nav h3 { margin: 0 0 13px; font-size: .96rem; }
-.number-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; max-height: 370px; overflow: auto; }
+.number-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+  max-height: 370px;
+  overflow: auto;
+  scrollbar-color: var(--green) var(--green-light);
+  scrollbar-width: thin;
+}
+.number-grid::-webkit-scrollbar { width: 8px; }
+.number-grid::-webkit-scrollbar-track { border-radius: 999px; background: var(--green-light); }
+.number-grid::-webkit-scrollbar-thumb { border: 2px solid var(--green-light); border-radius: 999px; background: var(--green); }
 .number-button { min-width: 0; aspect-ratio: 1; border: 1px solid var(--line); border-radius: 9px; color: var(--muted); background: var(--surface); font-size: .75rem; font-weight: 700; }
 .number-button.current { border-color: var(--green); color: #fff; background: var(--green); }
 .number-button.answered { color: var(--green); background: var(--green-light); }
