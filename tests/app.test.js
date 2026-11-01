@@ -4,12 +4,15 @@ import { readFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { join } from "node:path";
 import {
+  adjustFontScale,
   calculateBatteryProgress,
   calculateResults,
   createProgressBackup,
   createQuestionReportLink,
   createSimulationQuestionPool,
   formatTime,
+  getAnswerForShortcut,
+  normalizePreferences,
   shuffle,
   validateProgressBackup
 } from "../app.js";
@@ -55,6 +58,40 @@ test("formatTime uses minute and second padding", () => {
   assert.equal(formatTime(0), "00:00");
   assert.equal(formatTime(65), "01:05");
   assert.equal(formatTime(5400), "90:00");
+});
+
+test("reading preferences normalize themes and keep font scale in range", () => {
+  assert.deepEqual(normalizePreferences({ theme: "sepia", fontScale: 1.2 }), {
+    theme: "sepia",
+    fontScale: 1.2
+  });
+  assert.deepEqual(normalizePreferences({ theme: "unknown", fontScale: 10 }), {
+    theme: "light",
+    fontScale: 1.4
+  });
+  assert.equal(adjustFontScale(1, -1), 0.9);
+  assert.equal(adjustFontScale(1.4, 1), 1.4);
+});
+
+test("answer shortcuts map A-D and 1-4 without capturing other keys", () => {
+  assert.deepEqual(["a", "B", "c", "D", "1", "2", "3", "4"].map(getAnswerForShortcut), [
+    "a", "b", "c", "d", "a", "b", "c", "d"
+  ]);
+  assert.equal(getAnswerForShortcut("Escape"), null);
+});
+
+test("the app exposes persistent theme/font controls and limits shortcuts to tests", async () => {
+  const app = await readFile(fileURLToPath(new URL("../app.js", import.meta.url)), "utf8");
+  const styles = await readFile(fileURLToPath(new URL("../styles.css", import.meta.url)), "utf8");
+
+  assert.match(app, /testope\.web\.preferences\.v1/);
+  assert.match(app, /data-action="cycle-theme"/);
+  assert.match(app, /data-action="increase-font"/);
+  assert.match(app, /state\.screen !== "quiz"/);
+  assert.match(app, /event\.target\.closest\("input, textarea, select/);
+  assert.match(styles, /html\[data-theme="dark"\]/);
+  assert.match(styles, /html\[data-theme="sepia"\]/);
+  assert.match(styles, /--reading-scale/);
 });
 
 test("progress backups round-trip and reject invalid battery answer overrides", () => {

@@ -1,5 +1,9 @@
 const STORAGE_KEY = "testope.web.progress.v1";
 const INFO_ACK_KEY = "testope.web.info.acknowledged.v1";
+const PREFERENCES_KEY = "testope.web.preferences.v1";
+const THEMES = ["light", "dark", "sepia"];
+const MIN_FONT_SCALE = 0.9;
+const MAX_FONT_SCALE = 1.4;
 const BACKUP_FORMAT = "testope-progress";
 const BACKUP_VERSION = 1;
 const REPORT_EMAIL = "estimprog@gmail.com";
@@ -14,6 +18,27 @@ const BATTERY_FILES = [
   "test_Tecnico_Superior_Admin_Gestion.json"
 ];
 const LETTERS = ["a", "b", "c", "d"];
+
+export function normalizePreferences(value) {
+  return {
+    theme: THEMES.includes(value?.theme) ? value.theme : "light",
+    fontScale: Number.isFinite(value?.fontScale)
+      ? Math.min(MAX_FONT_SCALE, Math.max(MIN_FONT_SCALE, Math.round(value.fontScale * 10) / 10))
+      : 1
+  };
+}
+
+export function adjustFontScale(current, direction) {
+  const step = direction < 0 ? -0.1 : 0.1;
+  return normalizePreferences({ fontScale: current + step }).fontScale;
+}
+
+export function getAnswerForShortcut(key) {
+  const normalized = String(key).toLowerCase();
+  if (LETTERS.includes(normalized)) return normalized;
+  const numberIndex = ["1", "2", "3", "4"].indexOf(normalized);
+  return numberIndex === -1 ? null : LETTERS[numberIndex];
+}
 
 export function calculateResults(questions, answers) {
   let correct = 0;
@@ -224,6 +249,14 @@ function readProgress() {
   }
 }
 
+function readPreferences() {
+  try {
+    return normalizePreferences(JSON.parse(localStorage.getItem(PREFERENCES_KEY) || "{}"));
+  } catch {
+    return normalizePreferences({});
+  }
+}
+
 const progress = readProgress();
 progress.answerOverrides ||= {};
 progress.attempted ||= [];
@@ -237,9 +270,29 @@ const state = {
   lastResult: null,
   study: null,
   answerTemplate: null,
-  simulationConfig: null
+  simulationConfig: null,
+  preferences: typeof localStorage === "undefined"
+    ? normalizePreferences({})
+    : readPreferences()
 };
 const app = typeof document === "undefined" ? null : document.querySelector("#app");
+
+function applyPreferences() {
+  if (typeof document === "undefined") return;
+  document.documentElement.dataset.theme = state.preferences.theme;
+  document.documentElement.style.setProperty("--reading-scale", String(state.preferences.fontScale));
+}
+
+function savePreferences() {
+  try {
+    localStorage.setItem(PREFERENCES_KEY, JSON.stringify(state.preferences));
+    state.notice = "";
+    state.noticeType = "";
+  } catch (error) {
+    state.notice = `No se pudieron guardar tus preferencias: ${error.message}`;
+    state.noticeType = "error";
+  }
+}
 
 function persistProgress() {
   try {
@@ -269,6 +322,7 @@ function reportLink(question, batteryTitle, sourceIndex) {
 }
 
 function pageShell(content, actions = "") {
+  const themeLabels = { light: "Claro", dark: "Oscuro", sepia: "Lectura sepia" };
   return `
     <div class="shell">
       <header class="topbar">
@@ -277,6 +331,12 @@ function pageShell(content, actions = "") {
           <span>TestOPE<small>Preparación OPE Osakidetza</small></span>
         </button>
         <div class="top-actions">
+          <button class="quiet-button preference-button" data-action="cycle-theme" aria-label="Cambiar tema. Actual: ${themeLabels[state.preferences.theme]}" title="Cambiar tema">◐ ${themeLabels[state.preferences.theme]}</button>
+          <div class="font-controls" aria-label="Tamaño del texto de lectura">
+            <button class="quiet-button" data-action="decrease-font" aria-label="Reducir tamaño del texto" ${state.preferences.fontScale <= MIN_FONT_SCALE ? "disabled" : ""}>A−</button>
+            <span aria-live="polite">${Math.round(state.preferences.fontScale * 100)}%</span>
+            <button class="quiet-button" data-action="increase-font" aria-label="Aumentar tamaño del texto" ${state.preferences.fontScale >= MAX_FONT_SCALE ? "disabled" : ""}>A+</button>
+          </div>
           ${actions}
         </div>
       </header>
@@ -463,7 +523,7 @@ function questionOptions(question, selectedAnswer, mode) {
       if (letter === question.correctAnswer.toLowerCase()) status += " correct";
       else if (selected) status += " wrong";
     }
-    return `<button class="option ${status}" data-action="answer" data-answer="${letter}" ${mode === "exam" ? "" : ""}>
+    return `<button class="option ${status}" data-action="answer" data-answer="${letter}" aria-keyshortcuts="${letter.toUpperCase()} ${index + 1}">
       <span class="option-letter">${String.fromCharCode(65 + index)}</span><span>${escapeHtml(option)}</span>
     </button>`;
   }).join("");
@@ -506,6 +566,7 @@ function renderQuiz() {
           <span>Pregunta ${quiz.index + 1} de ${quiz.questions.length}</span>
           <span class="timer" id="quiz-timer">${quiz.isSimulation ? "Restante" : "Tiempo"} · ${formatTime(quiz.isSimulation ? remaining : elapsed)}</span>
         </div>
+        <p class="keyboard-hint">Atajos: A–D o 1–4 para responder</p>
         <div class="progress-track"><div class="progress-value" style="width:${((quiz.index + 1) / quiz.questions.length) * 100}%"></div></div>
         <h2 class="question-text">${escapeHtml(question.question)}</h2>
         <div class="options">${questionOptions(question, selectedAnswer, quiz.mode)}</div>
@@ -872,6 +933,22 @@ function handleAction(action, target) {
       state.screen = "statistics";
       render();
       break;
+    case "cycle-theme":
+      state.preferences.theme = THEMES[(THEMES.indexOf(state.preferences.theme) + 1) % THEMES.length];
+      savePreferences();
+      applyPreferences();
+      render();
+      break;
+    case "increase-font":
+    case "decrease-font":
+      state.preferences.fontScale = adjustFontScale(
+        state.preferences.fontScale,
+        action === "increase-font" ? 1 : -1
+      );
+      savePreferences();
+      applyPreferences();
+      render();
+      break;
     case "start-test": {
       const battery = state.batteries.find(item => item.id === target.dataset.battery);
       if (battery) startBatteryQuiz(battery);
@@ -1022,6 +1099,8 @@ function handleAction(action, target) {
 }
 
 if (typeof document !== "undefined" && app) {
+  applyPreferences();
+
   app.addEventListener("click", event => {
     const target = event.target.closest("[data-action]");
     if (target && !target.disabled) handleAction(target.dataset.action, target);
@@ -1075,6 +1154,19 @@ if (typeof document !== "undefined" && app) {
     ).length;
     state.simulationConfig.questionCount = Math.min(state.simulationConfig.questionCount, available);
     render();
+  });
+
+  window.addEventListener("keydown", event => {
+    if (
+      state.screen !== "quiz" ||
+      event.altKey || event.ctrlKey || event.metaKey ||
+      event.target instanceof HTMLElement &&
+        (event.target.isContentEditable || event.target.closest("input, textarea, select, [contenteditable='true']"))
+    ) return;
+    const answer = getAnswerForShortcut(event.key);
+    if (!answer) return;
+    event.preventDefault();
+    handleAction("answer", { dataset: { answer } });
   });
 }
 

@@ -33,6 +33,8 @@ Desde la pantalla principal puedes exportar e importar una copia JSON de resulta
 
 Los simulacros permiten escoger una o varias baterías, el número de preguntas y si incluir preguntas sin clave. Cada batería muestra preguntas intentadas, fallos pendientes de repaso y preguntas aún no intentadas. Puedes informar de una posible errata desde una pregunta; se prepara un correo con su contexto y se abre el programa de correo predeterminado.
 
+En cualquier pantalla puedes alternar entre tema claro, oscuro y sepia, y ajustar el tamaño de lectura con **A− / A+**. Durante un test puedes responder con **A, B, C, D** o **1, 2, 3, 4**; los atajos no se activan al escribir en campos de texto.
+
 En la primera visita aparece un aviso sobre el estado del proyecto, privacidad y almacenamiento, con el correo de contacto `estimprog@gmail.com`. El aviso no sustituye una política legal completa; revisa qué datos de identificación del responsable son necesarios antes de publicar.
 
 La batería de Oficial/a de Mantenimiento Calefactor-Fontanero/a contiene 200 preguntas. Las 127 respuestas que no aparecen en el cuadro se dejan sin clave; puedes añadir, corregir, quitar o restaurar claves desde **Plantilla**. Los cambios se guardan en este navegador.
