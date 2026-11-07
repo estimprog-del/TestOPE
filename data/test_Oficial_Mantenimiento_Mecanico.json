@@ -1,0 +1,1605 @@
+{
+  "title": "OFICIAL/A MANTENIMIENTO MECÁNICO/A",
+  "test": [
+    {
+      "question": "1. Señala la respuesta que NO es correcta. En cuanto a la medición se refiere:",
+      "optionA": "Al resultado de la operación de determinar de forma numérica el valor de una magnitud se le llama medida.",
+      "optionB": "La medida será más o menos exacta en función de la precisión y apreciación del elemento empleado.",
+      "optionC": "Las condiciones ambientales en las que se realiza la medición no influyen en la medida.",
+      "optionD": "La medida será más o menos exacta en función de la destreza de la persona operaria.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "2. Señala la respuesta correcta. En cuanto a la medición se refiere, la apreciación depende:",
+      "optionA": "Del instrumento de medida.",
+      "optionB": "De la destreza de la operaria.",
+      "optionC": "De las condiciones ambientales.",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "3. Señala la respuesta correcta. En cuanto a la fabricación de aparatos de medida, se emplean materiales con un:",
+      "optionA": "Coeficiente de dilatación alto.",
+      "optionB": "Coeficiente de divergencia alto.",
+      "optionC": "Coeficiente de dilatación bajo.",
+      "optionD": "Coeficiente de divergencia bajo.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "4. Conocer el volumen que ocupa un objeto sumergiéndolo en agua y midiendo el incremento de nivel que éste sufre dentro del recipiente, es una:",
+      "optionA": "Medición directa.",
+      "optionB": "Medición indirecta.",
+      "optionC": "Verificación directa.",
+      "optionD": "Verificación indirecta.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "5. Selecciona la respuesta más correcta. En cuanto a la verificación dimensional:",
+      "optionA": "Se trata de conocer el valor de la magnitud en cuestión.",
+      "optionB": "Se trata de determinar si un objeto fabricado está de acuerdo con el diseño previamente establecido.",
+      "optionC": "En un proceso de verificación el orden adecuado para llevar a cabo el proceso es el siguiente: Verificación de materiales (materias primas), Comprobación de piezas finales y comprobación de las piezas semi elaboradas.",
+      "optionD": "En un proceso de verificación el orden adecuado para llevar a cabo el proceso es el siguiente: Comprobación de piezas finales, comprobación de las piezas semi elaboradas y verificación de materiales (materias primas).",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "6. ¿Cómo se llama a la realización de determinar de forma numérica una magnitud?",
+      "optionA": "Calibración.",
+      "optionB": "Medición.",
+      "optionC": "Verificación.",
+      "optionD": "Ajuste.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "7. Un instrumento que permite conocer directamente el valor numérico de la medida se clasifica como:",
+      "optionA": "Instrumento de comparación.",
+      "optionB": "Instrumento de medición directa.",
+      "optionC": "Instrumento de verificación.",
+      "optionD": "Patrón de transferencia.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "8. En metrología, la verificación por límites mediante calibres \"pasa/no pasa\" es un tipo de:",
+      "optionA": "Medición directa.",
+      "optionB": "Medición indirecta.",
+      "optionC": "Verificación dimensional.",
+      "optionD": "Comparación por amplificación.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "9. Señala la respuesta que sea más correcta. En cuanto al concepto de magnitud:",
+      "optionA": "Llamamos magnitud a todo aquello que podemos medir.",
+      "optionB": "Una magnitud fundamental es aquella que puede definirse perfectamente sin necesidad de recurrir a ninguna otra.",
+      "optionC": "Una magnitud derivada es aquella que puede definirse perfectamente sin necesidad de recurrir a ninguna otra.",
+      "optionD": "Las respuestas a) y b) son ambas correctas.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "10. Selecciona la respuesta más correcta. Se llama patrón de medida de una magnitud:",
+      "optionA": "A la materialización de una unidad de medida de manera que su valor sea inalterable.",
+      "optionB": "A la cantidad que se toma como referencia de comparación entre dos magnitudes de la misma especie.",
+      "optionC": "Al instrumento que utilizamos para la medición.",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "11. ¿Cuál de las siguientes unidades NO es una unidad fundamental del Sistema Internacional (SI)?",
+      "optionA": "Segundo.",
+      "optionB": "Amperio.",
+      "optionC": "Julio.",
+      "optionD": "Kilogramo.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "12. En cuanto a los múltiplos y divisores. El prefijo micro indica un factor divisor de:",
+      "optionA": "10⁻².",
+      "optionB": "10⁻³.",
+      "optionC": "10⁻⁶.",
+      "optionD": "10⁻⁹.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "13. En el Sistema Internacional (SI), ¿cuál es la unidad básica para la longitud?",
+      "optionA": "El centímetro (cm).",
+      "optionB": "El metro (m).",
+      "optionC": "El milímetro (mm).",
+      "optionD": "El kilómetro (km).",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "14. La unidad de fuerza en el Sistema Internacional (SI) es el:",
+      "optionA": "Kilogramo fuerza (kgf).",
+      "optionB": "Newton (N).",
+      "optionC": "Pascal (Pa).",
+      "optionD": "Watio (W).",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "15. ¿A cuántos milímetros (mm) equivale una pulgada (1”)?",
+      "optionA": "2,54.",
+      "optionB": "254,0.",
+      "optionC": "25,4.",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "16. El prefijo \"kilo\" representa un factor multiplicador de:",
+      "optionA": "10⁶.",
+      "optionB": "10³.",
+      "optionC": "10².",
+      "optionD": "10⁻³.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "17. Selecciona la respuesta más correcta. Se llama precisión del instrumento de medida:",
+      "optionA": "A la mayor o menor aproximación de la medida al valor real de la magnitud.",
+      "optionB": "A la capacidad de un instrumento de medida de ofrecer resultados con un mínimo error.",
+      "optionC": "A la mínima variación de magnitud que podemos leer en la escala de un instrumento de medida.",
+      "optionD": "Las respuestas a) y c) ambas son correctas.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "18. Cuáles de los siguientes NO son errores sistemáticos:",
+      "optionA": "Los que se producen invariablemente en todas las medidas.",
+      "optionB": "Aquellos errores accidentales que ocurren por azar.",
+      "optionC": "Aquellos producidos por deformaciones permanentes a causa de golpes.",
+      "optionD": "Aquellos debidos a un reglaje incorrecto del cero de la escala.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "19. Selecciona la respuesta más correcta. En cuanto a la temperatura al realizar una medición de la longitud de un metal:",
+      "optionA": "La temperatura no afecta a la medición.",
+      "optionB": "La temperatura afecta a la medición. La longitud medida será menor cuanto mayor sea la temperatura.",
+      "optionC": "La temperatura afecta a la medición. La longitud medida será mayor cuanto mayor sea la temperatura.",
+      "optionD": "La temperatura afecta a la medición de forma que para calcularla necesitaremos conocer el coeficiente de resistividad del material.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "20. Selecciona la respuesta correcta. En cuanto a las medidas de dispersión, la desviación media:",
+      "optionA": "Es la diferencia entre el mayor y el menor de los datos de la muestra.",
+      "optionB": "Es la media aritmética de los cuadrados de las desviaciones.",
+      "optionC": "Es la raíz cuadrada de la varianza.",
+      "optionD": "Es la media aritmética de los valores absolutos de las diferencias de los datos respecto de la media aritmética.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "21. Selecciona la respuesta correcta. En cuanto a la cuantificación de los errores, el error relativo:",
+      "optionA": "Es el cociente entre el error absoluto y la medida real de la magnitud.",
+      "optionB": "Es la diferencia entre el valor de la medida y el valor real de la magnitud.",
+      "optionC": "Es la diferencia de medidas máxima y mínima que señala los límites del error de fabricación admisible.",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "22. ¿Cómo se denomina el error que se produce por la incorrecta posición del ojo de la operaria respecto a la escala de graduación?",
+      "optionA": "Error cuadrático.",
+      "optionB": "Error de paralaje.",
+      "optionC": "Error de apreciación.",
+      "optionD": "Error de cero.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "23. El error absoluto de una medida es:",
+      "optionA": "El cociente entre el error relativo y el valor real.",
+      "optionB": "La diferencia entre el valor medido y el valor real.",
+      "optionC": "El grado de incertidumbre del instrumento.",
+      "optionD": "La media de todas las mediciones efectuadas.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "24. Los errores accidentales se caracterizan por:",
+      "optionA": "Ser constantes en todas las mediciones.",
+      "optionB": "Poder eliminarse mediante el reglaje del instrumento.",
+      "optionC": "Ser inevitables y seguir las leyes del azar.",
+      "optionD": "Depender únicamente de la dilatación térmica.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "25. Cuál de los siguientes NO es un instrumento de medición directa:",
+      "optionA": "La regla graduada.",
+      "optionB": "El reloj comparador.",
+      "optionC": "El micrómetro.",
+      "optionD": "El pie de rey.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "26. En un calibre con un nonio que facilita una apreciación de 5 centésimas de milímetro, determina la medida de la pieza si la sexta división del nonio coincide con una marca de la regla fija y su cero se encuentra situado entre los 6 y los 7 mm.",
+      "optionA": "6,3 mm.",
+      "optionB": "6,6 mm.",
+      "optionC": "6,03 mm.",
+      "optionD": "6,06 mm.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "27. En una regla fija graduada en pulgadas, en la que el nonio tiene 8 divisiones que se corresponden con 7/16 de la regla, cada división del nonio será:",
+      "optionA": "1/16”",
+      "optionB": "7/16”",
+      "optionC": "7/128”",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "28. Selecciona la respuesta correcta. Los instrumentos de verificación:",
+      "optionA": "Permiten determinar las diferencias entre la dimensión verdadera de la pieza y su medida nominal.",
+      "optionB": "Indican si la dimensión en cuestión está o no dentro de los límites preestablecidos.",
+      "optionC": "Las respuestas a) y b) son ambas correctas.",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "29. ¿Cómo se denomina el dispositivo auxiliar que permite aumentar la apreciación de una regla graduada?",
+      "optionA": "Nonio o vernier.",
+      "optionB": "Tambor micrométrico.",
+      "optionC": "Husillo.",
+      "optionD": "Palpador.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "30. Los instrumentos de comparación tienen como función principal:",
+      "optionA": "Medir directamente una magnitud.",
+      "optionB": "Determinar la diferencia de medida entre una pieza y un patrón.",
+      "optionC": "Verificar si una pieza pasa o no pasa un límite.",
+      "optionD": "Marcar piezas para su posterior mecanizado.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "31. Una escuadra para controlar la perpendicularidad es un instrumento de:",
+      "optionA": "Medición directa.",
+      "optionB": "Verificación.",
+      "optionC": "Comparación analógica.",
+      "optionD": "Amplificación mecánica.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "32. ¿Qué característica define a la apreciación de un instrumento de medida?",
+      "optionA": "La longitud total de su escala.",
+      "optionB": "La mínima variación de magnitud que puede leerse en su escala.",
+      "optionC": "El error máximo admitido por el fabricante.",
+      "optionD": "La fuerza necesaria para desplazar el palpador.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "33. Cuál de los siguientes elementos NO forma parte de un Pie de rey universal o máuser:",
+      "optionA": "La regla graduada.",
+      "optionB": "El tornillo de fijación de la corredera.",
+      "optionC": "Pata o palpador de exteriores móvil.",
+      "optionD": "El tambor.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "34. Selecciona la respuesta correcta. En el tornillo micrométrico o Palmer:",
+      "optionA": "Por cada vuelta del tornillo, este avanza una longitud equivalente a su paso de rosca.",
+      "optionB": "Por cada 2 vueltas del tornillo, este avanza una longitud equivalente a su paso de rosca.",
+      "optionC": "Por cada vuelta del tornillo, este avanza una longitud equivalente a 2 veces su paso de rosca.",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "35. En un tornillo micrométrico o Pálmer que dispone de un tambor de 50 divisiones, si el paso de rosca del tornillo es de medio milímetro:",
+      "optionA": "La apreciación será de 1 milímetro.",
+      "optionB": "La apreciación será de 1 décima de milímetro.",
+      "optionC": "La apreciación será de 1 centésima de milímetro.",
+      "optionD": "La apreciación será de 1 milésima de milímetro.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "36. Selecciona la respuesta correcta. En un micrómetro o pálmer la función del tornillo de fricción:",
+      "optionA": "Es inmovilizar el palpador móvil.",
+      "optionB": "Es dificultar la transmisión de calor a través de las manos de la persona operaria hacia el instrumento.",
+      "optionC": "Es realizar la aproximación final del palpador móvil a la superficie de la pieza. Este tornillo gira sin ejercer presión a la pieza cuando la presión de contacto entre el instrumento y la pieza es adecuada.",
+      "optionD": "Es hacer girar al husillo igual que si utilizáramos el tambor para comodidad de la persona operaria.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "37. En un pie de rey, ¿para qué sirven las orejas situadas en la parte superior?",
+      "optionA": "Para medir exteriores.",
+      "optionB": "Para medir interiores.",
+      "optionC": "Para medir profundidades.",
+      "optionD": "Para fijar la medida.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "38. ¿Qué elemento del micrómetro sirve para bloquear el husillo una vez realizada la medida?",
+      "optionA": "El trinquete.",
+      "optionB": "El tambor fijo.",
+      "optionC": "La manecilla y el anillo de bloqueo.",
+      "optionD": "El yunque.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "39. El medidor de profundidades en un pie de rey universal o máuser se utiliza específicamente para:",
+      "optionA": "Medir diámetros exteriores de ejes.",
+      "optionB": "Medir el paso de una rosca.",
+      "optionC": "Medir la profundidad de agujeros, rebajes y ranuras.",
+      "optionD": "Verificar la planitud de una superficie.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "40. ¿Cuál es la función de las cachas protectoras (hechas con material aislante térmico) en el cuerpo de un micrómetro?",
+      "optionA": "Proteger el instrumento de golpes.",
+      "optionB": "Evitar que el calor de la mano de la persona operaria dilate el cuerpo del instrumento.",
+      "optionC": "Mejorar el agarre del instrumento.",
+      "optionD": "Facilitar el giro del tambor.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "41. Selecciona la respuesta correcta. En un comparador los índices desplazables:",
+      "optionA": "Permiten visualizar el número de vueltas de la aguja indicadora.",
+      "optionB": "Permiten indicar sobre la esfera los valores mínimo y máximo admisibles en la medida.",
+      "optionC": "Las respuestas a) y b) ambas son correctas.",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "42. Selecciona la respuesta correcta. El microkator:",
+      "optionA": "Es un comparador basado en engranajes.",
+      "optionB": "Es un comparador basado en la amplificación por palancas.",
+      "optionC": "Las respuestas a) y b) ambas son correctas.",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "43. Selecciona la respuesta correcta. El proyector de perfiles:",
+      "optionA": "Es un comparador de amplificación hidráulica.",
+      "optionB": "Es un comparador de amplificación óptica.",
+      "optionC": "Es un comparador de amplificación neumática.",
+      "optionD": "Es un comparador de amplificación eléctrica.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "44. Cuál de las siguientes NO sirve para comprobar la planitud de una pieza:",
+      "optionA": "Regla normal rectangular",
+      "optionB": "Regla de taller de precisión.",
+      "optionC": "El calibre tampón liso.",
+      "optionD": "Mármol.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "45. El reloj comparador puede conseguir transformar el movimiento rectilíneo del palpador en circular mediante:",
+      "optionA": "Las otras tres respuestas son incorrectas.",
+      "optionB": "Un sistema de piñón y cremallera.",
+      "optionC": "Un circuito de aire comprimido.",
+      "optionD": "Una cinta metálica torsionada.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "46. ¿Para qué se utilizan los calibres de herradura doble de límites \"Pasa-No Pasa\"?",
+      "optionA": "Para medir el valor exacto de un diámetro.",
+      "optionB": "Para verificar si una pieza se encuentra dentro de las tolerancias previstas.",
+      "optionC": "Para comparar dos piezas entre sí.",
+      "optionD": "Para medir la rugosidad superficial.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "47. La escuadra de 90º es un instrumento utilizado para verificar:",
+      "optionA": "La planitud de una superficie.",
+      "optionB": "La perpendicularidad entre dos caras.",
+      "optionC": "El diámetro interior de un agujero.",
+      "optionD": "El acabado superficial.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "48. El mármol de verificación se emplea habitualmente como:",
+      "optionA": "Elemento de comparación óptica.",
+      "optionB": "Superficie de referencia plana para realizar medidas y trazados.",
+      "optionC": "Patrón de masa.",
+      "optionD": "Calibre fijo de exteriores.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "49. Selecciona la respuesta correcta. La tolerancia de una pieza es:",
+      "optionA": "La suma de la medida máxima aceptable y la medida mínima aceptable dividida por dos.",
+      "optionB": "Es la medida que tiene realmente la pieza.",
+      "optionC": "La diferencia entre la medida máxima aceptable y la medida mínima aceptable.",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "50. Selecciona la respuesta correcta. Se llama diferencia superior (ds):",
+      "optionA": "La diferencia entre la medida máxima aceptable y la medida mínima aceptable.",
+      "optionB": "A la diferencia algebraica entre la medida máxima y la nominal.",
+      "optionC": "A la diferencia algebraica entre la medida mínima y la nominal.",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "51. Selecciona la respuesta correcta. En cuanto a los ajustes, se llama juego mínimo a:",
+      "optionA": "La diferencia entre la medida máxima del agujero y la mínima del eje.",
+      "optionB": "La diferencia entre la medida mínima del agujero y la máxima del eje.",
+      "optionC": "Las otras tres respuestas son incorrectas.",
+      "optionD": "La diferencia entre la medida mínima del agujero y la mínima del eje.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "52. Selecciona la respuesta correcta. En cuanto a los ajustes:",
+      "optionA": "El ajuste fijo es aquel donde siempre existe juego.",
+      "optionB": "El ajuste fijo es aquel donde el ajuste siempre es móvil.",
+      "optionC": "El ajuste fijo es aquel donde siempre existe apriete.",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "53. ¿Cómo se denomina la medida que sirve como punto de partida para la aplicación de tolerancias?",
+      "optionA": "Medida efectiva.",
+      "optionB": "Medida nominal.",
+      "optionC": "Medida real.",
+      "optionD": "Medida de control.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "54. En el sistema de ajuste de Agujero Base, la posición de la tolerancia del agujero es siempre:",
+      "optionA": "H.",
+      "optionB": "h.",
+      "optionC": "J.",
+      "optionD": "G.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "55. Se produce un ajuste con \"apriete\" cuando:",
+      "optionA": "El diámetro del agujero es siempre mayor que el del eje.",
+      "optionB": "El diámetro del eje es siempre mayor que el del agujero.",
+      "optionC": "El diámetro del eje y el agujero son iguales.",
+      "optionD": "La tolerancia es cero.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "56. La diferencia algebraica entre la medida mínima y la nominal se denomina:",
+      "optionA": "Diferencia superior.",
+      "optionB": "Diferencia inferior.",
+      "optionC": "Tolerancia.",
+      "optionD": "Juego máximo.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "57. Selecciona la respuesta más correcta. Las tolerancias dimensionales por sí solas:",
+      "optionA": "Son suficientes.",
+      "optionB": "Deben ser completadas definiendo los grados de rugosidad de las superficies.",
+      "optionC": "Deben ser completadas definiendo las tolerancias geométricas de posición y de forma.",
+      "optionD": "Las respuestas b) y c) son ambas correctas.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "58. Cuál de las siguientes NO es una tolerancia de forma:",
+      "optionA": "La rectitud.",
+      "optionB": "El ajuste.",
+      "optionC": "La planitud.",
+      "optionD": "La cilindricidad.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "59. Cuál de las siguientes NO es una tolerancia de posición.",
+      "optionA": "El paralelismo.",
+      "optionB": "La perpendicularidad.",
+      "optionC": "La rectitud.",
+      "optionD": "La inclinación.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "60. Selecciona la respuesta correcta. La simetría:",
+      "optionA": "Determina la equidistancia respecto a un eje o un plano.",
+      "optionB": "Determina la calidad de paralelo que existe entre una recta o un plano respecto de un elemento de referencia.",
+      "optionC": "Determina la aproximación que tiene un plano o una recta a un ángulo deseado respecto de otro plano o recta tomados como elementos de referencia.",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "61. ¿Qué símbolo representa la tolerancia de redondez o circularidad?",
+      "optionA": "Dos líneas paralelas.",
+      "optionB": "Un círculo.",
+      "optionC": "Un marco rectangular.",
+      "optionD": "Una flecha inclinada.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "62. La tolerancia geométrica que hace referencia al grado de exactitud en la situación de un punto se llama:",
+      "optionA": "Cilindricidad.",
+      "optionB": "Localización (o posición).",
+      "optionC": "Rectitud.",
+      "optionD": "Oscilación.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "63. La tolerancia de paralelismo se clasifica como una tolerancia de:",
+      "optionA": "Forma.",
+      "optionB": "Orientación.",
+      "optionC": "Situación.",
+      "optionD": "Oscilación.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "64. ¿Cuál es la función principal de las tolerancias geométricas?",
+      "optionA": "Definir el tamaño exacto de la pieza.",
+      "optionB": "Establecer el coste de producción.",
+      "optionC": "Indicar el material de fabricación.",
+      "optionD": "Asegurar la funcionalidad y el montaje correcto de las piezas independientemente de su medida.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "65. En cuanto a los símbolos neumáticos normalizados, un generador de presión se representará mediante:",
+      "optionA": "Un círculo con un punto en su interior.",
+      "optionB": "Un cuadrado con un punto en su interior.",
+      "optionC": "Un rombo con un punto en su interior.",
+      "optionD": "Una cruz con una flecha en la dirección generada.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "66. Un conducto de pilotaje se representará mediante:",
+      "optionA": "Una línea continua.",
+      "optionB": "Una línea discontinua a trazos.",
+      "optionC": "Depende del final de la línea será continua o a trazos.",
+      "optionD": "Depende del inicio de la línea será continua o a trazos.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "67. El movimiento de retroceso del vástago de un cilindro será representado:",
+      "optionA": "Por el signo (+)",
+      "optionB": "Por el signo (x)",
+      "optionC": "Por el signo (-)",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "68. Selecciona la respuesta que NO es correcta. En cuanto a los tipos de mandos:",
+      "optionA": "Existen dos tipos de mando claramente diferenciados. El mando neumático puro y el mando electroneumático.",
+      "optionB": "El mando neumático requiere de relés para su funcionamiento.",
+      "optionC": "El mando neumático es limitado cuando se necesitan automatizaciones complejas.",
+      "optionD": "A veces el entorno de la máquina, un ambiente explosivo por ejemplo, obliga a que el mando sea puramente neumático sin que se pueda utilizar un mando electroneumático.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "69. ¿Cómo se representa simbólicamente un muelle en neumática?",
+      "optionA": "Un rombo.",
+      "optionB": "Una línea quebrada en forma de ondas.",
+      "optionC": "Un círculo pequeño.",
+      "optionD": "Un triángulo relleno.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "70. En la simbología de las válvulas distribuidoras, ¿qué representa cada cuadrado?",
+      "optionA": "Un orificio de conexión.",
+      "optionB": "Cada una de las posiciones de la válvula.",
+      "optionC": "El tipo de accionamiento.",
+      "optionD": "La dirección del escape.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "71. El sistema de representación de secuencia mediante etapas y transiciones se denomina:",
+      "optionA": "Diagrama espacio-fase.",
+      "optionB": "Grafcet.",
+      "optionC": "Esquema de montaje.",
+      "optionD": "Diagrama de movimientos.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "72. En un diagrama de movimientos, el signo (+) representa:",
+      "optionA": "El retroceso del vástago.",
+      "optionB": "La salida del vástago.",
+      "optionC": "La presencia de presión en el conducto de trabajo.",
+      "optionD": "La conexión a la red de aire.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "73. En cuanto a los compresores de émbolo, de las siguientes afirmaciones selecciona aquella que NO es correcta.",
+      "optionA": "Siguen siendo muy utilizados.",
+      "optionB": "La inversión inicial es menor que en los compresores de tornillo.",
+      "optionC": "Tienen prestaciones suficientes en cuanto a presión suministrada para la mayoría de las aplicaciones industriales.",
+      "optionD": "No son más ruidosos que los rotativos.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "74. Selecciona la respuesta que NO es correcta. En cuanto a los arranques y paradas del compresor:",
+      "optionA": "A veces es conveniente que el compresor se mantenga en marcha aunque no esté desarrollando potencia y gire en vacío.",
+      "optionB": "Uno de los procedimientos para que el motor trabaje sin carga consiste en enviar el aire aspirado directamente al exterior.",
+      "optionC": "Uno de los procedimientos para que el motor trabaje sin carga consiste en conectar mediante un circuito cerrado la cámara de aspiración con la de compresión.",
+      "optionD": "No conviene reducir el número de arranques y paradas del compresor ya que a más arranques y paradas aumenta la vida del compresor.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "75. Selecciona la respuesta más correcta. Como principal ventaja de los compresores de Membrana o diafragma podemos citar:",
+      "optionA": "Conseguir presiones de hasta 15 bar en una sola etapa.",
+      "optionB": "Posibilidad de generar grandes caudales continuos.",
+      "optionC": "La respuesta a) y b) son correctas.",
+      "optionD": "La no contaminación con el aceite de lubricación de las piezas del compresor.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "76. Para el cálculo aproximado del volumen en m³ del depósito se puede utilizar la fórmula V=K⋅Q donde Q es el caudal en m³/min. Se pide calcular el Volumen para un caudal de 5000 l/min siendo K = 0,2.",
+      "optionA": "Depósito de 1 m³",
+      "optionB": "Depósito de 2 m³",
+      "optionC": "Depósito de 1000 m³",
+      "optionD": "Depósito de 2000 m³",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "77. Además de la realización de purgas en los depósitos, para conseguir aire comprimido seco se pueden emplear:",
+      "optionA": "Mezclas con aire caliente al final del proceso.",
+      "optionB": "Calentar el aire para lograr su secado.",
+      "optionC": "La respuesta a) y la respuesta b) son ambas correctas.",
+      "optionD": "El empleo de secadores frigoríficos y de absorción.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "78. ¿Cuál es la función principal de los acumuladores intermedios en una red de distribución?",
+      "optionA": "Aumentar la presión del sistema.",
+      "optionB": "Compensar las fluctuaciones de presión de los actuadores y servir como reserva de aire.",
+      "optionC": "Filtrar el aceite residual del compresor.",
+      "optionD": "Medir el caudal de consumo de la planta.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "79. En una red de distribución de aire, la tubería principal debe instalarse con una pendiente de:",
+      "optionA": "0 %.",
+      "optionB": "1 a 3 %.",
+      "optionC": "5 a 10 %.",
+      "optionD": "15 %.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "80. Un grupo de mantenimiento convencional está compuesto por:",
+      "optionA": "Compresor, depósito y motor.",
+      "optionB": "Filtro, regulador de presión y lubricador.",
+      "optionC": "Secador, enfriador y purgador.",
+      "optionD": "Válvula de seguridad, manómetro y presostato.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "81. Selecciona la respuesta que NO sea correcta. En cuanto a los cilindros neumáticos:",
+      "optionA": "Generalmente se dividen en cilindros de simple efecto y cilindros de doble efecto.",
+      "optionB": "En los cilindros de doble efecto el aire puede introducirse en la cámara trasera o en la cámara delantera del cilindro.",
+      "optionC": "La función del anillo rascador es la de limpiar el vástago de impurezas de polvo y suciedad.",
+      "optionD": "En los cilindros de doble efecto el retroceso se produce por la fuerza de un muelle o por la acción de la gravedad sobre masas solidarias al vástago.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "82. Selecciona la respuesta más correcta. En cuanto a la amortiguación al término del recorrido en un cilindro neumático:",
+      "optionA": "Se realiza mediante un muelle que se opone al avance del vástago al final de su carrera.",
+      "optionB": "Consiste en crear un colchón de aire con escape regulable al final de la carrera.",
+      "optionC": "No es un buen sistema para evitar el deterioro del cilindro por choques, ni para evitar ruidos pero sí para la regulación de la velocidad del proceso.",
+      "optionD": "La velocidad al inicio y al final del recorrido del vástago será mayor que en el recorrido intermedio con lo que se aumenta la frecuencia de trabajo.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "83. Elige la respuesta correcta. En cuanto al cálculo de la fuerza ejercida por un cilindro neumático:",
+      "optionA": "En un cilindro de doble efecto la fuerza en el retroceso será mayor gracias a la aportación del muelle.",
+      "optionB": "La fuerza depende de la presión del aire y es independiente del diámetro del cilindro.",
+      "optionC": "En un cilindro de doble efecto en uno de los sentidos la fuerza será menor debido a que tendremos que tener en cuenta la sección ocupada por el vástago.",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "84. Selecciona la respuesta que NO es correcta. En cuanto al consumo de aire en los cilindros neumáticos, en lo que se refiere al volumen total necesario para completar el recorrido de ida y vuelta en un cilindro de doble efecto:",
+      "optionA": "Cuanto mayor es el diámetro del vástago el volumen total será menor.",
+      "optionB": "Cuanto mayor es el diámetro interno del cilindro y por ende la sección del émbolo, el volumen total será mayor.",
+      "optionC": "Cuanto mayor sea la carrera del cilindro el volumen total será mayor.",
+      "optionD": "El volumen total necesario es directamente proporcional a la carrera del vástago.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "85. Selecciona la respuesta más correcta. Los cilindros neumáticos de carrera corta:",
+      "optionA": "Son actuadores especialmente concebidos para la sujeción de piezas en procesos de mecanización, posicionamiento, etc.",
+      "optionB": "Solo existen los de simple efecto.",
+      "optionC": "Debido a su carrera corta son rápidos, pero no suelen tener una gran fuerza de empuje, por ello no son adecuados para la sujeción de elementos.",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "86. Selecciona la respuesta que NO es correcta. En lo relativo a las unidades de avance oleoneumáticas:",
+      "optionA": "Están formadas por dos cilindros paralelos montados en un conjunto monobloque.",
+      "optionB": "El cilindro que produce la fuerza de trabajo es de funcionamiento neumático.",
+      "optionC": "El cilindro que produce la fuerza de trabajo es de funcionamiento oleohidráulico y el cilindro de funcionamiento neumático produce el control de velocidad.",
+      "optionD": "Uno de sus campos de aplicación es en procesos industriales de mecanizado.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "87. ¿Cómo se denomina el fenómeno de flexión lateral en vástagos largos sometidos a esfuerzos de compresión?",
+      "optionA": "Torsión.",
+      "optionB": "Pandeo.",
+      "optionC": "Cizalladura.",
+      "optionD": "Tracción simple.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "88. ¿Qué tipo de cilindro carece de vástago y utiliza un carro portacarga unido mecánicamente o por imanes al émbolo?",
+      "optionA": "Cilindro telescópico.",
+      "optionB": "Cilindro de doble vástago.",
+      "optionC": "Cilindro sin vástago.",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "89. Selecciona la respuesta correcta. En cuanto a los motores neumáticos:",
+      "optionA": "En comparación con los motores eléctricos no son adecuados en ambientes explosivos.",
+      "optionB": "En comparación con los motores eléctricos tienen el problema de que son muy sensibles al polvo, al calor y a la humedad.",
+      "optionC": "En comparación con los motores eléctricos su coste energético es menor.",
+      "optionD": "Ninguna de las otras tres respuestas es correcta.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "90. Selecciona la respuesta más correcta. En los motores de paletas se pueden desarrollar potencias de hasta:",
+      "optionA": "3,5 kW.",
+      "optionB": "15 kW.",
+      "optionC": "17,5 kW.",
+      "optionD": "20 kW.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "91. Selecciona la respuesta más correcta. En los motores neumáticos de pistones radiales se pueden desarrollar potencias de hasta:",
+      "optionA": "3,5 kW.",
+      "optionB": "5 kW.",
+      "optionC": "7,5 kW.",
+      "optionD": "10 kW.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "92. Selecciona la respuesta más correcta. En los motores de pistones radiales se pueden conseguir velocidades máximas (en vacío) para motores de pequeña potencia de hasta:",
+      "optionA": "9000 rpm.",
+      "optionB": "18000 rpm.",
+      "optionC": "19000 rpm.",
+      "optionD": "20000 rpm.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "93. En los motores neumáticos respecto a los eléctricos:",
+      "optionA": "Tienen un rendimiento energético superior.",
+      "optionB": "Las velocidades pueden regularse utilizando reguladores de caudal y presión.",
+      "optionC": "Son mucho más silenciosos sin necesidad de silenciador.",
+      "optionD": "No requieren aire lubricado.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "94. ¿Qué tipo de motor neumático funciona bajo un principio similar al de un motor de combustión interna?",
+      "optionA": "Motor de paletas.",
+      "optionB": "Motor de pistones radiales.",
+      "optionC": "Motor de turbina.",
+      "optionD": "Motor de engranajes.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "95. Para aumentar el par de salida de un motor neumático se suele acoplar:",
+      "optionA": "Un silenciador de gran tamaño.",
+      "optionB": "Un reductor de velocidad.",
+      "optionC": "Un depósito acumulador individual.",
+      "optionD": "Un regulador de escape.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "96. Los actuadores de giro tipo cremallera transforman el movimiento lineal en rotacional, generalmente no superior a:",
+      "optionA": "90º.",
+      "optionB": "180º.",
+      "optionC": "360º.",
+      "optionD": "720º.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "97. ¿Cuál de las siguientes válvulas NO es de asiento?",
+      "optionA": "La de bola.",
+      "optionB": "La de corredera.",
+      "optionC": "La de cono.",
+      "optionD": "La de disco plano.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "98. Seleccione la respuesta más correcta. ¿Cuál de las siguientes válvulas será necesario que esté suficientemente dimensionada para que por ella circule el suficiente caudal para alimentar a los cilindros?",
+      "optionA": "La válvula distribuidora que alimentará los cilindros.",
+      "optionB": "Una válvula encargada de dar señal de pilotaje a la válvula de la opción a).",
+      "optionC": "La respuesta a) y la b) son ambas correctas.",
+      "optionD": "Ninguna de las otras 3 respuestas es correcta.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "99. Seleccione la respuesta más correcta. La velocidad de traslación del émbolo de un cilindro de uso industrial normal:",
+      "optionA": "La velocidad máxima puede llegar a 4 m/s y las velocidades más normales son entre 2,10 m/s y 2,80 m/s.",
+      "optionB": "La velocidad máxima puede llegar a 1 m/s y las velocidades más normales son entre 0,10 m/s y 0,40 m/s.",
+      "optionC": "La velocidad máxima puede llegar a 3 m/s y las velocidades más normales son entre 1,40 m/s y 1,80 m/s.",
+      "optionD": "La velocidad máxima puede llegar a 2 m/s y las velocidades más normales son entre 1,20 m/s y 1,60 m/s.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "100. Selecciona la respuesta correcta. Cuando se deseen velocidades mayores o menores en un cilindro se debe:",
+      "optionA": "Para velocidades mayores pueden adaptarse válvulas de paso superior con racores y tuberías aumentadas también.",
+      "optionB": "Para velocidades menores pueden emplearse válvulas de escape rápido en las salidas de los cilindros.",
+      "optionC": "Para velocidades mayores, incorporar válvulas reguladoras de caudal en las tomas de los cilindros.",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "101. En la identificación de orificios de una válvula según la norma ISO, el número \"1\" corresponde a:",
+      "optionA": "Orificios de utilización.",
+      "optionB": "Alimentación de presión.",
+      "optionC": "Orificios de escape.",
+      "optionD": "Pilotaje neumático.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "102. Las válvulas de \"seta\" se utilizan generalmente como mandos de:",
+      "optionA": "Puesta en marcha suave.",
+      "optionB": "Emergencia.",
+      "optionC": "Control de flujo bidireccional.",
+      "optionD": "Regulación de precisión.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "103. ¿Qué característica define a las válvulas de corredera?",
+      "optionA": "No tienen rozamiento entre sus partes.",
+      "optionB": "Tienen un recorrido de conmutación muy corto.",
+      "optionC": "Son menos sensibles a la suciedad que las de asiento.",
+      "optionD": "Basan su funcionamiento en un émbolo cilíndrico con rebajes que se desplaza axialmente.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "104. En una válvula 5/2, ¿qué indican los números?",
+      "optionA": "5 posiciones y 2 vías.",
+      "optionB": "5 vías y 2 posiciones.",
+      "optionC": "5 bar de presión y 2 escapes.",
+      "optionD": "5 milímetros de paso y 2 roscas.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "105. Selecciona la respuesta correcta. Las microválvulas neumáticas de accionamiento mecánico:",
+      "optionA": "No son muy utilizadas en neumática ya que la intervención eléctrica encarece el sistema.",
+      "optionB": "Son de tamaño reducido ya que los caudales que circulan por ellas son pequeños también.",
+      "optionC": "Estas válvulas no pueden accionarse mediante rodillo.",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "106. Selecciona la respuesta que NO es correcta. En cuanto al vástago de accionamiento de las microválvulas neumáticas:",
+      "optionA": "Se deben de tener en cuenta tres posiciones del vástago. Reposo, accionamiento y posición de bloqueo de emergencia.",
+      "optionB": "En el accionamiento por ruleta la microválvula se activa mediante una pequeña rampa en los dos sentidos de la marcha del tope.",
+      "optionC": "En el accionamiento por ruleta abatible, la microválvula también es accionada por rampa, pero se activa únicamente en un solo sentido, en el otro se escamotea la ruleta mecánicamente pero no existe conmutación neumática.",
+      "optionD": "Normalmente son válvulas de 2 posiciones y tres vías, pero pueden ser de otra configuración diferente.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "107. Selecciona la respuesta correcta. En cuanto a los temporizadores neumáticos:",
+      "optionA": "Son componentes que proporcionan una señal de depresión en la salida después de transcurrido un tiempo desde la recepción de la señal.",
+      "optionB": "El tiempo de retardo de la señal de salida es función del volumen de un depósito que se debe llenar y del flujo de entrada de aire.",
+      "optionC": "Los dispositivos están formados por un regulador de caudal, un depósito y una válvula 3/2 de accionamiento por un detector de proximidad.",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "108. Selecciona la respuesta más correcta. Los tiempos de retardo más comunes de los temporizadores neumáticos:",
+      "optionA": "Varían entre 0 y 15 segundos pudiendo ser regulado a voluntad en función del caudal de entrada.",
+      "optionB": "Varían entre 0 y 15 segundos, pero no pueden ser regulados.",
+      "optionC": "Son elementos muy precisos pudiendo conseguir con ellos una precisión de 0,5 centésimas de segundo.",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "109. ¿Qué tipo de detector electrónico es capaz de detectar cualquier tipo de material (metales, líquidos…)?",
+      "optionA": "Detector inductivo.",
+      "optionB": "Detector capacitivo.",
+      "optionC": "Detector magnético.",
+      "optionD": "Detector de fuga.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "110. Los detectores inductivos basan su funcionamiento en la presencia de:",
+      "optionA": "Un campo eléctrico estático.",
+      "optionB": "Un objeto metálico que crea corrientes inducidas en un campo magnético.",
+      "optionC": "La interrupción de un haz de luz.",
+      "optionD": "La deformación de una membrana elástica.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "111. El accionamiento mecánico por \"ruleta abatible\" en las microválvulas se utiliza para:",
+      "optionA": "Aumentar la presión de señal.",
+      "optionB": "Para que el accionamiento se produzca en un único sentido.",
+      "optionC": "Invertir el sentido de giro de un motor.",
+      "optionD": "Regular el tiempo de respuesta.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "112. En un temporizador neumático, ¿qué elemento permite variar el tiempo de retardo?",
+      "optionA": "El depósito.",
+      "optionB": "El regulador de flujo incorporado.",
+      "optionC": "La válvula 3/2 de salida.",
+      "optionD": "El muelle de recuperación.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "113. Selecciona la respuesta más correcta. En cuanto a la generación de vacío para aplicaciones neumáticas:",
+      "optionA": "Se trata de generar presiones negativas cercanas al vacío absoluto de hasta casi -9,8 bar.",
+      "optionB": "La única aplicación de las bombas de vacío es en las máquinas para envasar al vacío.",
+      "optionC": "Para conseguir caudales de aspiración altos se pueden emplear las bombas de vacío.",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "114. Como aplicaciones de la técnica de vacío mediante ventosas en neumática podemos citar:",
+      "optionA": "Transporte de láminas flexibles.",
+      "optionB": "Sujeción de elementos cilíndricos.",
+      "optionC": "La respuesta a) y la b) ambas son correctas.",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "115. Selecciona la respuesta más correcta. En cuanto a las bombas de vacío:",
+      "optionA": "Son más baratas que los generadores de vacío.",
+      "optionB": "No se pueden conseguir caudales de succión tan altos como en los generadores de vacío.",
+      "optionC": "Se pueden conseguir potencias elevadas por lo que son adecuadas para suspender grandes masas o elementos con elevadas superficies.",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "116. Selecciona la respuesta que NO es correcta. En cuanto al funcionamiento de los generadores de vacío:",
+      "optionA": "Se encargan de producir depresión.",
+      "optionB": "Su funcionamiento es sencillo, una parte móvil formada por álabes movidos por un motor eléctrico, generan una aceleración del aire de forma que por su geometría en otro conducto se genera una depresión que se aprovecha en las ventosas.",
+      "optionC": "Están basados en el efecto Venturi.",
+      "optionD": "Existen generadores de vacío con sistema de expulsión que permiten liberar de forma rápida la pieza sujeta a la ventosa.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "117. Selecciona la respuesta más correcta. Un vacuostato es un elemento que:",
+      "optionA": "Su única función es medir el grado de vacío en un sistema.",
+      "optionB": "Convierte el vacío medido en un sistema en una señal eléctrica o en señal de presión neumática.",
+      "optionC": "Siempre debe funcionar en combinación con una bomba de vacío.",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "118. Selecciona la respuesta correcta. En cuanto a la fuerza teórica de sujeción de las ventosas:",
+      "optionA": "Esta será mayor si el diámetro de la ventosa es mayor y la depresión es mayor.",
+      "optionB": "Esta será mayor si el diámetro de la ventosa es menor y la depresión es mayor.",
+      "optionC": "Esta será mayor si el diámetro de la ventosa es mayor y la depresión es menor.",
+      "optionD": "Esta será mayor si el diámetro de la ventosa es menor y la depresión es menor.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "119. ¿Qué efecto físico utilizan los generadores de vacío para crear depresión mediante aire comprimido?",
+      "optionA": "Efecto Joule.",
+      "optionB": "Efecto Venturi.",
+      "optionC": "Efecto Doppler.",
+      "optionD": "Efecto Seebeck.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "120. ¿Cuál es la función del \"sistema de expulsión\" en un generador de vacío?",
+      "optionA": "Filtrar las impurezas del aire aspirado.",
+      "optionB": "Soltar la pieza de la ventosa de forma rápida mediante un chorro de aire.",
+      "optionC": "Aumentar el nivel de vacío final.",
+      "optionD": "Lubricar los componentes internos del generador.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "121. Técnicamente, se llama vacío a los estados de presión de aire que se encuentran:",
+      "optionA": "Por encima de 10 bar.",
+      "optionB": "En el cero absoluto únicamente.",
+      "optionC": "Por debajo de la presión atmosférica.",
+      "optionD": "Entre 1 y 2 atmósferas.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "122. ¿Cuál es el valor máximo aproximado de depresión que se emplea en la técnica de vacío?",
+      "optionA": "-10 bar.",
+      "optionB": "-0,98 bar.",
+      "optionC": "-5 bar.",
+      "optionD": "-100 bar.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "123. Para proteger el generador de vacío de la entrada de polvo y partículas del ambiente, se instala:",
+      "optionA": "Una válvula antirretorno.",
+      "optionB": "Un lubricador de línea.",
+      "optionC": "Un silenciador de escape.",
+      "optionD": "Un filtro de aspiración.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "124. Una de las principales ventajas de los eyectores (generadores de vacío) frente a las bombas es:",
+      "optionA": "Las otras tres respuestas son incorrectas.",
+      "optionB": "Que permiten caudales de aspiración masivos.",
+      "optionC": "La ausencia de partes móviles y bajo mantenimiento.",
+      "optionD": "Que no importa el nivel de lubricación con el que llega el aire.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "125. Selecciona la respuesta que NO es correcta. En cuanto a los materiales de las tuberías:",
+      "optionA": "Tanto las tuberías de cobre como de acero soportan presiones bastante más elevadas que las máximas usadas en neumática.",
+      "optionB": "Las tuberías de cobre son menos dúctiles que las de acero.",
+      "optionC": "Tanto en las tuberías de cobre como en las de acero se utilizan racores universales.",
+      "optionD": "Tanto las tuberías de cobre como las de acero soportan altas temperaturas.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "126. Selecciona la respuesta que NO es correcta. En cuanto a las tuberías de poliamida:",
+      "optionA": "En estas tuberías pueden usarse racores instantáneos o racores universales de bicono o anillo mordiente.",
+      "optionB": "Su peso es reducido respecto al cobre y al acero.",
+      "optionC": "Tienen buena resistencia a los ambientes salinos.",
+      "optionD": "Su mayor problema es que tienen un rango de temperaturas de utilización muy limitado que va desde los 10 ºC a los 25 ºC.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "127. Selecciona la respuesta más correcta. En cuanto a los racores:",
+      "optionA": "Los racores instantáneos no requieren herramientas para conectarlos al tubo.",
+      "optionB": "Los racores instantáneos no se utilizan en tuberías de poliamida.",
+      "optionC": "La ventaja de los racores universales es que se puede recuperar el anillo tras eliminar una unión para utilizarlo en otra.",
+      "optionD": "Las otras tres respuestas son incorrectas.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "128. Selecciona la respuesta que NO es correcta. Entre los racores con funciones neumáticas podemos citar:",
+      "optionA": "Racor regulador de caudal.",
+      "optionB": "Racor de bloqueo.",
+      "optionC": "Racor en V.",
+      "optionD": "Racor de arranque progresivo.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "129. ¿Cuál es el material plástico más empleado actualmente para tuberías flexibles en neumática?",
+      "optionA": "PVC.",
+      "optionB": "Poliamida (Nylon).",
+      "optionC": "Polietileno.",
+      "optionD": "Teflón.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "130. Los racores \"universales\" realizan la estanqueidad mediante:",
+      "optionA": "Adhesivos especiales.",
+      "optionB": "La deformación de un anillo mordiente sobre el tubo.",
+      "optionC": "Soldadura en frío.",
+      "optionD": "Una junta tórica de gran espesor.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "131. ¿Qué función cumple un \"racor de bloqueo\"?",
+      "optionA": "Impedir el paso de aire en ambos sentidos permanentemente.",
+      "optionB": "Mantener la posición del cilindro en caso de caída brusca de presión.",
+      "optionC": "Filtrar las partículas sólidas del aire.",
+      "optionD": "Reducir el nivel de ruido en el escape.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "132. Para conectar un tubo a un racor instantáneo, la operación consiste en:",
+      "optionA": "Roscado fuerte con llave inglesa.",
+      "optionB": "Introducir el tubo a presión manual en el racor.",
+      "optionC": "Calentar el extremo del tubo.",
+      "optionD": "Utilizar una abrazadera de tornillo.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "133. ¿Qué válvula se utiliza para que el aire circule en un sentido pero no en el contrario?",
+      "optionA": "Válvula selectora (O).",
+      "optionB": "Válvula de simultaneidad (Y).",
+      "optionC": "Válvula de escape rápido.",
+      "optionD": "Válvula antirretorno.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "134. ¿Se puede regular la presión en un circuito neumático?",
+      "optionA": "Si mediante una válvula reguladora de presión a cualquier valor deseado.",
+      "optionB": "Si mediante una válvula reguladora de presión entre un valor desde 0 bar a un valor menor al de la presión de red.",
+      "optionC": "No es posible regular la presión.",
+      "optionD": "Sí, pero no si tengo más de tres actuadores.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "135. ¿Qué válvula se utiliza para realizar un mando desde diferentes puntos?",
+      "optionA": "Válvula selectora (O).",
+      "optionB": "Válvula de simultaneidad (Y).",
+      "optionC": "Válvula de escape rápido.",
+      "optionD": "Válvula antirretorno.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "136. En la denominación de elementos de un circuito, los detectores de posición de un cilindro suelen identificarse con:",
+      "optionA": "La misma letra que el cilindro en mayúscula y un subíndice numérico. Por ejemplo, A1.",
+      "optionB": "El mismo número que el cilindro y un subíndice en forma de letra mayúscula. Por ejemplo, 1A.",
+      "optionC": "La misma letra que el cilindro en minúscula y un subíndice numérico. Por ejemplo, a1.",
+      "optionD": "El mismo número que el cilindro y un subíndice en forma de letra minúscula. Por ejemplo 1a.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "137. En la denominación de elementos de un circuito, los actuadores principales suelen identificarse con:",
+      "optionA": "Números.",
+      "optionB": "Letras mayúsculas (A, B, C...).",
+      "optionC": "Símbolos griegos.",
+      "optionD": "Números pares.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "138. ¿Qué válvula se utiliza para que un cilindro avance solo si se accionan dos pulsadores simultáneamente?",
+      "optionA": "Válvula selectora (O).",
+      "optionB": "Válvula de simultaneidad (Y).",
+      "optionC": "Válvula de escape rápido.",
+      "optionD": "Válvula antirretorno.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "139. Para lograr el vaivén automático de un cilindro de doble efecto se requiere el uso de:",
+      "optionA": "Dos detectores de posición (finales de carrera).",
+      "optionB": "Una bomba de vacío externa.",
+      "optionC": "Un regulador de presión manual.",
+      "optionD": "Un motor neumático de paletas.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "140. La regulación de la velocidad en cilindros neumáticos se realiza preferentemente mediante:",
+      "optionA": "El aumento de la presión de alimentación.",
+      "optionB": "La estrangulación del aire.",
+      "optionC": "La reducción del diámetro de las tuberías.",
+      "optionD": "El cambio del aceite de lubricación.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "141. Según los requisitos de seguridad establecidos en la norma UNE-EN ISO 7396-1: 2016 para la ubicación de los sistemas de suministro, ¿a qué niveles de concentración de oxígeno debe activarse la alarma sonora y visual del monitor instalado en la entrada de los locales de suministro (para gases distintos al aire médico)?",
+      "optionA": "Concentraciones inferiores al 18,0 % o superiores al 24,0 %.",
+      "optionB": "Concentraciones inferiores al 19,5 % o superiores al 23,5 %.",
+      "optionC": "Concentraciones inferiores al 17,5 % o superiores al 22,5 %.",
+      "optionD": "Concentraciones inferiores al 20,0 % o superiores al 25,0 %.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "142. Según los requisitos de continuidad y seguridad establecidos en la norma UNE-EN ISO 7396-1: 2016, ¿qué condición de activación debe cumplir obligatoriamente una fuente de suministro de reserva cuando tanto la fuente primaria como la secundaria dependen de la red de energía eléctrica para su funcionamiento?",
+      "optionA": "La activación podrá ser manual siempre que el centro sanitario cuente con personal de mantenimiento presente las 24 horas.",
+      "optionB": "La activación debe realizarse mediante un conmutador de transferencia manual ubicado en la sala de máquinas.",
+      "optionC": "La activación debe ser obligatoriamente automática.",
+      "optionD": "Solo se requiere activación automática si el sistema de suministro carece de un depósito de almacenamiento de gran capacidad.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "143. En relación con el ensamblado del suministro de mantenimiento para gases medicinales, ¿cuáles son los componentes obligatorios que debe incluir según la norma UNE-EN ISO 7396-1: 2016?",
+      "optionA": "Un conector de entrada selectivo del gas, un medio de descarga de presión, una válvula unidireccional y una válvula de corte.",
+      "optionB": "Únicamente un manómetro de alta presión con escala graduada en bares y una válvula de purga manual de accionamiento rápido.",
+      "optionC": "Un regulador de presión de doble etapa con membrana de acero inoxidable y un filtro de partículas de núcleo cerámico capaz de retener impurezas de hasta 0,01 micras.",
+      "optionD": "Un conector rápido de tipo universal compatible con cualquier gas medicinal y una válvula de aislamiento con sistema de bloqueo para prevenir aperturas accidentales por personal no autorizado.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "144. Según los requisitos de la norma UNE-EN ISO 7396-1: 2016 para sistemas con concentradores de oxígeno, ¿qué exactitud deben garantizar los analizadores de oxígeno mediante sus compensaciones de temperatura y presión?",
+      "optionA": "± 5 % del valor medido.",
+      "optionB": "± 0,5 % del valor medido.",
+      "optionC": "± 1 % del valor medido.",
+      "optionD": "± 2 % del valor medido.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "145. De acuerdo con los parámetros técnicos de la norma UNE-EN ISO 7396-1: 2016, ¿cuál es el cambio de presión máximo permisible y el caudal de ensayo requerido para los gases medicinales comprimidos (distintos al aire o nitrógeno motriz) durante el ensayo de obstrucción y flujo efectuado en cada unidad terminal?",
+      "optionA": "Un cambio de presión ≤ 15 % a un caudal de ensayo de 350 l/min.",
+      "optionB": "Un cambio de presión ≤ 10 % a un caudal de ensayo de 40 l/min.",
+      "optionC": "Un cambio de presión ≤ 5 % a un caudal de ensayo de 150 l/min.",
+      "optionD": "Un cambio de presión ≤ 20 % a un caudal de ensayo de 10 l/min.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "146. Atendiendo a la norma UNE-EN ISO 7396-1: 2016, ¿cuál es el límite de presión absoluta establecido para el funcionamiento nominal del vacío?",
+      "optionA": "< 80 kPa.",
+      "optionB": "< 40 kPa.",
+      "optionC": "< 100 kPa.",
+      "optionD": "< 60 kPa.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "147. Según la norma UNE-EN ISO 7396-1: 2016, para gases medicinales comprimidos distintos al aire motriz, la presión en cualquier unidad terminal con el sistema funcionando al caudal de diseño no debe ser inferior al:",
+      "optionA": "80 % de la presión de distribución nominal.",
+      "optionB": "90 % de la presión de distribución nominal.",
+      "optionC": "95 % de la presión de distribución nominal.",
+      "optionD": "75 % de la presión de distribución nominal.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "148. En un sistema de distribución canalizada de doble etapa, ¿qué requisito de redundancia establece la norma UNE-EN ISO 7396-1: 2016 para los reguladores de presión de la línea?",
+      "optionA": "Cada espacio de paciente debe abastecerse desde al menos dos reguladores de presión de la línea instalados permanentemente.",
+      "optionB": "Se permite un solo regulador siempre que exista un bypass manual de emergencia.",
+      "optionC": "Los reguladores de línea deben ser un conjunto de tres unidades, instaladas de forma secuencial en serie, para garantizar una reducción de presión escalonada y actuar como triple barrera de seguridad ante sobrepresiones accidentales de la fuente principal.",
+      "optionD": "Solo es obligatorio un regulador redundante por cada planta del edificio.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "149. Según la norma UNE-EN ISO 7396-1: 2016, ¿qué advertencia textual debe aparecer obligatoriamente en el etiquetado de las cajas que alojan las válvulas de corte de zona para gases medicinales comprimidos?",
+      "optionA": "\"PELIGRO – Gases a alta presión. No manipular\".",
+      "optionB": "\"PRECAUCIÓN – Válvulas de gases medicinales para (zona). No cerrar excepto en caso de emergencia\".",
+      "optionC": "\"SOLO PERSONAL AUTORIZADO – Válvulas de aislamiento\".",
+      "optionD": "\"ATENCIÓN – Suministro de gas. Mantener siempre en posición de abierto\".",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "150. De acuerdo con la norma UNE-EN ISO 7396-1: 2016, ¿dónde debe situarse un punto de entrada de emergencia y mantenimiento (salvo para vacío y aire motriz)?",
+      "optionA": "Inmediatamente antes de la válvula de corte principal del edificio.",
+      "optionB": "En la toma de aire ambiente de la central de compresores.",
+      "optionC": "Aguas abajo de cada válvula de corte de zona.",
+      "optionD": "Únicamente en el punto más alejado de la red de distribución.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "151. Atendiendo a la norma UNE-EN ISO 7396-1: 2016, ¿cuál es el intervalo máximo permitido para el marcado de las canalizaciones con el nombre o símbolo del gas medicinal?",
+      "optionA": "Cada 5 metros.",
+      "optionB": "Cada 10 metros.",
+      "optionC": "Cada 15 metros.",
+      "optionD": "Solo en los cambios de dirección y válvulas.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "152. Según la norma UNE-EN ISO 7396-1: 2016, si las canalizaciones de gases medicinales y los servicios eléctricos discurren juntos sin compartimentos separados, ¿qué distancia mínima de separación debe mantenerse?",
+      "optionA": "25 mm.",
+      "optionB": "100 mm.",
+      "optionC": "75 mm.",
+      "optionD": "50 mm.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "153. Según los requisitos operativos de la norma UNE-EN ISO 7396-1: 2016 para sistemas de suministro con compresores de aire, ¿en qué ubicación específica debe instalarse obligatoriamente una conexión de muestreo dotada de una válvula de corte?",
+      "optionA": "Inmediatamente aguas arriba de la unidad de filtrado de entrada de los compresores.",
+      "optionB": "Inmediatamente aguas abajo del sistema o sistemas acondicionadores.",
+      "optionC": "Únicamente en la parte superior del receptor o depósito de aire.",
+      "optionD": "En el punto de interconexión con la fuente de suministro de reserva de botellas.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "154. De acuerdo con las especificaciones de calidad de la norma UNE-EN ISO 7396-1: 2016 para el oxígeno 93 producido por un sistema de suministro con concentradores, ¿cuál es el límite máximo permitido de concentración de dióxido de carbono al caudal de diseño del sistema?",
+      "optionA": "≤ 500 ml/m³.",
+      "optionB": "≤ 5 ml/m³.",
+      "optionC": "≤ 300 ml/m³.",
+      "optionD": "≤ 67 ml/m³.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "155. Atendiendo a la norma UNE-EN ISO 7396-1: 2016, en los ensayos de fugas para secciones de gases comprimidos situadas aguas arriba de las válvulas de zona, el descenso de presión por hora no debe superar el:",
+      "optionA": "0,025 % de la presión de ensayo inicial.",
+      "optionB": "0,4 % de la presión de ensayo inicial.",
+      "optionC": "0,6 % de la presión de ensayo inicial.",
+      "optionD": "1,0 % de la presión de ensayo inicial.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "156. Según la norma UNE-EN ISO 7396-1: 2016, en el ensayo de cierre de las válvulas de corte de zona, ¿qué aumento de presión máximo se permite en la línea aguas abajo tras 15 minutos de cierre?",
+      "optionA": "No superior a 2 kPa.",
+      "optionB": "No superior a 5 kPa.",
+      "optionC": "No superior a 10 kPa.",
+      "optionD": "No superior a 1 kPa.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "157. De acuerdo con la norma UNE-EN ISO 7396-1: 2016, ¿cuáles son los parámetros de caudal y tiempo requeridos para efectuar el ensayo de contaminación por partículas?",
+      "optionA": "Un caudal de 150 l/min durante al menos 15 segundos.",
+      "optionB": "Un caudal de 100 l/min durante 30 segundos.",
+      "optionC": "Un caudal de 50 l/min durante 1 minuto completo.",
+      "optionD": "Un caudal de 200 l/min durante 10 segundos.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "158. Según los procedimientos de la norma UNE-EN ISO 7396-1: 2016, ¿en qué puntos del sistema debe realizarse la verificación de la identidad del gas tras el llenado definitivo?",
+      "optionA": "Solo en la unidad terminal más alejada de cada rama.",
+      "optionB": "Únicamente en los puntos de entrada de emergencia.",
+      "optionC": "En el 25 % de las unidades terminales de forma aleatoria.",
+      "optionD": "En cada unidad terminal.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "159. Atendiendo a la norma UNE-EN ISO 7396-1: 2016, ¿qué requisito documental debe cumplirse obligatoriamente antes de autorizar el uso de un sistema de canalización de gases medicinales?",
+      "optionA": "Basta con una validación verbal del equipo de mantenimiento.",
+      "optionB": "La emisión de un certificado escrito a nombre de la instalación sanitaria indicando el cumplimiento de las inspecciones y ensayos.",
+      "optionC": "La entrega de las facturas de materiales por parte del instalador.",
+      "optionD": "Una declaración de conformidad firmada exclusivamente por quien fabrica los equipos.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "160. Según los requisitos de instalación establecidos en la norma UNE-EN ISO 7396-1: 2016, ¿qué procedimiento es obligatorio realizar en el interior de la canalización metálica durante la ejecución de las uniones mediante soldadura con bronce o por fusión?",
+      "optionA": "Aplicación de una capa interna de fundente líquido para evitar la porosidad.",
+      "optionB": "Purgado continuo con gas protector.",
+      "optionC": "Limpieza mecánica con cepillo de acero inoxidable tras cada pasada.",
+      "optionD": "Precalentamiento de la zona de unión hasta alcanzar una temperatura constante de 450 ºC.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "161. Atendiendo a las definiciones de la norma UNE 179010, ¿qué se entiende por una \"central de vacío\"?",
+      "optionA": "Un sistema de dos bombas destinadas a crear presión positiva.",
+      "optionB": "Una bomba de gran capacidad conectada a un depósito de reserva.",
+      "optionC": "Un conjunto de, al menos, tres bombas de vacío destinado a crear una depresión en la canalización",
+      "optionD": "Un sistema de extracción de aire ambiente para ventilación mecánica.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "162. Según la norma UNE 179010, ¿qué secuencia debe seguir la prueba de fallo de las fuentes de suministro en el plan de mantenimiento?",
+      "optionA": "Probar primero la fuente secundaria y luego la entrada en servicio de la fuente de reserva para garantizar la redundancia del sistema.",
+      "optionB": "Probar primero la fuente principal y luego la secundaria cuando esta esté suministrando el gas.",
+      "optionC": "Realizar únicamente la prueba de estanqueidad de las válvulas de seguridad conducidas al exterior para evitar sobrepresiones en la red.",
+      "optionD": "Verificar el fallo de todas las fuentes simultáneamente para comprobar la activación de la alarma de emergencia",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "163. En el marco de la gestión de alarmas de la norma UNE 179010, ¿qué desviación de presión activa una Alarma Operacional de Emergencia (AOE) para el personal técnico?",
+      "optionA": "Desviaciones superiores al +/– 5 %.",
+      "optionB": "Desviaciones superiores al +/– 10 %.",
+      "optionC": "Desviaciones superiores al +/– 20 % de la presión de distribución nominal.",
+      "optionD": "Desviaciones superiores al +/– 50 % de la presión de distribución nominal.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "164. Atendiendo a los requisitos de seguridad contra incendios de la norma UNE 179010, ¿cuál es la eficacia mínima requerida para los extintores en el área de almacenamiento?",
+      "optionA": "Eficacia mínima de 13A-55B.",
+      "optionB": "Eficacia mínima de 21A.",
+      "optionC": "Eficacia mínima de 34B.",
+      "optionD": "Eficacia mínima de 89B.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "165. Según el control de calidad de la norma UNE 179010, ¿en qué rango puede variar la concentración de oxígeno 93 % fabricado \"in situ\" en las unidades terminales?",
+      "optionA": "Del 93 % al 95 %.",
+      "optionB": "Del 95 % al 98 %.",
+      "optionC": "Del 90 % al 100 %.",
+      "optionD": "Siempre debe ser exactamente del 93 %.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "166. De acuerdo con el control medioambiental de la norma UNE 179010, ¿qué rango de concentración de oxígeno debe asegurarse en las dependencias para una atmósfera segura?",
+      "optionA": "No debe superar nunca el 21 %.",
+      "optionB": "Entre el 21 % y el 25 %.",
+      "optionC": "Entre el 19,5 % y el 23,5 %.",
+      "optionD": "Entre el 18 % y el 21 %.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "167. Según la tabla de Valores Límites Ambientales (VLA-ED) recogida en la norma UNE 179010, ¿cuál es el límite de exposición diaria para el Óxido Nítrico (NO)?",
+      "optionA": "0,5 ppm.",
+      "optionB": "1 ppm.",
+      "optionC": "2 ppm.",
+      "optionD": "5000 ppm.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "168. En la comprobación de los depósitos criogénicos según la norma UNE 179010, ¿qué instrucción técnica complementaria regula sus distancias de seguridad y vallado?",
+      "optionA": "ITC EP-4.",
+      "optionB": "ITC MIE-APQ 5.",
+      "optionC": "ITC EP-6.",
+      "optionD": "Norma UNE-EN ISO 7396-1.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "169. Según las definiciones técnicas de la norma UNE 179010, ¿qué dispositivo impide el sobrellenado de los recipientes criogénicos creando una cámara de gas?",
+      "optionA": "Válvula de seguridad tarada.",
+      "optionB": "Válvula de presión residual.",
+      "optionC": "Válvula antirretorno.",
+      "optionD": "Válvula de rebose.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "170. Atendiendo al Anexo C de la norma UNE 179010, ¿cuál es la periodicidad de la inspección de \"Nivel B\" por una O.C.A. para equipos de categoría III-1?",
+      "optionA": "Cada 2 años.",
+      "optionB": "Cada 4 años.",
+      "optionC": "Cada 6 años.",
+      "optionD": "Cada 12 años.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "171. Según la comprobación de la central de vacío descrita en la norma UNE 179010, ¿qué componente NO es obligatorio en el sistema?",
+      "optionA": "Depósito receptor.",
+      "optionB": "Dos filtros bacterianos en paralelo.",
+      "optionC": "Una trampa de drenaje.",
+      "optionD": "Un compresor de aire seco.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "172. Según los requisitos para el mezclador de aire medicinal sintético de la norma UNE 179010, ¿qué dispositivo debe incluir para controlar la humedad?",
+      "optionA": "Un filtro de carbón activo.",
+      "optionB": "Un analizador de monóxido de carbono.",
+      "optionC": "Un higrómetro.",
+      "optionD": "Una válvula de purga manual.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "173. En lo referente a las canalizaciones, la norma UNE 179010 establece que las tuberías deben identificarse en todo su recorrido con:",
+      "optionA": "Solo con el nombre del gas en cada toma final.",
+      "optionB": "Pintadas íntegramente de un solo color según el gas.",
+      "optionC": "Con etiquetas adhesivas solo en el punto de origen de la central.",
+      "optionD": "Con colores y flechas que indiquen dirección y sentido del flujo.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "174. Según la recepción de gases en cisternas móviles regulada por la norma UNE 179010, ¿cuál es el plazo máximo de entrega urgente?",
+      "optionA": "12 horas.",
+      "optionB": "24 horas.",
+      "optionC": "48 horas.",
+      "optionD": "72 horas.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "175. Atendiendo a las comprobaciones del sistema de evacuación de gases anestésicos (SEGA) según la norma UNE 179010, ¿qué medida es necesaria en las unidades terminales?",
+      "optionA": "Deben disponer de un sistema para impedir el reflujo de gases.",
+      "optionB": "Deben permitir el flujo bidireccional de gases.",
+      "optionC": "Deben estar conectadas a la red de vacío clínico general.",
+      "optionD": "Deben ser idénticas a las de aire medicinal.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "176. Atendiendo a los requisitos de ventilación para el almacenamiento de recipientes móviles en la norma UNE 179010, ¿cómo deben disponerse las rejillas de ventilación según las características de los gases?",
+      "optionA": "Rejillas superiores para gases más ligeros que el aire medicinal y rejillas inferiores para los más densos.",
+      "optionB": "Siempre deben ser rejillas superiores para favorecer la salida del calor.",
+      "optionC": "Rejillas inferiores únicamente, para evitar la acumulación de gases pesados en el suelo.",
+      "optionD": "Los locales cerrados no requieren rejillas si disponen de monitorización de oxígeno.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "177. En el marco del mantenimiento técnico legal y según la norma UNE 179010, ¿cuál de los siguientes documentos debe conservar el centro obligatoriamente mientras los equipos a presión estén instalados?",
+      "optionA": "El manual de usuario de fabricante en el idioma original.",
+      "optionB": "El acta de puesta en marcha según lo exigido en el RD 2060/2008.",
+      "optionC": "Una copia del contrato de suministro de gas licuado.",
+      "optionD": "El registro diario de niveles de los recipientes criogénicos de los últimos 10 años.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "178. Según la supervisión de las canalizaciones de gases descrita en la norma UNE 179010, ¿qué acción periódica debe realizar el servicio de ingeniería/mantenimiento para garantizar la integridad del sistema?",
+      "optionA": "Someter a las canalizaciones a pruebas periódicas de estanqueidad.",
+      "optionB": "Cambiar las válvulas de sectorización cada dos años independientemente de su estado.",
+      "optionC": "Pintar la totalidad de la tubería de color blanco cada cinco años.",
+      "optionD": "Sustituir los terminales de tierra equipotencial cada semestre.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "179. De acuerdo con el Anexo A de la norma UNE 179010 (Ejemplo de tomas finales de gases a analizar), ¿cuántos puntos de análisis se recomiendan en Quirófano para un hospital de más de 500 camas?",
+      "optionA": "2 puntos.",
+      "optionB": "3 puntos.",
+      "optionC": "4 puntos.",
+      "optionD": "6 puntos.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "180. Según los requisitos para la contratación del suministro detallados en la norma UNE 179010, ¿qué plazo máximo de entrega debe comprometer la empresa adjudicataria para situaciones ordinarias?",
+      "optionA": "12 horas.",
+      "optionB": "24 horas.",
+      "optionC": "48 horas.",
+      "optionD": "72 horas.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "181. Atendiendo a las medidas preventivas en andamios, ¿qué anchura mínima deben tener las plataformas de trabajo según el MANUAL INFORMATIVO DE PREVENCIÓN DE RIESGOS LABORALES EN PUESTOS DE MANTENIMIENTO?",
+      "optionA": "40 centímetros.",
+      "optionB": "60 centímetros.",
+      "optionC": "80 centímetros.",
+      "optionD": "1 metro.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "182. De acuerdo con el MANUAL INFORMATIVO DE PREVENCIÓN DE RIESGOS LABORALES EN PUESTOS DE MANTENIMIENTO, durante las tareas de soldadura, ¿cúal de las siguientes medidas preventivas NO es correcta?",
+      "optionA": "Siempre que sea posible desmonte la pieza a soldar, suéldela y vuélvala a montar.",
+      "optionB": "Vigile la generación de chispas durante y al término de los trabajos de soldadura.",
+      "optionC": "No mire el arco eléctrico, la intensidad luminosa puede producir graves lesiones en los ojos.",
+      "optionD": "Introduzca el portaelectrodos en agua para enfriarlo.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "183. Atendiendo a las medidas que establece el MANUAL INFORMATIVO DE PREVENCIÓN DE RIESGOS LABORALES EN PUESTOS DE MANTENIMIENTO sobre espacios confinados, ¿cuál es la norma general respecto a la medición de la atmósfera interior?",
+      "optionA": "Realizar una única medición 5 minutos antes de entrar.",
+      "optionB": "Evaluar la atmósfera antes de entrar y continuar la valoración mientras dure la permanencia.",
+      "optionC": "Suspender la monitorización continua una vez que los equipos de ventilación forzada hayan renovado el aire del interior.",
+      "optionD": "La medición solo es obligatoria en depósitos que hayan contenido combustibles.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "184. De acuerdo con el MANUAL INFORMATIVO DE PREVENCIÓN DE RIESGOS LABORALES EN PUESTOS DE MANTENIMIENTO, ¿qué requisito debe cumplir el personal de vigilancia exterior en un trabajo en espacio confinado?",
+      "optionA": "Debe tener preparación y equipo suficiente para prestar ayuda y lograr un rescate eficaz.",
+      "optionB": "Debe ser una persona responsable de la Unidad de Prevención exclusivamente.",
+      "optionC": "Solo es necesaria su presencia física durante las maniobras iniciales de entrada y las finales de salida de las personas trabajadoras.",
+      "optionD": "Debe estar en contacto visual directo, incluso si esto le obliga a entrar parcialmente en el recinto.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "185. Según las recomendaciones del MANUAL INFORMATIVO DE PREVENCIÓN DE RIESGOS LABORALES EN PUESTOS DE MANTENIMIENTO para la manipulación de cargas pesadas (motores, bombas), ¿qué se debe evitar durante el levantamiento?",
+      "optionA": "Mantener los pies ligeramente separados.",
+      "optionB": "Flexionar las rodillas para usar la fuerza de las piernas.",
+      "optionC": "Aproximarse lo máximo posible al bulto que se va a elevar.",
+      "optionD": "Realizar giros del tronco mientras se sostiene la carga.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "186. Atendiendo a la tabla de incompatibilidades para el almacenamiento de productos químicos recogida en el MANUAL INFORMATIVO DE PREVENCIÓN DE RIESGOS LABORALES EN PUESTOS DE MANTENIMIENTO, los productos tóxicos y los productos nocivos:",
+      "optionA": "No deben almacenarse juntas.",
+      "optionB": "Se podrán almacenar conjuntamente siempre que se mantengan en sus envases originales.",
+      "optionC": "Se pueden almacenar conjuntamente.",
+      "optionD": "Solamente podrán almacenarse juntas si se adoptan ciertas medidas específicas de prevención.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "187. Respecto al almacenamiento de botellas de gases en el taller, ¿cuál es la instrucción del MANUAL INFORMATIVO DE PREVENCIÓN DE RIESGOS LABORALES EN PUESTOS DE MANTENIMIENTO para evitar caídas accidentales?",
+      "optionA": "Almacenarlas de forma horizontal en estanterías bajas.",
+      "optionB": "Mantenerlas alejadas de fuentes de calor y sujetas mediante cadenas o en carros apropiados.",
+      "optionC": "Agruparlas por categorías de gas en áreas de tránsito despejadas para facilitar su rápida evacuación manual sin fijaciones que retarden el traslado.",
+      "optionD": "Solo es necesario sujetar mecánicamente las botellas de acetileno debido a su especial inestabilidad y alta inflamabilidad.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "188. En relación con los trabajos de mantenimiento mecánico que requieren el uso de escaleras de mano, ¿cuáles son las medidas preventivas numéricas específicas que establece el MANUAL INFORMATIVO DE PREVENCIÓN DE RIESGOS LABORALES EN PUESTOS DE MANTENIMIENTO para garantizar la seguridad de la persona operaria?",
+      "optionA": "Inclinación de 45º con la horizontal y protección obligatoria a partir de los 2 metros de altura.",
+      "optionB": "Inclinación de 75º con la horizontal y protección obligatoria a partir de los 3,5 metros de altura.",
+      "optionC": "Inclinación de 75º con la horizontal y protección obligatoria a partir de los 5 metros de altura.",
+      "optionD": "Inclinación de 60º con la horizontal y protección obligatoria a partir de los 3,5 metros de altura.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "189. Siguiendo el MANUAL INFORMATIVO DE PREVENCIÓN DE RIESGOS LABORALES EN PUESTOS DE MANTENIMIENTO, ante la presencia de productos químicos en el área de trabajo (decapantes, pinturas), ¿cuál es la norma sobre la ventilación?",
+      "optionA": "Mantener la zona ventilada, teniendo en cuenta puertas y ventanas de áreas colindantes.",
+      "optionB": "Mantener las puertas cerradas para evitar que el olor se propague a otras áreas.",
+      "optionC": "La ventilación solo es necesaria si el producto tiene el pictograma de \"Tóxico\".",
+      "optionD": "Priorizar el uso de mascarillas de alta filtración como medida sustitutiva de la ventilación para evitar la dispersión de olores a zonas comunes.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "190. De acuerdo con el MANUAL INFORMATIVO DE PREVENCIÓN DE RIESGOS LABORALES EN PUESTOS DE MANTENIMIENTO, si una persona oficial mecánica sufre un corte accidental con una herramienta que ha estado en contacto con fluidos biológicos, ¿cómo debe actuar?",
+      "optionA": "Lavarse con alcohol de 96 grados y continuar el trabajo.",
+      "optionB": "No es necesario informar si el corte es superficial y no sangra.",
+      "optionC": "Comunicarlo inmediatamente a la Unidad Básica de Prevención-Salud Laboral.",
+      "optionD": "Desinfectar la herramienta antes de notificar el incidente.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "191. Ante una intervención en un equipo con elementos en movimiento (como brocas o correas), ¿qué instrucción de seguridad establece el MANUAL INFORMATIVO DE PREVENCIÓN DE RIESGOS LABORALES EN PUESTOS DE MANTENIMIENTO sobre la vestimenta y el uso de protección manual?",
+      "optionA": "Es obligatorio el uso de guantes de protección mecánica reforzada.",
+      "optionB": "No se deben utilizar guantes ni chaquetas con mangas largas amplias.",
+      "optionC": "Se deben usar chaquetas con puños abiertos para facilitar la ventilación.",
+      "optionD": "Los guantes solo se permiten si el equipo no dispone de marcado \"CE\".",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "192. Según el MANUAL INFORMATIVO DE PREVENCIÓN DE RIESGOS LABORALES EN PUESTOS DE MANTENIMIENTO, ¿qué protocolo hay que seguir antes de realizar la limpieza, el cambio de una herramienta o ante un bloqueo de una máquina de carpintería?",
+      "optionA": "Utilizar guantes de protección mecánica.",
+      "optionB": "Limpiar los restos únicamente con aire comprimido.",
+      "optionC": "Mantener la máquina en modo de espera o \"stand-by\".",
+      "optionD": "Asegurarse de que el equipo esté parado y desconectado.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "193. ¿En qué componente específico de una bomba centrífuga es probable encontrar amianto en formato friable, según el MANUAL INFORMATIVO DEL AMIANTO?",
+      "optionA": "En el eje de acero de la transmisión.",
+      "optionB": "En el rodamiento de bolas lubricado.",
+      "optionC": "En la junta de presión de la bomba.",
+      "optionD": "En la carcasa exterior de fundición.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "194. De acuerdo al MANUAL INFORMATIVO DEL AMIANTO, el amianto se utilizó en la fabricación de ciertos componentes mecánicos debido a sus propiedades. ¿En qué elementos de transmisión de fuerza se solía emplear como material de fricción?",
+      "optionA": "Frenos y embragues.",
+      "optionB": "Engranajes helicoidales y coronas.",
+      "optionC": "Correas de distribución y cadenas de rodillos.",
+      "optionD": "Rodamientos de agujas y casquillos de bronce.",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "195. Una persona oficial mecánica detecta una \"coquilla\" de calorifugado deteriorada en una línea de vapor. De acuerdo al MANUAL INFORMATIVO DEL AMIANTO, ¿por qué se considera este material más peligroso que una tubería de fibrocemento?",
+      "optionA": "Porque el fibrocemento libera fibras de forma espontánea sin manipulación.",
+      "optionB": "Porque el calorifugado contiene exclusivamente crocidolita (amianto azul).",
+      "optionC": "Porque el fibrocemento es un aislante eléctrico y el calorifugado no.",
+      "optionD": "Porque el calorifugado es un material friable que puede liberar fibras por simples vibraciones o movimientos del aire.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "196. Según el MANUAL INFORMATIVO DEL AMIANTO, ¿qué propiedad física de las fibras de amianto deben considerar el personal de mecánica debido al riesgo de contaminación cruzada tras la manipulación?",
+      "optionA": "Su solubilidad inmediata en aceites y grasas industriales.",
+      "optionB": "Su capacidad de adherirse a la ropa y a la piel para desprenderse e inhalarse posteriormente.",
+      "optionC": "Su magnetismo, que las hace acumularse en motores eléctricos.",
+      "optionD": "Su elevada tasa de sedimentación, que provoca que las fibras se depositen en el suelo de forma instantánea tras ser liberadas de la matriz.",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "197. ¿Cuándo es estrictamente obligatorio retirar los materiales con amianto (MCA) en una sala de máquinas, según el MANUAL INFORMATIVO DEL AMIANTO?",
+      "optionA": "Tan pronto como se detecte su presencia, independientemente de su estado.",
+      "optionB": "Siempre que la persona oficial mecánica deba realizar un mantenimiento preventivo.",
+      "optionC": "Cuando el equipo cumpla 10 años desde su fabricación.",
+      "optionD": "Únicamente en caso de demoliciones de la instalación.",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "198. De acuerdo al MANUAL INFORMATIVO DEL AMIANTO, ¿cómo se clasifican elementos como las cisternas o bajantes de fibrocemento y cuál es su característica principal respecto a la seguridad ambiental?",
+      "optionA": "Son materiales friables, lo que significa que el amianto puede desprenderse en forma de polvo mediante la simple presión manual al manipular la pieza.",
+      "optionB": "Son materiales compuestos (composites), los cuales solo liberan fibras si se someten a procesos de trituración o rotura mecánica bajo condiciones de alta temperatura.",
+      "optionC": "Son materiales no friables, definidos como aquellos en los que el amianto está firmemente retenido, dificultando la liberación de fibras al ambiente.",
+      "optionD": "Son materiales aislantes térmicos, cuya peligrosidad es nula independientemente de su estado de conservación, siempre que no sean golpeados con herramientas de percusión.",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "199. Según la iconografía (MANUAL INFORMATIVO DEL AMIANTO), ¿cuál es el mensaje de advertencia específico que acompaña obligatoriamente al símbolo de la letra \"a\" en las etiquetas reglamentarias para materiales con amianto?",
+      "optionA": "\"Atención contiene amianto. Respirar el polvo de amianto es peligroso para la salud.\"",
+      "optionB": "\"Atención: Material friable. Peligro de desprendimiento de fibras por vibración.\"",
+      "optionC": "\"Peligro: Prohibido manipular sin equipo de protección respiratoria autónomo.\"",
+      "optionD": "\"Aviso: Material retirado de la instalación. No almacenar en zonas de paso.\"",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "200. Dentro del conjunto de silicatos complejos que forman el amianto, el MANUAL INFORMATIVO DEL AMIANTO identifica 6 variedades específicas. ¿Cuál de las siguientes opciones corresponde a una de estas variedades y su denominación común?",
+      "optionA": "Lana de vidrio (amianto amarillo).",
+      "optionB": "Crisotilo (amianto blanco).",
+      "optionC": "Fibra de roca (amianto gris).",
+      "optionD": "Silicato de potasio (amianto transparente).",
+      "correctAnswer": "b"
+    }
+  ]
+}
