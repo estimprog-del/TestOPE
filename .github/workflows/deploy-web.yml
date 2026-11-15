@@ -24,7 +24,7 @@ jobs:
       - name: Checkout del repositorio
         uses: actions/checkout@v4
 
-      - name: Configurar Node.js
+      - name: Setup Node (versión compatible)
         uses: actions/setup-node@v4
         with:
           node-version: '24.x'
