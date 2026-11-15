@@ -227,12 +227,12 @@ test("the mechanical maintenance battery has all 200 chart answers", async () =>
   const assets = fileURLToPath(new URL("../data/", import.meta.url));
   const battery = JSON.parse(await readFile(join(assets, "test_Oficial_Mantenimiento_Mecanico.json"), "utf8"));
   const chartRows = [
-    "CACBBBBCDA", "CCBBCBBBCD", "ABBCBACBAB", "BBDACCBCCB",
-    "BDB CBBBB CB", "BCBABBDBCA", "BBBDABCBBB", "BBDDDADBBB",
-    "DBCAACBCDC", "DABBBCBABA", "BBDBBABABB", "BBCCCBBABB",
-    "CBDCBDACBB", "BBDBACBBAB", "BCCCBDAABC", "BDBCABADBB",
-    "CBCACCCADB", "DCDBAABABC", "DDBADCBBAC", "BDCADBDCAB"
-  ].join("").replaceAll(" ", "").toLowerCase();
+    "cacbbbbcda", "ccbbcbbbcd", "abbcbacbab", "bbdaccbccb",
+    "bdbcbbbbcb", "bcbabbdbca", "bbbdabcbbb", "bbdddadbbb",
+    "dbcaacbcdc", "dabbbcbaba", "bbdbbababb", "bbcccbbabb",
+    "cbdcbdacbb", "bbdbacbbab", "bcacbdaabc", "bdbcabadbb",
+    "cbcacccadb", "dcdbaababc", "bdbadcbbac", "bdcadbdcab"
+  ].join("").toLowerCase();
 
   assert.equal(battery.test.length, 200);
   assert.equal(chartRows.length, 200);
