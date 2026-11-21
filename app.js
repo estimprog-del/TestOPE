@@ -346,8 +346,50 @@ function reportLink(question, batteryTitle, sourceIndex) {
   return `<a class="button secondary" href="${escapeHtml(href)}">Informar de una errata</a>`;
 }
 
+export function isFullscreen() {
+  if (typeof document === "undefined") return false;
+  return !!(
+    document.fullscreenElement ||
+    document.webkitFullscreenElement ||
+    document.mozFullScreenElement ||
+    document.msFullscreenElement
+  );
+}
+
+export async function toggleFullscreen() {
+  if (typeof document === "undefined") return false;
+  const doc = document;
+  const fullscreenElement =
+    doc.fullscreenElement ||
+    doc.webkitFullscreenElement ||
+    doc.mozFullScreenElement ||
+    doc.msFullscreenElement;
+  try {
+    if (fullscreenElement) {
+      const exit =
+        doc.exitFullscreen ||
+        doc.webkitExitFullscreen ||
+        doc.mozCancelFullScreen ||
+        doc.msExitFullscreen;
+      if (exit) await exit.call(doc);
+    } else {
+      const target = doc.documentElement;
+      const request =
+        target.requestFullscreen ||
+        target.webkitRequestFullscreen ||
+        target.mozRequestFullScreen ||
+        target.msRequestFullscreen;
+      if (request) await request.call(target);
+    }
+  } catch {
+    // El navegador puede bloquear o no soportar pantalla completa
+  }
+  return isFullscreen();
+}
+
 function pageShell(content, actions = "") {
   const themeLabels = { light: "Claro", dark: "Oscuro", sepia: "Lectura sepia" };
+  const fullscreen = isFullscreen();
   return `
     <div class="shell">
       <header class="topbar">
@@ -362,6 +404,7 @@ function pageShell(content, actions = "") {
             <span aria-live="polite">${Math.round(state.preferences.fontScale * 100)}%</span>
             <button class="quiet-button" data-action="increase-font" aria-label="Aumentar tamaño del texto" ${state.preferences.fontScale >= MAX_FONT_SCALE ? "disabled" : ""}>A+</button>
           </div>
+          <button class="quiet-button preference-button" data-action="toggle-fullscreen" aria-label="${fullscreen ? "Salir de pantalla completa" : "Activar pantalla completa"}" title="${fullscreen ? "Salir de pantalla completa" : "Pantalla completa"}">${fullscreen ? " ( ) Salir de pantalla completa" : " ( ) Pantalla completa"}</button>
           ${actions}
         </div>
       </header>
@@ -1025,6 +1068,12 @@ export function handleAction(action, target) {
       applyPreferences();
       render();
       break;
+    case "toggle-fullscreen":
+    case "fullscreen":
+    case "toggle-fullscreen-mode":
+      toggleFullscreen().then(() => render()).catch(() => {});
+      render();
+      break;
     case "start-test": {
       const battery = state.batteries.find(item => item.id === target.dataset.battery);
       if (battery) startBatteryQuiz(battery);
@@ -1356,4 +1405,10 @@ if (typeof document !== "undefined") {
       requestWakeLock();
     }
   });
+
+  const rerenderOnFullscreenChange = () => render();
+  document.addEventListener("fullscreenchange", rerenderOnFullscreenChange);
+  document.addEventListener("webkitfullscreenchange", rerenderOnFullscreenChange);
+  document.addEventListener("mozfullscreenchange", rerenderOnFullscreenChange);
+  document.addEventListener("MSFullscreenChange", rerenderOnFullscreenChange);
 }
