@@ -862,6 +862,13 @@ function render() {
   else if (state.screen === "study") renderStudy();
   else if (state.screen === "simulation-config") renderSimulationConfig();
   else renderHome();
+
+  const question = document.querySelector(".question-text");
+  if (question) {
+    question.scrollIntoView({ block: "start", behavior: "auto" });
+  } else if (typeof window !== "undefined") {
+    window.scrollTo({ top: 0, behavior: "auto" });
+  }
 }
 
 function startQuiz(title, questions, { mode = "individual", isSimulation = false } = {}) {
