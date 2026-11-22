@@ -1310,15 +1310,44 @@ if (typeof document !== "undefined" && app) {
 
   window.addEventListener("keydown", event => {
     if (
-      state.screen !== "quiz" ||
+      (state.screen !== "quiz" && state.screen !== "study") ||
       event.altKey || event.ctrlKey || event.metaKey ||
       event.target instanceof HTMLElement &&
         (event.target.isContentEditable || event.target.closest("input, textarea, select, [contenteditable='true']"))
     ) return;
-    const answer = getAnswerForShortcut(event.key);
-    if (!answer) return;
-    event.preventDefault();
-    handleAction("answer", { dataset: { answer } });
+
+    if (state.screen === "quiz") {
+      const answer = getAnswerForShortcut(event.key);
+      if (answer) {
+        event.preventDefault();
+        handleAction("answer", { dataset: { answer } });
+        return;
+      }
+      if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        handleAction("previous", { dataset: {} });
+        return;
+      }
+      if (event.key === "ArrowRight") {
+        event.preventDefault();
+        handleAction("next", { dataset: {} });
+        return;
+      }
+      return;
+    }
+
+    if (state.screen === "study") {
+      if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        handleAction("study-previous", { dataset: {} });
+        return;
+      }
+      if (event.key === "ArrowRight") {
+        event.preventDefault();
+        handleAction("study-next", { dataset: {} });
+        return;
+      }
+    }
   });
 }
 
